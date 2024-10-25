@@ -2,3 +2,157 @@
     margin: 0;
     padding: 0;
 }
+
+
+/* NAVBAR SECTION */
+.navbar {
+    flex-direction: column; /* Stack items vertically */
+    align-items: center;    /* Center align items */
+    background-color: #759cc9cd;
+    z-index: 1;
+}
+
+.navbar-brand {
+    text-align: center;     /* Center the brand name */
+    font-size: 2rem;       /* Adjust font size as needed */
+}
+
+.form-inline {
+    width: 100%;            /* Make the form take the full width */
+    justify-content: center; /* Center the search bar and button */
+    margin: 10px 0;        /* Add margin for spacing */
+    display: flex;
+    gap: 20px;
+}
+
+.form-control {
+    width: 90%;             /* Set the search bar width */
+}
+
+.navbar-nav {
+    flex-direction: row;    /* Keep nav links in a row */
+    justify-content: center; /* Center align nav links */
+}
+.navbar-nav li a{
+    color: black;
+}
+
+.nav-item {
+    margin: 0 10px;        /* Add spacing between nav items */
+}
+
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column; /* Stack elements vertically on smaller screens */
+    }
+
+    .navbar-nav {
+        width: 100%;            /* Full width for navbar links */
+        justify-content: center; /* Center align nav links */
+    }
+
+    .form-inline {
+        flex-direction: row;    /* Align the search and button horizontally */
+        width: 100%;            /* Full width */
+    }
+
+    .form-control {
+        width: 80%;             /* Adjust width for smaller screens */
+    }
+}
+
+/* BODY- HERO SECTION */
+
+body {
+    position: relative; /* Enable positioning for the pseudo-element */
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden; /* Prevent scrollbars */
+}
+
+body::before {
+    content: ""; /* Empty content for the overlay */
+    position: absolute; /* Position the overlay */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Dark overlay with 50% opacity */
+    z-index: 1; /* Ensure it's above the background but below content */
+}
+
+body {
+    background-image: url(assets/internal/robot-head-with-blue-background-word-robot-it_826801-3538.avif);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: -10; /* Ensure the background is behind the overlay */
+}
+
+/* Additional styles for content */
+.hero-section {
+    position: relative; /* Position for layering */
+    z-index: 20; /* Ensure content is above the overlay */
+    color: white; /* Adjust text color for visibility */
+    text-align: center; /* Center the content */
+    padding: 20px; /* Add padding for spacing */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 3vh 0;
+    flex-direction: column;
+}
+
+.hero-section .headline h1{
+    color: white;
+}
+h1 {
+    position: relative; /* Ensure the text is positioned for the shadow */
+    color: white; /* Text color */
+    font-size: 3rem; /* Adjust font size as necessary */
+    text-align: center; /* Center the text */
+    text-shadow: 
+        -1px -1px 0 #000,  
+         1px -1px 0 #000,
+        -1px  1px 0 #000,
+         1px  1px 0 #000; /* Create an outline effect */
+}
+
+.hero-section .subheadline h3{
+    padding: 2vh 0;
+    letter-spacing: 3px;
+    text-wrap: wrap;
+}
+.cta {
+    margin: 20px 0;
+}
+
+.cta button {
+    padding: 15px 25px;
+    border: 2px solid white;
+    background: transparent; /* Use 'transparent' instead of '#00000000' */
+    font-weight: bolder;
+    font-size: 30px;
+    border-radius: 10px;
+    color: white;
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition for background and text color */
+}
+
+.cta button:hover {
+    background-color: white; /* Change background color on hover */
+    color: black; /* Change text color on hover */
+    cursor: pointer; /* Change cursor to pointer */
+}
+
+/* FOOTER */
+.footer{
+    position: relative;
+    top: 15vh;
+    left: 42vw;
+    z-index: 100;
+}
+.footer p{
+    color: white;
+}
