@@ -66,8 +66,8 @@ body{
 }
 #moreContent, #shortContent{
     font-family: "Comic Neue", cursive;
-  /* font-weight: 300; */
-  /* font-style: normal; */
+    font-weight: 300;
+    font-style: normal;
     color: black;
 
 }
