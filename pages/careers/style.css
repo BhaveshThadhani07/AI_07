@@ -6,15 +6,27 @@
 }
 body{
     overflow-x: hidden;
+    /* height: 500vh;
+    width: 100vw; */
 }
 .outer-main {
-    position: relative;
-    z-index: 1; /* Ensure content is above the background overlay */
-    padding-top: 20px; /* Adjust as needed */
+    /* position: relative; */
+    z-index: 1; 
+    padding-top: 20px; 
+    height: 500vh;
+    width: 100vw;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+                url('../../assets/careers/aiCareersPageBG.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
 }
 
 /* Dark overlay applied only to background image */
 .outer-main::before {
+    height: 500vh;
+    width: 100vw;
     content: '';
     position: absolute;
     top: 0;
@@ -24,16 +36,10 @@ body{
     z-index: -1; /* Ensures overlay is below all content */
     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
                 url('../../assets/careers/carrersPageBGImg.jpg');
-    background-size: cover;
+    background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-    /* z-index: 1; */
 }
-/* .main{
-    padding-top: 20px;
-    text-align: center;
-    z-index: 100;
-} */
 .top-heading h1 {
     margin: 20px 5px;
     color: white;
@@ -73,4 +79,85 @@ body{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+}
+.career-paragraph-intro p{
+    text-align: center;
+    margin: 40px;
+    font-family: "Comic Neue", cursive;
+    color: white;
+    font-weight: bold;
+    font-size: 21px;
+    text-shadow: 
+        -0.5px -0.5px 0 #000,  
+         0.5px -0.5px 0 #000,
+        -0.5px  0.5px 0 #000,
+         0.5px  0.5px 0 #000; /* Create an outline effect */
+    line-height: 30px;
+}
+.middle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+/* CAREER CARD GLASSPHORPHISM */
+.career-card {
+    width: 60vw;
+    height: 160vh;
+    /* margin: 20px; */
+    padding: 30px;
+    flex-basis: 45%;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.12); /* Semi-transparent white */
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(12px); /* Frosted glass effect */
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.3); /* Soft border for glassmorphism */
+    color: #fff;
+    text-align: left;
+    /* margin: 20px; */
+    transition: transform 0.3s ease;
+}
+
+.career-card:hover {
+    transform: translateY(-5px); /* Lift effect on hover */
+}
+
+.career-card-content h2 {
+    font-family: "Oxanium", sans-serif;
+    text-align: center;
+    font-size: 1.8em;
+    margin-bottom: 25px;
+    color: #fff;
+}
+.career-card-content p span{
+    font-size: 18px;
+    font-weight: bolder;
+}
+.career-card-content p {
+    font-family: "Comic Neue", cursive;
+    font-weight: normal;
+    margin: 10px 0;
+    font-size: 0.9em;
+    line-height: 1.5;
+}
+
+.career-card-content p:nth-child(2) {
+    font-weight: bold; /* Highlight Role Description */
+}
+
+/* Optional: Customize the look of specific sections */
+.career-card-content p:nth-child(3) {
+    color: #bdfcb3; /* Skill section */
+}
+.career-card-content p:nth-child(4) {
+    color: #b3e5fc; /* Skill section */
+}
+.career-card-content p:nth-child(5) {
+    color: #ffcc80; /* Salary section */
+}
+.career-card-content p:nth-child(6) {
+    color: #ffab91; /* Future Prospects */
 }
