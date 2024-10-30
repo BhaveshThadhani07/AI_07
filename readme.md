@@ -47,4 +47,4 @@ Here are ten top career options in the field of AI and tech, along with descript
 
 9. **Ethics and AI Policy Specialist**
 
-10. **Quantum Machine Learning Engineer**
+10. **Data Analyst**

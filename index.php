@@ -44,7 +44,7 @@
                 <a class="nav-link" href="pages/careers/index.php">Careers</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="pages/players/index.php">Players</a>
+                <a class="nav-link" href="pages/leaders/index.php">Leaders</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="pages/resource-library/index.php">Resource Library</a>

@@ -20,25 +20,25 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mx-auto">
             <li class="nav-item active">
-                <a class="nav-link fw-bold" href="index.php">Home</a>
+                <a class="nav-link fw-bold" href="../../index.php">Home</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="pages/about/index.php">About</a>
+                <a class="nav-link" href="../../pages/about/index.php">About</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="pages/glossary/index.php">Glossary</a>
+                <a class="nav-link" href="../../pages/glossary/index.php">Glossary</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="pages/careers/index.php">Careers</a>
+                <a class="nav-link" href="../../pages/careers/index.php">Careers</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="pages/players/index.php">Players</a>
+                <a class="nav-link" href="../../pages/leaders/index.php">Leaders</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="pages/resource-library/index.php">Resource Library</a>
+                <a class="nav-link" href="../../pages/resource-library/index.php">Resource Library</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="pages/latest-news/index.php">Latest News</a>
+                <a class="nav-link" href="../../pages/latest-news/index.php">Latest News</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#">AI Ethics</a>

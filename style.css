@@ -148,11 +148,14 @@ h1 {
 
 /* FOOTER */
 .footer{
+    text-align: center;
     position: relative;
-    top: 15vh;
-    left: 42vw;
+    top: 60px;
+    left: 0;
     z-index: 100;
 }
 .footer p{
+    text-align: center;
+    /* font-size: 30px; */
     color: white;
 }
