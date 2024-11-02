@@ -1,43 +1,46 @@
-// Select all "Read More" links
-document.querySelectorAll(".readMoreLink").forEach(function(link) {
-    link.addEventListener("click", function(event) {
-        event.preventDefault();
-        
-        // Close all open cards before opening the clicked one
-        document.querySelectorAll(".card").forEach(function(card) {
-            const moreContent = card.querySelector(".moreContent"); // Change to class
-            const img = card.querySelector(".toggleImg");
-            const readMoreLink = card.querySelector(".readMoreLink");
+const cards = document.querySelectorAll('.carousel .card');
+console.log(cards);
 
-            // Check if elements exist before trying to access their properties
-            if (moreContent) {
-                moreContent.style.display = "none"; // Hide the content
-            }
-            if (img) {
-                img.style.display = "none"; // Hide the image
-            }
-            readMoreLink.textContent = "Read More"; // Reset link text
-        });
-        
-        // Toggle the clicked card's content and image
-        const card = this.closest(".card");
-        const moreContent = card.querySelector(".moreContent"); // Change to class
-        const img = card.querySelector(".toggleImg");
+const totalCards = cards.length;
+let activeIndex = 0;
 
-        if (moreContent) {
-            if (moreContent.style.display === "none" || moreContent.style.display === "") {
-                moreContent.style.display = "block"; // Show content
-                if (img) {
-                    img.style.display = "block"; // Show image only if it exists
-                }
-                this.textContent = "Read Less"; // Change link text to "Read Less"
-            } else {
-                moreContent.style.display = "none"; // Hide content
-                if (img) {
-                    img.style.display = "none"; // Hide image only if it exists
-                }
-                this.textContent = "Read More"; // Change link text back to "Read More"
-            }
+function updateCarousel() {
+    cards.forEach((card, index) => {
+        card.classList.remove('active');
+        if (index === activeIndex) {
+            card.style.transform = `translateX(0px) scale(1)`;
+            card.style.opacity = '1';
+            // card.setAttribute('style', 'filter:brightness(1)')
+        } else if (index < activeIndex) {
+            card.style.transform = `translateX(-${(activeIndex - index) * 220}px) scale(0.85)`;
+            card.style.opacity = '0.5';
+            // card.setAttribute('style', 'filter:brightness(0.5)')
+        } else {
+            card.style.transform = `translateX(${(index - activeIndex) * 220}px) scale(0.85)`;
+            card.style.opacity = '0.5';
+            // card.setAttribute('style', 'filter:brightness(0.5)')
         }
     });
-});
+    cards[activeIndex].classList.add('active');
+}
+
+function nextSlide() {
+    activeIndex = (activeIndex + 1) % totalCards;
+    updateCarousel();
+}
+
+function prevSlide() {
+    activeIndex = (activeIndex - 1 + totalCards) % totalCards;
+    updateCarousel();
+    console.log('Left Clicked');
+}
+
+// Auto-slide every 3 seconds
+setInterval(nextSlide, 3000);
+
+// Initial update to set the first slide active
+updateCarousel();
+
+// Add event listeners for manual slide control
+document.querySelector('.carousel-left').addEventListener('click', prevSlide);
+document.querySelector('.carousel-right').addEventListener('click', nextSlide);

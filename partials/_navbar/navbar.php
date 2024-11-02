@@ -1,7 +1,7 @@
 <nav class="navbar navbar-expand-lg navbar-light">
     <div class="container">
         <!-- Brand Name -->
-        <a class="navbar-brand fw-bold fs-1 mx-auto" href="#">AINexus</a>
+        <a class="navbar-brand fw-bold fs-1 mx-auto" href="../../index.php">AINexus</a>
     </div>
 
     <!-- Search Bar and Button -->

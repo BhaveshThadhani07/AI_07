@@ -22,7 +22,9 @@ body{
     width: 100vw;
     display: flex;
     /* align-items: center; */
-    justify-content: center;
+    flex-direction: column;
+    gap: 50px;
+    justify-content: flex-start;
 }
 .above{
     color: white;
@@ -44,4 +46,48 @@ body{
 
 
 /* /SLIDER */
+.carousel-left, .carousel-right{
+    margin: 0 20px;
+    filter: invert(1);
+    height: 50px;
+    width: 50px;
+}
+.carousel{
+    /* max-width: 1000px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+.card{
+    border-radius: 100px;
+    border: none;
+    box-sizing: border-box;
+    background-color: transparent;
+    /* margin: 0 30px; */
+}
+.centred-images{
+    border: none;
+    border-radius: 100px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.centred-images img{
+    border-radius: 100px;
+}
+.centred-images h5{
+    color: white;
+    text-align: center;
+}
+.card {
+    opacity: 0.5;
+    transition: transform 0.5s ease, opacity 0.5s ease;
+}
 
+.card.active {
+    opacity: 1;
+    transform: scale(1);
+}
