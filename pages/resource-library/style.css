@@ -21,6 +21,9 @@ header {
   margin: 20px 0;
   margin-bottom: 30px;
 }
+header p{
+  text-align: left;
+}
 section h2{
     padding: 10px;
 }

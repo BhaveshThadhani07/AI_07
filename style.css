@@ -140,12 +140,19 @@ h1 {
     transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition for background and text color */
 }
 
+.cta button a{
+    text-decoration: none;
+    color: #fff;
+}
+
 .cta button:hover {
     background-color: white; /* Change background color on hover */
     color: black; /* Change text color on hover */
     cursor: pointer; /* Change cursor to pointer */
 }
-
+.cta button:hover a{
+    color: black;
+}
 /* FOOTER */
 .footer{
     text-align: center;

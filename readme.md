@@ -75,3 +75,14 @@ In addition to videos, articles, courses, and tools, you can enhance your AI res
 8. **Career Resources** – Job boards, resume tips, and AI career guides. 
 
 These additions can provide a well-rounded AI resource hub.
+
+TASKS LEFT:
+1) SEARCH BAR FUNCTIONALITY
+2) ABOUT PAGE - COMPLETE 
+3) ->GLOSSARY PAGE - CONTENT 
+4) ->CAREERS PAGE - CONTENT 
+5) LEADERS PAGE - FUNCTIONALITY + CONTENT 
+6) RESOURCE-LIBRARY - PDFS 
+7) STORIES PAGE - COMPLETE
+
+

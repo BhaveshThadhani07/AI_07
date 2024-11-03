@@ -67,7 +67,7 @@
             <h3>Dive into AI terms, career paths, resources, and insights from industry leaders.</h3>
         </div>
         <div class="cta">
-            <button>Explore AI</button>
+            <button><a href="../AI_07/pages/glossary/index.php">Explore AI</a></button>
         </div>
     </div>    
 
