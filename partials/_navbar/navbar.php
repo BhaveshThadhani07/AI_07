@@ -1,3 +1,4 @@
+<!-- Navbar HTML -->
 <nav class="navbar navbar-expand-lg navbar-light">
     <div class="container">
         <!-- Brand Name -->
@@ -13,7 +14,7 @@
     </div>
 
     <!-- Hamburger Menu for Small Screens -->
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
 
@@ -41,7 +42,7 @@
                 <a class="nav-link" href="../../pages/latest-news/index.php">Latest News</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">AI Ethics</a>
+                <a class="nav-link" href="../../pages/stories/index.php">Stories</a>
             </li>
         </ul>
     </div>
@@ -53,10 +54,10 @@
         padding: 0;
     }
 
-
     /* NAVBAR SECTION */
 
     .navbar {
+        width: 100vw;
         flex-direction: column;
         /* Stack items vertically */
         align-items: center;
@@ -66,7 +67,6 @@
         position: sticky;
         top: 0;
         overflow-x: hidden;
-
     }
 
     .navbar-brand {
@@ -119,6 +119,9 @@
         .navbar-nav {
             width: 100%;
             /* Full width for navbar links */
+            display: flex;
+            align-items: center;
+            flex-direction: column;
             justify-content: center;
             /* Center align nav links */
         }
@@ -136,3 +139,4 @@
         }
     }
 </style>
+

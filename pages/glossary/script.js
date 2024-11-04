@@ -41,3 +41,28 @@ document.querySelectorAll(".readMoreLink").forEach(function(link) {
         }
     });
 });
+
+
+// SEARCH BAR
+
+document.addEventListener("DOMContentLoaded", () => {
+    const searchInput = document.getElementById('searchInput'); // Search input field
+    const glossaryTerms = document.querySelectorAll('.card'); // Each glossary card containing a term
+
+    // Listen for input in the search bar
+    searchInput.addEventListener('input', (e) => {
+        const searchTerm = e.target.value.toLowerCase().trim(); // Get the search term, in lowercase
+
+        glossaryTerms.forEach(card => {
+            const termTitle = card.querySelector('h3').textContent.toLowerCase(); // Get term title text
+            const termContent = card.querySelector('p').textContent.toLowerCase(); // Get term content text
+
+            // Check if the search term is in either the title or content of the term
+            if (termTitle.includes(searchTerm) || termContent.includes(searchTerm)) {
+                card.style.display = 'block'; // Show matching term
+            } else {
+                card.style.display = 'none'; // Hide non-matching term
+            }
+        });
+    });
+});

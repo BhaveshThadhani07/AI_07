@@ -84,5 +84,31 @@ TASKS LEFT:
 5) LEADERS PAGE - FUNCTIONALITY + CONTENT 
 6) RESOURCE-LIBRARY - PDFS 
 7) STORIES PAGE - COMPLETE
+8) -XXX---NAVBAR - RESPONSIVE-XXX---
+9) RESPONSIVENESS TO OVERALL WEBSITE
 
+#STORIES SECTION:
+Adding a "Stories" section is a brilliant idea! Stories about AI’s origins, breakthrough moments, and the visionary people behind its evolution can make the subject much more engaging and relatable. By framing AI history and concepts through narrative, students are likely to feel more connected to the subject and understand its real-world impact.
+
+Here are some suggestions to make this section truly engaging:
+
+1. **Chronological Journey**: Structure the page as a timeline, showing the progression from early ideas (like the Dartmouth Conference and Turing’s work) to modern advances (like transformers and LLMs). Visual markers and clickable points could make this interactive and give a sense of AI’s evolution.
+
+2. **Spotlight Stories**: Dedicate sections to the people who shaped AI, such as Alan Turing, Marvin Minsky, and modern contributors. Include their challenges, breakthroughs, and quotes that reveal their thought processes. Adding lesser-known but impactful figures can add depth to this section.
+
+3. **Interactive Visuals**: Use short animations or infographics to explain concepts like the Turing Test, neural networks, or transformers. Visual aids can make these complex topics digestible and engaging for students.
+
+4. **AI Milestones in Daily Life**: Feature mini-stories showing how AI applications evolved to impact daily life, from early computer games to Siri and ChatGPT. This can make the technology relatable by connecting it to things students already know.
+
+5. **Glossary Pop-Ups**: For technical terms (like “neural networks” or “transformers”), use small pop-ups or expandable sections. This can help students understand the lingo without breaking the narrative flow.
+
+6. **Engagement Features**: Include quizzes or polls related to each story, allowing students to test their knowledge or share opinions. This could be a fun way to keep them involved.
+
+7. **Story Highlights**: Add a "Did You Know?" section that includes surprising or lesser-known facts, like how the first chatbot “ELIZA” worked or Alan Turing's pivotal influence on cryptography. These highlights can create interest and curiosity.
+
+8. **Ethics and Future Challenges**: Dedicate a story to the ethical and philosophical questions AI brings up, showing how the conversation around AI is as important as the technology itself.
+
+9. **User-Generated Content**: Invite students to submit questions or share their thoughts on stories they’d like to see, making it a collaborative, evolving resource.
+
+This "Stories" section can help students not only learn but *connect* with AI on a personal and historical level, making the library a unique resource they return to again and again.
 
