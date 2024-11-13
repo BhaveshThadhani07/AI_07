@@ -186,10 +186,15 @@ h1 {
     top: 60px;
     left: 0;
     z-index: 100;
+    margin: none;
+
 }
 .footer p{
     text-align: center;
     /* font-size: 30px; */
+    /* font-style: bold; */
+    margin: none;
+    font-weight: bold;
     color: white;
 }
 

@@ -74,7 +74,9 @@
     </div>
 
     <div class="footer">
-        <p class="">Bhavesh Thadhani - AINexus &#169; 2024-25</p>
+        <p class="">Designed & Developed by: Bhavesh Thadhani</p>
+        <p class="">Created with the assistance of Nitin Paliwal Sir</p>
+        <p class="">AINexus &#169; 2024-25</p>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
