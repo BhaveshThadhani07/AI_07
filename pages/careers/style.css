@@ -13,7 +13,7 @@ body{
     /* position: relative; */
     z-index: 1; 
     padding-top: 20px; 
-    height: 500vh;
+    height: 900vh;
     width: 100vw;
     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
                 url('../../assets/careers/aiCareersPageBG.jpg');
@@ -101,11 +101,12 @@ body{
     flex-direction: row;
     gap: 30px;
     flex-wrap: wrap;
+    margin: 20px;
 }
 /* CAREER CARD GLASSPHORPHISM */
 .career-card {
-    width: 60vw;
-    height: 160vh;
+    width: fit-content;
+    height: fit-content;
     /* margin: 20px; */
     padding: 30px;
     flex-basis: 45%;

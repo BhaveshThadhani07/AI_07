@@ -55,14 +55,20 @@ body{
     justify-content: center;
     flex-direction: column;
     padding: 50px;
+    /* height: max-content; */
+    height: 1200vh;
 }
 
 /* CARDS LAYOUT */
 .card{
     padding: 10px;
     margin: 10px;
+    width: auto;
+    width:max-content;
     background-color: #8fb1cc5c;
-    position: relative;
+    /* position: relative; */
+    width: 70vw;
+    height: 20vh;
 }
 #moreContent, #shortContent{
     font-family: "Comic Neue", cursive;

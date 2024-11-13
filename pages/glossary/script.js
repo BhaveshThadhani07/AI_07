@@ -8,6 +8,7 @@ document.querySelectorAll(".readMoreLink").forEach(function(link) {
             const moreContent = card.querySelector(".moreContent"); // Change to class
             const img = card.querySelector(".toggleImg");
             const readMoreLink = card.querySelector(".readMoreLink");
+            card.style.height = "fit-content";
 
             // Check if elements exist before trying to access their properties
             if (moreContent) {

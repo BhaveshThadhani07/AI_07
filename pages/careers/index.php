@@ -135,16 +135,195 @@
                             Computer vision engineer: ₹8,00,000</p>
                         <p><span>Future Prospects: </span> <br> Robotics Engineering offers exciting growth, particularly in automation, healthcare, and defense sectors, where robots are increasingly essential. Engineers in this field may work on advanced autonomous systems, robotic surgeries, or space exploration technologies. With continued demand across industries, Robotics Engineers have diverse and promising career paths ahead.</p>
                     </div>
-
                 </div>
 
-                <!-- Natural Language Processing (NLP) Specialist -->
-
                 <!-- Computer Vision Engineer -->
+                <div class="career-card">
+                        <div class="career-card-content">
+                            <h2>Computer Vision Engineer</h2>
+                            <p><span>Role Description: </span> <br> A Computer Vision Engineer specializes in enabling computers to interpret and make decisions based on visual data from the world, such as images and videos. This role involves designing algorithms that allow machines to recognize, analyze, and even generate visual information. Computer Vision Engineers apply deep learning, pattern recognition, and image processing techniques to solve problems in fields like healthcare, automotive, security, and augmented reality.</p>
+                            
+                            <p><span>Key Responsibilities: </span> <br>
+                                1. Image and Video Analysis: Process and analyze images or video frames to detect, classify, and track objects. <br>
+                                2. Algorithm Development: Develop and optimize computer vision algorithms for applications such as facial recognition, object detection, and motion analysis. <br>
+                                3. Data Collection & Labeling: Collect and label datasets to train computer vision models effectively. <br>
+                                4. Model Training & Optimization: Train deep learning models (e.g., CNNs) and optimize them for real-time performance. <br>
+                                5. Deployment: Implement models in production environments, ensuring they run efficiently on cloud or edge devices. <br>
+                                6. Testing & Validation: Validate model accuracy and robustness, particularly under varying lighting and environmental conditions. <br>
+                                7. Collaboration: Work closely with data scientists, hardware engineers, and other teams to integrate vision models into larger systems.<br>
+                            </p>
+                            
+                            <p><span>Required Skills: </span> <br>
+                                1. Programming: Strong proficiency in Python and C++ for image processing and algorithm implementation. <br>
+                                2. Deep Learning Frameworks: Experience with TensorFlow, PyTorch, and OpenCV. <br>
+                                3. Computer Vision Techniques: Familiarity with image segmentation, object detection, pattern recognition, and tracking. <br>
+                                4. Mathematics & Algorithms: Knowledge of linear algebra, optimization, and computer graphics. <br>
+                                5. Data Handling: Expertise in handling large visual datasets and understanding data augmentation techniques. <br>
+                                6. Embedded Systems Knowledge: Familiarity with deploying vision models on edge devices like mobile and IoT devices. <br>
+                            </p>
+                            
+                            <p><span>Average Salary: </span> <br> Computer Vision Engineers earn competitive salaries, often ranging between $95,000 to $150,000 per year, depending on experience, company, and location. Specialized industries like autonomous driving, AR/VR, and robotics may offer even higher compensation.</p>
+                            
+                            <p><span>Future Prospects: </span> <br> As advancements in AI continue, Computer Vision Engineers will find increasing opportunities across multiple fields. Growth areas include autonomous vehicles, smart cities, healthcare diagnostics, and augmented reality. As they gain experience, Computer Vision Engineers can transition into roles such as AI Lead Engineer, Research Scientist, or Director of AI, leading teams in the development of next-generation visual intelligence systems.</p>
+                        </div>
+                    </div>
 
-                <!-- AI Product Manager -->
+                    <!-- AI Product Manager -->
+                    <div class="career-card">
+                        <div class="career-card-content">
+                            <h2>AI Product Manager</h2>
+                            <p><span>Role Description: </span> <br> An AI Product Manager bridges the gap between business and technical teams, leading the development and deployment of AI-driven products. They are responsible for defining product strategy, understanding market needs, and ensuring that AI solutions align with business goals. AI Product Managers work closely with engineers, data scientists, and stakeholders to bring innovative AI products to life, from concept to launch.</p>
+                            
+                            <p><span>Key Responsibilities: </span> <br>
+                                1. Product Strategy: Define and communicate the AI product vision, roadmap, and strategy.<br>
+                                2. Market Research: Analyze market trends, customer needs, and competitor products to identify opportunities. <br>
+                                3. Cross-Functional Collaboration: Work with engineering, data science, and UX teams to prioritize and implement features. <br>
+                                4. Feature Prioritization: Translate customer and business needs into prioritized product features. <br>
+                                5. Data-Driven Decisions: Utilize metrics and analytics to measure product success and make informed decisions. <br>
+                                6. Budget and Timeline Management: Manage timelines and resources to ensure timely delivery within budget.<br>
+                                7. Product Launch: Oversee product launches and gather feedback to guide continuous improvements.<br>
+                            </p>
+                            
+                            <p><span>Required Skills: </span> <br>
+                                1. Project Management: Strong organizational and project management skills for leading cross-functional teams.<br>
+                                2. AI Knowledge: Understanding of AI concepts, machine learning, and data science fundamentals.<br>
+                                3. Market Analysis: Ability to conduct market and competitor research to inform product decisions.<br>
+                                4. Communication: Excellent verbal and written skills to communicate with both technical and non-technical stakeholders.<br>
+                                5. Problem Solving: Ability to identify issues and find creative, data-driven solutions.<br>
+                                6. Product Analytics: Familiarity with analytics tools to assess product performance and identify improvement areas.<br>
+                            </p>
+                            
+                            <p><span>Average Salary: </span> <br> AI Product Managers can expect a competitive salary, often ranging from $110,000 to $160,000 annually, depending on experience, industry, and location. In high-demand fields like finance, e-commerce, and technology, salaries may be even higher.</p>
+                            
+                            <p><span>Future Prospects: </span> <br> With the growing adoption of AI in various sectors, the role of AI Product Managers is in high demand. They have opportunities to advance to senior product leadership roles, such as Director of AI Product or Chief Product Officer, and may also transition into roles in AI strategy and innovation within organizations.</p>
+                        </div>
+                    </div>
 
-                <!-- Big Data Engineer -->
+                    <!-- Big Data Engineer -->
+                    <div class="career-card">
+                        <div class="career-card-content">
+                            <h2>Big Data Engineer</h2>
+                            <p><span>Role Description: </span> <br> A Big Data Engineer designs, builds, and maintains data pipelines that allow organizations to process and analyze large volumes of data efficiently. They work with various data storage and processing technologies to enable analytics, support machine learning models, and optimize data flows, playing a key role in data-driven decision-making processes across industries.</p>
+                            
+                            <p><span>Key Responsibilities: </span> <br>
+                                1. Data Pipeline Development: Create and manage data pipelines that enable data ingestion, transformation, and storage. <br>
+                                2. Data Warehousing: Build and maintain scalable data warehouses and databases. <br>
+                                3. Data Processing: Design data processing workflows using technologies like Hadoop, Spark, and Kafka. <br>
+                                4. ETL Processes: Develop ETL (Extract, Transform, Load) processes to prepare data for analysis and modeling. <br>
+                                5. Data Quality Assurance: Ensure data integrity, quality, and consistency across all pipelines. <br>
+                                6. Performance Optimization: Optimize data infrastructure to improve processing speed and reduce costs.<br>
+                                7. Collaboration: Work with data scientists, analysts, and software engineers to support data-driven projects.<br>
+                            </p>
+                            
+                            <p><span>Required Skills: </span> <br>
+                                1. Data Engineering Tools: Proficiency in data tools and frameworks like Hadoop, Apache Spark, and Kafka. <br>
+                                2. Programming: Strong skills in SQL, Python, Java, or Scala. <br>
+                                3. Cloud Platforms: Experience with cloud platforms (e.g., AWS, Google Cloud, Azure) for data storage and processing. <br>
+                                4. Data Modeling: Knowledge of data modeling techniques and relational and NoSQL databases. <br>
+                                5. ETL Processes: Expertise in creating ETL pipelines to manage and process large datasets. <br>
+                                6. Big Data Ecosystem: Understanding of big data ecosystems, including batch and real-time processing methods.<br>
+                            </p>
+                            
+                            <p><span>Average Salary: </span> <br> Big Data Engineers typically earn between $100,000 and $145,000 per year, depending on their experience and location. In industries where big data skills are in high demand, such as finance, healthcare, and tech, salaries may exceed this range.</p>
+                            
+                            <p><span>Future Prospects: </span> <br> As data becomes increasingly valuable, the demand for Big Data Engineers is rising across all industries. Experienced Big Data Engineers may advance to roles such as Data Architect, Data Engineering Manager, or Chief Data Officer, overseeing data strategies and infrastructure for large organizations.</p>
+                        </div>
+                    </div>
+
+                    <!-- Data Analyst -->
+                    <div class="career-card">
+                        <div class="career-card-content">
+                            <h2>Ethics and AI Policy Specialist</h2>
+                            <p><span>Role Description: </span> <br> An Ethics and AI Policy Specialist focuses on the ethical implications of artificial intelligence, ensuring that AI technologies are developed and used responsibly. This role involves assessing the social impact of AI, setting ethical guidelines, and advising on regulations that govern AI applications. They work at the intersection of technology, law, and ethics, advocating for fair and transparent AI practices.</p>
+                            
+                            <p><span>Key Responsibilities: </span> <br>
+                                1. Policy Development: Create and implement ethical guidelines for AI use within organizations.<br>
+                                2. Regulatory Compliance: Ensure AI projects comply with local, national, and international regulations.<br>
+                                3. Ethical Audits: Conduct audits to assess the fairness, accountability, and transparency of AI systems.<br>
+                                4. Research: Analyze emerging AI technologies and their social, ethical, and legal impacts.<br>
+                                5. Stakeholder Engagement: Collaborate with policymakers, developers, and the public to shape AI policies.<br>
+                                6. Advocacy: Educate stakeholders on responsible AI practices and advocate for ethical AI use.<br>
+                                7. Risk Assessment: Identify potential biases and risks associated with AI systems and propose mitigation strategies.<br>
+                            </p>
+                            
+                            <p><span>Required Skills: </span> <br>
+                                1. Knowledge of Ethics: Understanding of ethical theories, AI fairness, and transparency.<br>
+                                2. Regulatory Knowledge: Familiarity with data protection laws and AI regulations (e.g., GDPR).<br>
+                                3. Communication: Strong ability to explain complex ethical concepts to non-technical audiences.<br>
+                                4. Critical Thinking: Ability to assess and address ethical dilemmas in AI projects.<br>
+                                5. Interdisciplinary Understanding: Knowledge of AI technology and societal impact.<br>
+                                6. Policy Analysis: Experience in drafting policy documents and assessing regulatory frameworks.<br>
+                            </p>
+                            
+                            <p><span>Average Salary: </span> <br> Salaries for Ethics and AI Policy Specialists typically range from $80,000 to $130,000 annually, with higher pay in industries like finance, healthcare, and tech where ethical AI use is critical.</p>
+                            
+                            <p><span>Future Prospects: </span> <br> As AI adoption grows, the demand for specialists in AI ethics and policy is increasing. These specialists may advance to senior advisory roles, leading AI governance initiatives within organizations, or work with governments to influence AI-related legislation and regulation.</p>
+                        </div>
+                    </div>
+
+                    <!-- Natural Language Processing (NLP) Specialist -->
+                    <div class="career-card">
+                        <div class="career-card-content">
+                            <h2>Natural Language Processing (NLP) Specialist</h2>
+                            <p><span>Role Description: </span> <br> An NLP Specialist focuses on enabling machines to understand and interact using human language. They design algorithms and models to process text, voice, and other language data, powering applications such as chatbots, virtual assistants, and language translation. NLP Specialists work on the cutting edge of AI, enhancing machine comprehension and user interaction through natural language.</p>
+                            
+                            <p><span>Key Responsibilities: </span> <br>
+                                1. Model Development: Build and optimize NLP models for text processing, sentiment analysis, and more.<br>
+                                2. Language Processing: Design algorithms for tokenization, stemming, lemmatization, and parsing.<br>
+                                3. Voice Recognition: Work on voice-to-text and text-to-speech applications.<br>
+                                4. Machine Translation: Develop and improve algorithms for multilingual translation.<br>
+                                5. Text Classification: Create models to categorize and understand text input.<br>
+                                6. Data Collection: Gather and preprocess language datasets for training NLP models.<br>
+                                7. Deployment: Implement NLP models in real-world applications and monitor performance.<br>
+                            </p>
+                            
+                            <p><span>Required Skills: </span> <br>
+                                1. NLP Frameworks: Familiarity with NLP libraries like NLTK, SpaCy, or Hugging Face Transformers.<br>
+                                2. Machine Learning: Knowledge of machine learning techniques and deep learning methods.<br>
+                                3. Programming: Strong skills in Python and familiarity with libraries like TensorFlow or PyTorch.<br>
+                                4. Linguistic Knowledge: Understanding of grammar, syntax, semantics, and language structures.<br>
+                                5. Text Analytics: Proficiency in text mining, sentiment analysis, and topic modeling.<br>
+                                6. Data Preprocessing: Experience in cleaning and preparing textual data.<br>
+                            </p>
+                            
+                            <p><span>Average Salary: </span> <br> NLP Specialists earn an average salary of $100,000 to $140,000 per year, depending on experience and industry, with higher potential in fields like technology, healthcare, and customer service.</p>
+                            
+                            <p><span>Future Prospects: </span> <br> The field of NLP is rapidly expanding with the rise of conversational AI and multilingual AI applications. NLP Specialists have strong career growth potential, with opportunities to advance to roles such as NLP Engineer, Research Scientist, or AI Product Lead, especially as industries continue to enhance customer experiences with language-based AI.</p>
+                        </div>
+                    </div>
+
+                    <!-- Ethics and AI Policy Specialist -->
+                    <div class="career-card">
+                        <div class="career-card-content">
+                            <h2>Ethics and AI Policy Specialist</h2>
+                            <p><span>Role Description: </span> <br> An Ethics and AI Policy Specialist focuses on the ethical implications of artificial intelligence, ensuring that AI technologies are developed and used responsibly. This role involves assessing the social impact of AI, setting ethical guidelines, and advising on regulations that govern AI applications. They work at the intersection of technology, law, and ethics, advocating for fair and transparent AI practices.</p>
+                            
+                            <p><span>Key Responsibilities: </span> <br>
+                                1. Policy Development: Create and implement ethical guidelines for AI use within organizations.<br>
+                                2. Regulatory Compliance: Ensure AI projects comply with local, national, and international regulations.<br>
+                                3. Ethical Audits: Conduct audits to assess the fairness, accountability, and transparency of AI systems.<br>
+                                4. Research: Analyze emerging AI technologies and their social, ethical, and legal impacts.<br>
+                                5. Stakeholder Engagement: Collaborate with policymakers, developers, and the public to shape AI policies.<br>
+                                6. Advocacy: Educate stakeholders on responsible AI practices and advocate for ethical AI use.<br>
+                                7. Risk Assessment: Identify potential biases and risks associated with AI systems and propose mitigation strategies.<br>
+                            </p>
+                            
+                            <p><span>Required Skills: </span> <br>
+                                1. Knowledge of Ethics: Understanding of ethical theories, AI fairness, and transparency.<br>
+                                2. Regulatory Knowledge: Familiarity with data protection laws and AI regulations (e.g., GDPR).<br>
+                                3. Communication: Strong ability to explain complex ethical concepts to non-technical audiences.<br>
+                                4. Critical Thinking: Ability to assess and address ethical dilemmas in AI projects.<br>
+                                5. Interdisciplinary Understanding: Knowledge of AI technology and societal impact.<br>
+                                6. Policy Analysis: Experience in drafting policy documents and assessing regulatory frameworks.<br>
+                            </p>
+                            
+                            <p><span>Average Salary: </span> <br> Salaries for Ethics and AI Policy Specialists typically range from $80,000 to $130,000 annually, with higher pay in industries like finance, healthcare, and tech where ethical AI use is critical.</p>
+                            
+                            <p><span>Future Prospects: </span> <br> As AI adoption grows, the demand for specialists in AI ethics and policy is increasing. These specialists may advance to senior advisory roles, leading AI governance initiatives within organizations, or work with governments to influence AI-related legislation and regulation.</p>
+                        </div>
+                    </div>
+
+
 
                 <!-- Ethics and AI Policy Specialist -->
             </div>
