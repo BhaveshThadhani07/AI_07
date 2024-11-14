@@ -5,7 +5,7 @@
 }
 body{
     background-color: white;
-    height: 1000vh;
+    height: 1800vh;
     width: 100vw;
     background-color: white;
     z-index: 20;
@@ -17,7 +17,7 @@ body{
     justify-content: center;
 }
 .middle{
-    height: 1000vh;
+    height: 1700vh;
     width: 80vw;
     background-color: #f8f4ff;
     display: flex;

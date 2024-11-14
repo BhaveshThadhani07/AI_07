@@ -220,6 +220,141 @@
                         <!-- Link to toggle visibility -->
                         <a href="#" class="readMoreLink">Read More</a>
                     </div>
+
+
+                    <!-- 03. Activation Function -->
+                    <div class="card" id="algorithm">
+                        <h3>03. Activation Function</h3>
+                        <img class="toggleImg p-3 align-center" src="https://media.geeksforgeeks.org/wp-content/cdn-uploads/33-1-1.png" alt="ai_infographic" height="500px" width="100%" style="display: none;">
+    
+                        <!-- Main content that is always shown -->
+                        <p id="shortContent" class="fw-bold">A mathematical function in neural networks that determines the output of each neuron.</p>
+    
+                        <!-- Additional content that will be shown upon clicking "Read More" -->
+                        <div class="moreContent" style="display: none;">
+                            <p>In the process of building a neural network, one of the choices you get to make is what Activation Function to use in the hidden layer as well as at the output layer of the network. This article discusses Activation functions in Neural Networks. <br>
+    
+                            <p class="fw-bold">What is an Activation Function?</p>
+    
+                            An activation function in the context of neural networks is a mathematical function applied to the output of a neuron. The purpose of an activation function is to introduce non-linearity into the model, allowing the network to learn and represent complex patterns in the data. Without non-linearity, a neural network would essentially behave like a linear regression model, regardless of the number of layers it has.
+
+                            The activation function decides whether a neuron should be activated or not by calculating the weighted sum and further adding bias to it. The purpose of the activation function is to introduce non-linearity into the output of a neuron. 
+
+                            Explanation: We know, the neural network has neurons that work in correspondence with weight, bias, and their respective activation function. In a neural network, we would update the weights and biases of the neurons on the basis of the error at the output. This process is known as back-propagation. Activation functions make the back-propagation possible since the gradients are supplied along with the error to update the weights and biases. 
+
+
+                            </p>
+
+                            <p class="fw-bold">Elements of a Neural Network</p>
+    
+                            Input Layer: This layer accepts input features. It provides information from the outside world to the network, no computation is performed at this layer, nodes here just pass on the information(features) to the hidden layer. 
+
+                            Hidden Layer: Nodes of this layer are not exposed to the outer world, they are part of the abstraction provided by any neural network. The hidden layer performs all sorts of computation on the features entered through the input layer and transfers the result to the output layer. 
+
+                            Output Layer: This layer bring up the information learned by the network to the outer world. 
+                            </p>
+                        </div>
+                        <!-- Link to toggle visibility -->
+                        <a href="#" class="readMoreLink">Read More</a>
+                    </div>
+
+
+                    <!-- 03. Agent-Based Modeling -->
+                    <div class="card" id="algorithm">
+                        <h3>03. Agent-Based Modeling</h3>
+                        <img class="toggleImg p-3 align-center" src="https://www.collidu.com/media/catalog/product/img/6/7/673d750016b6d23684554bd9254aa0969b8e0a36f56a6a768cb07d4672275f70/agent-based-modeling-slide3.png" alt="ai_infographic" height="500px" width="100%" style="display: none;">
+    
+                        <!-- Main content that is always shown -->
+                        <p id="shortContent" class="fw-bold">A simulation modeling technique to assess the actions and interactions of autonomous agents.</p>
+    
+                        <!-- Additional content that will be shown upon clicking "Read More" -->
+                        <div class="moreContent" style="display: none;">
+                            <p>Agent-based AI refers to a branch of artificial intelligence that focuses on creating autonomous entities known as agents. These agents can perceive their environment, make decisions based on that perception, and perform actions to achieve specific objectives. Essentially, each agent is an independent unit capable of intelligent behavior. <br>
+    
+                            <p class="fw-bold">Components</p>
+    
+                            Agents: These are the core units of agent-based AI. Agents can range from simple rule-based entities to complex systems with advanced learning capabilities. They can act independently and exhibit behaviors such as learning, adaptation, and cooperation.
+                            Environments: The environment is the context within which agents operate. It can be a physical space, like a warehouse for robotics, or a virtual space, such as a financial market simulation. The environment provides the agents with the information they need to make decisions.
+                            Interactions: Agents interact with their environment and with each other. These interactions can be cooperative, competitive, or neutral. The nature of these interactions significantly influences the agents’ behavior and the outcomes of their actions.
+
+                            </p>
+
+                            <p class="fw-bold">Comparison with Traditional AI Approaches</p>
+    
+                            Traditional AI: Typically involves centralized systems that process large amounts of data and make decisions based on predefined algorithms and models. These systems can be powerful but are often rigid and less adaptable to dynamic changes.
+                            Agent-Based AI: In contrast, uses decentralized systems where multiple agents operate independently or collaboratively. This approach allows for greater flexibility and adaptability. For example, in a changing environment, agents can quickly adjust their behavior without needing a complete system overhaul.
+                            </p>
+                        </div>
+                        <!-- Link to toggle visibility -->
+                        <a href="#" class="readMoreLink">Read More</a>
+                    </div>
+
+                    <!-- 03. Attention Mechanism  -->
+                    <div class="card" id="algorithm">
+                        <h3>03. Attention Mechanism </h3>
+                        <img class="toggleImg p-3 align-center" src="https://techovedas.com/wp-content/uploads/2024/03/GBopIFaacAA__Ds.webp" alt="ai_infographic" height="500px" width="100%" style="display: none;">
+    
+                        <!-- Main content that is always shown -->
+                        <p id="shortContent" class="fw-bold">A neural network technique to improve the focus on relevant parts of input data, often used in NLP.</p>
+    
+                        <!-- Additional content that will be shown upon clicking "Read More" -->
+                        <div class="moreContent" style="display: none;">
+                            <p>An attention mechanism is a technique used in machine learning and artificial intelligence to improve the performance of models by focusing on relevant information. It allows models to selectively attend to different parts of the input data, assigning varying degrees of importance or weight to different elements. <br>
+    
+                            <p class="fw-bold">How Attention Mechanisms Work</p>
+    
+                            Attention mechanisms work by generating attention weights for different elements or features of the input data. These weights determine the level of importance each element contributes to the model's output. The attention weights are calculated based on the relevance or similarity between the elements and a query or context vector.
+
+                            The attention mechanism typically involves three key components:
+
+                            Query: Represents the current context or focus of the model.
+
+                            Key: Represents the elements or features of the input data.
+
+                            Value: Represents the values associated with the elements or features.
+
+                            The attention mechanism computes the attention weights by measuring the similarity between the query and the keys. The values are then weighted by the attention weights and combined to produce the final output of the attention mechanism.
+
+                            </p>
+
+                            <p class="fw-bold">Why Attention Mechanisms are Important</p>
+    
+                            Attention mechanism is important in machine learning and artificial intelligence for several reasons:
+
+                            Improved Model Performance: By focusing on relevant information, attention mechanism enables models to make more accurate predictions and capture important patterns or dependencies in the data.
+
+                            Effective Handling of Variable-Length Inputs: Attention mechanism allows models to process inputs of variable lengths by attending to different parts of the input sequence dynamically.
+
+                            Interpretability and Explainability: Attention weights provide insights into the model's decision-making process, making it easier to interpret and explain the model's predictions.
+                            </p>
+                        </div>
+                        <!-- Link to toggle visibility -->
+                        <a href="#" class="readMoreLink">Read More</a>
+                    </div>
+
+                    <!-- 03. Autoencoder -->
+                    <div class="card" id="algorithm">
+                        <h3>03. Autoencoder</h3>
+                        <img class="toggleImg p-3 align-center" src="https://media.geeksforgeeks.org/wp-content/cdn-uploads/33-1-1.png" alt="ai_infographic" height="500px" width="100%" style="display: none;">
+    
+                        <!-- Main content that is always shown -->
+                        <p id="shortContent" class="fw-bold">A type of neural network used for unsupervised learning, mainly in feature extraction and dimensionality reduction.</p>
+    
+                        <!-- Additional content that will be shown upon clicking "Read More" -->
+                        <div class="moreContent" style="display: none;">
+                            <p>At the heart of deep learning lies the neural network, an intricate interconnected system of nodes that mimics the human brain’s neural architecture. Neural networks excel at discerning intricate patterns and representations within vast datasets, allowing them to make predictions, classify information, and generate novel insights. Autoencoders emerge as a fascinating subset of neural networks, offering a unique approach to unsupervised learning. Autoencoders are an adaptable and strong class of architectures for the dynamic field of deep learning, where neural networks develop constantly to identify complicated patterns and representations. With their ability to learn effective representations of data, these unsupervised learning models have received considerable attention and are useful in a wide variety of areas, from image processing to anomaly detection. <br>
+    
+                            <p class="fw-bold">What are Autoencoders?</p>
+    
+                            Autoencoders are a specialized class of algorithms that can learn efficient representations of input data with no need for labels. It is a class of artificial neural networks designed for unsupervised learning. Learning to compress and effectively represent input data without specific labels is the essential principle of an automatic decoder. This is accomplished using a two-fold structure that consists of an encoder and a decoder. The encoder transforms the input data into a reduced-dimensional representation, which is often referred to as “latent space” or “encoding”. From that representation, a decoder rebuilds the initial input. For the network to gain meaningful patterns in data, a process of encoding and decoding facilitates the definition of essential features.
+
+                            </p>
+                        </div>
+                        <!-- Link to toggle visibility -->
+                        <a href="#" class="readMoreLink">Read More</a>
+                    </div>
+
+
     
                     <!-- 04. API -->
                     <div class="card" id="api">
@@ -281,6 +416,74 @@
                         <a href="#" class="readMoreLink">Read More</a>
                     </div>
     
+                    <!-- 05. Backpropagation -->
+                    <div class="card" id="bigData">
+                        <h3>05. Backpropagation</h3>
+                        <img class="toggleImg p-3 align-center" src="https://serokell.io/files/a0/a05ov1m.Backpropagation_in_NN_pic1.jpg" alt="ai_infographic" height="500px" width="100%" style="display: none;">
+    
+                        <!-- Main content that is always shown -->
+                        <p id="shortContent" class="fw-bold">The process of adjusting weights in a neural network through error correction during training.</p>
+    
+                        <!-- Additional content that will be shown upon clicking "Read More" -->
+                        <div class="moreContent" style="display: none;">
+                            <p>
+                            Backpropagation (short for "Backward Propagation of Errors") is a method used to train artificial neural networks. Its goal is to reduce the difference between the model’s predicted output and the actual output by adjusting the weights and biases in the network.
+                            <p class="fw-bold">What is Backpropagation?</p>
+                            Backpropagation is a powerful algorithm in deep learning, primarily used to train artificial neural networks, particularly feed-forward networks. It works iteratively, minimizing the cost function by adjusting weights and biases.
+
+                            In each epoch, the model adapts these parameters, reducing loss by following the error gradient. Backpropagation often utilizes optimization algorithms like gradient descent or stochastic gradient descent. The algorithm computes the gradient using the chain rule from calculus, allowing it to effectively navigate complex layers in the neural network to minimize the cost function. <br>
+    
+                            <p class="fw-bold">Why is Backpropagation Important?</p>
+    
+                            Backpropagation plays a critical role in how neural networks improve over time. Here's why:
+
+                            Efficient Weight Update: It computes the gradient of the loss function with respect to each weight using the chain rule, making it possible to update weights efficiently.
+                            Scalability: The backpropagation algorithm scales well to networks with multiple layers and complex architectures, making deep learning feasible.
+                            Automated Learning: With backpropagation, the learning process becomes automated, and the model can adjust itself to optimize its performance.
+                            </p>
+    
+                        </div>
+                        <!-- Link to toggle visibility -->
+                        <a href="#" class="readMoreLink">Read More</a>
+                    </div>
+
+
+                    <!-- 05. Bayesian Network -->
+                    <div class="card" id="bigData">
+                        <h3>05. Bayesian Network</h3>
+                        <img class="toggleImg p-3 align-center" src="https://images.prismic.io/turing/659d7728531ac2845a2742b2_Applications_of_Bayesian_networks_in_AI_1_11zon_0d89bf7ece.webp?auto=format,compress" alt="ai_infographic" height="500px" width="100%" style="display: none;">
+    
+                        <!-- Main content that is always shown -->
+                        <p id="shortContent" class="fw-bold">A graphical model that represents probabilistic relationships among variables.</p>
+    
+                        <!-- Additional content that will be shown upon clicking "Read More" -->
+                        <div class="moreContent" style="display: none;">
+                            <p>
+                            Bayesian Belief Network is a graphical representation of different probabilistic relationships among random variables in a particular set. It is a classifier with no dependency on attributes i.e it is condition independent. Due to its feature of joint probability, the probability in Bayesian Belief Network is derived, based on a condition — P(attribute/parent) i.e probability of an attribute, true over parent attribute.
+                            <p class="fw-bold">Bayesian Belief Network in artificial intelligence</p>
+                            Bayesian belief network is key computer technology for dealing with probabilistic events and to solve a problem which has uncertainty. We can define a Bayesian network as:
+
+                            "A Bayesian network is a probabilistic graphical model which represents a set of variables and their conditional dependencies using a directed acyclic graph."
+
+                            It is also called a Bayes network, belief network, decision network, or Bayesian model.
+
+                            Bayesian networks are probabilistic, because these networks are built from a probability distribution, and also use probability theory for prediction and anomaly detection.
+                            
+                            Real world applications are probabilistic in nature, and to represent the relationship between multiple events, we need a Bayesian network. It can also be used in various tasks including prediction, anomaly detection, diagnostics, automated insight, reasoning, time series prediction, and decision making under uncertainty.
+
+                            Bayesian Network can be used for building models from data and experts opinions, and it consists of two parts:
+
+                            Directed Acyclic Graph
+                            Table of conditional probabilities.
+                            The generalized form of Bayesian network that represents and solve decision problems under uncertain knowledge is known as an Influence diagram.
+                            </p>
+    
+                        </div>
+                        <!-- Link to toggle visibility -->
+                        <a href="#" class="readMoreLink">Read More</a>
+                    </div>
+
+
                     <!-- 05. Big Data -->
                     <div class="card" id="bigData">
                         <h3>05. Big Data</h3>
@@ -311,6 +514,42 @@
     
                             Companies that process big data may also focus on other Vs, such as value, veracity, and variability.<br>
     
+                            <p class="fw-bold">What’s driving big data growth?</p>
+    
+                            Emerging information technology has allowed data to be collected, stored, and analyzed at unprecedented scales. The internet continues to be adopted by new users in the US and across the globe, and developing technologies have allowed the internet to be integrated into many different products, creating numerous new sources of data. The millions of people watching Netflix, using Google, and buying products online daily contribute to the increasing volume and sophistication of big data.
+                            </p>
+    
+                        </div>
+                        <!-- Link to toggle visibility -->
+                        <a href="#" class="readMoreLink">Read More</a>
+                    </div>
+
+                    <!-- 05. Bias Term -->
+                    <div class="card" id="bigData">
+                        <h3>05. Bias Term</h3>
+                        <img class="toggleImg p-3 align-center" src="https://research.aimultiple.com/wp-content/uploads/2020/09/AI-bias-explained-612x311.jpeg.webp" alt="ai_infographic" height="500px" width="100%" style="display: none;">
+    
+                        <!-- Main content that is always shown -->
+                        <p id="shortContent" class="fw-bold">AI bias, also called machine learning bias or algorithm bias, refers to the occurrence of biased results due to human biases that skew the original training data or AI algorithm—leading to distorted outputs and potentially harmful outcomes.</p>
+    
+                        <!-- Additional content that will be shown upon clicking "Read More" -->
+                        <div class="moreContent" style="display: none;">
+                            <p>
+                            When AI bias goes unaddressed, it can impact an organization’s success and hinder people’s ability to participate in the economy and society. Bias reduces AI’s accuracy, and therefore its potential.
+
+                            Businesses are less likely to benefit from systems that produce distorted results. And scandals resulting from AI bias could foster mistrust among people of color, women, people with disabilities, the LGBTQ community, or other marginalized groups.
+
+
+                            <p class="fw-bold">Real-world examples and risks</p>
+                            When AI makes a mistake due to bias—such as groups of people denied opportunities, misidentified in photos or punished unfairly—the offending organization suffers damage to its brand and reputation. At the same time, the people in those groups and society as a whole can experience harm without even realizing it. Here are a few high-profile examples of disparities and bias in AI and the harm they can cause.
+
+                            In healthcare, underrepresenting data of women or minority groups can skew predictive AI algorithms.2 For example, computer-aided diagnosis (CAD) systems have been found to return lower accuracy results for African-American patients than white patients.
+
+                            While AI tools can streamline the automation of resume scanning during a search to help identify ideal candidates, the information requested and answers screened out can result in disproportionate outcomes across groups. For example, if a job ad uses the word “ninja,” it might attract more men than women, even though that is in no way a job requirement.3   
+
+                            As a test of image generation, Bloomberg requested more than 5,000 AI images be created and found that, “The world according to Stable Diffusion is run by white male CEOs. Women are rarely doctors, lawyers or judges. Men with dark skin commit crimes, while women with dark skin flip burgers.”4  Midjourney conducted a similar study of AI art generation, requesting images of people in specialized professions. The result showed both younger and older people, but the older people were always men, reinforcing gender bias of the role of women in the workplace.5 
+
+                            AI-powered predictive policing tools used by some organizations in the criminal justice system are supposed to identify areas where crime is likely to occur. However, they often rely on historical arrest data, which can reinforce existing patterns of racial profiling and disproportionate targeting of minority communities.
                             <p class="fw-bold">What’s driving big data growth?</p>
     
                             Emerging information technology has allowed data to be collected, stored, and analyzed at unprecedented scales. The internet continues to be adopted by new users in the US and across the globe, and developing technologies have allowed the internet to be integrated into many different products, creating numerous new sources of data. The millions of people watching Netflix, using Google, and buying products online daily contribute to the increasing volume and sophistication of big data.
@@ -353,6 +592,85 @@
                             To get the most from an organization’s existing data, enterprise-grade chatbots can be integrated with critical systems and orchestrate workflows inside and outside of a CRM system. Chatbots can handle real-time actions as routine as a password change, all the way through a complex multi-step workflow spanning multiple applications. In addition, conversational analytics can analyze and extract insights from natural language conversations, typically between customers interacting with businesses through chatbots and virtual assistants.
     
                             Artificial intelligence can also be a powerful tool for developing conversational marketing strategies. AI chatbots are available to deliver customer care 24/7 and can discover insights into your customer’s engagement and buying patterns to drive more compelling conversations, and deliver more consistent and personalized digital experiences across your web and messaging channels.
+                            </p>
+    
+                        </div>
+                        <!-- Link to toggle visibility -->
+                        <a href="#" class="readMoreLink">Read More</a>
+                    </div>
+
+                    <!-- 06. Clustering -->
+                    <div class="card" id="chatbot">
+                        <h3>06. Clustering</h3>
+                        <img class="toggleImg p-3 align-center" src="https://miro.medium.com/v2/resize:fit:1093/1*Ae45JULGgghix4EtjApmMg.png" alt="ai_infographic" height="500px" width="100%" style="display: none;">
+    
+                        <!-- Main content that is always shown -->
+                        <p id="shortContent" class="fw-bold">Clustering is an unsupervised machine learning technique designed to group unlabeled examples based on their similarity to each other.</p>
+    
+                        <!-- Additional content that will be shown upon clicking "Read More" -->
+                        <div class="moreContent" style="display: none;">
+                            <p>
+    
+                            <p class="fw-bold">Clustering in Machine Learning</p>
+                            In real world, not every data we work upon has a target variable. This kind of data cannot be analyzed using supervised learning algorithms. We need the help of unsupervised algorithms. One of the most popular type of analysis under unsupervised learning is Cluster analysis. When the goal is to group similar data points in a dataset, then we use cluster analysis. In practical situations, we can use cluster analysis for customer segmentation for targeted advertisements, or in medical imaging to find unknown or new infected areas and many more use cases. <br>
+    
+                            <p class="fw-bold">Uses of Clustering</p>
+    
+                            Clustering algorithms are majorly used for:
+
+                            Market Segmentation – Businesses use clustering to group their customers and use targeted advertisements to attract more audience.
+                            Market Basket Analysis – Shop owners analyze their sales and figure out which items are majorly bought together by the customers. For example, In USA, according to a study diapers and beers were usually bought together by fathers.
+                            Social Network Analysis – Social media sites use your data to understand your browsing behaviour and provide you with targeted friend recommendations or content recommendations.
+                            Medical Imaging – Doctors use Clustering to find out diseased areas in diagnostic images like X-rays.
+                            Anomaly Detection – To find outliers in a stream of real-time dataset or forecasting fraudulent transactions we can use clustering to identify them.
+                            Simplify working with large datasets – Each cluster is given a cluster ID after clustering is complete. Now, you may reduce a feature set’s whole feature set into its cluster ID. Clustering is effective when it can represent a complicated case with a straightforward cluster ID. Using the same principle, clustering data can make complex datasets simpler.
+                            There are many more use cases for clustering but there are some of the major and common use cases of clustering. Moving forward we will be discussing Clustering Algorithms that will help you perform the above tasks.
+                            </p>
+    
+                        </div>
+                        <!-- Link to toggle visibility -->
+                        <a href="#" class="readMoreLink">Read More</a>
+                    </div>
+
+                    <!-- 07. Convolutional Neural Network (CNN) -->
+                    <div class="card" id="cognitiveComputing">
+                        <h3>07. Convolutional Neural Network (CNN)</h3>
+                        <img class="toggleImg p-3 align-center" src="https://www.quantamagazine.org/wp-content/uploads/2021/06/CNN04.jpg" alt="ai_infographic" height="500px" width="100%" style="display: none;">
+    
+                        <!-- Main content that is always shown -->
+                        <p id="shortContent" class="fw-bold">A neural network designed for image processing and computer vision tasks.</p>
+    
+                        <!-- Additional content that will be shown upon clicking "Read More" -->
+                        <div class="moreContent" style="display: none;">
+                            <p>
+                                A convolutional neural network (CNN) is a type of artificial neural network used primarily for image recognition and processing, due to its ability to recognize patterns in images. A CNN is a powerful tool but requires millions of labelled data points for training. CNNs must be trained with high-power processors, such as a GPU or an NPU, if they are to produce results quickly enough to be useful. <br>
+    
+                            <p class="fw-bold">What Is a Convolutional Neural Network?</p>
+                            <p>A Convolutional Neural Network (CNN) is a type of deep learning algorithm that is particularly well-suited for image recognition and processing tasks. It is made up of multiple layers, including convolutional layers, pooling layers, and fully connected layers. The architecture of CNNs is inspired by the visual processing in the human brain, and they are well-suited for capturing hierarchical patterns and spatial dependencies within images.
+
+                                Key components of a Convolutional Neural Network include:
+
+                                Convolutional Layers: These layers apply convolutional operations to input images, using filters (also known as kernels) to detect features such as edges, textures, and more complex patterns. Convolutional operations help preserve the spatial relationships between pixels.
+                                Pooling Layers: Pooling layers downsample the spatial dimensions of the input, reducing the computational complexity and the number of parameters in the network. Max pooling is a common pooling operation, selecting the maximum value from a group of neighboring pixels.
+                                Activation Functions: Non-linear activation functions, such as Rectified Linear Unit (ReLU), introduce non-linearity to the model, allowing it to learn more complex relationships in the data.
+                                Fully Connected Layers: These layers are responsible for making predictions based on the high-level features learned by the previous layers. They connect every neuron in one layer to every neuron in the next layer.
+                                CNNs are trained using a large dataset of labeled images, where the network learns to recognize patterns and features that are associated with specific objects or classes. Proven to be highly effective in image-related tasks, achieving state-of-the-art performance in various computer vision applications. Their ability to automatically learn hierarchical representations of features makes them well-suited for tasks where the spatial relationships and patterns in the data are crucial for accurate predictions. CNNs are widely used in areas such as image classification, object detection, facial recognition, and medical image analysis.
+
+                                The convolutional layers are the key component of a CNN, where filters are applied to the input image to extract features such as edges, textures, and shapes.
+
+                                The output of the convolutional layers is then passed through pooling layers, which are used to down-sample the feature maps, reducing the spatial dimensions while retaining the most important information. The output of the pooling layers is then passed through one or more fully connected layers, which are used to make a prediction or classify the image.</p>
+    
+                            <p class="fw-bold">Convolutional Neural Network Training</p>
+    
+                            CNNs are trained using a supervised learning approach. This means that the CNN is given a set of labeled training images. The CNN then learns to map the input images to their correct labels.
+
+                                The training process for a CNN involves the following steps:
+
+                                Data Preparation: The training images are preprocessed to ensure that they are all in the same format and size.
+                                Loss Function: A loss function is used to measure how well the CNN is performing on the training data. The loss function is typically calculated by taking the difference between the predicted labels and the actual labels of the training images.
+                                Optimizer: An optimizer is used to update the weights of the CNN in order to minimize the loss function.
+                                Backpropagation: Backpropagation is a technique used to calculate the gradients of the loss function with respect to the weights of the CNN. The gradients are then used to update the weights of the CNN using the optimizer.
+
                             </p>
     
                         </div>
@@ -488,6 +806,46 @@
                             Another potential problem is results might appear valid but are in fact random and not to be trusted. It’s important to remember that “correlation is not causation.” A famous example of “data dredging”—seeing an apparent correlation and overstating its importance—was recently presented by blogger Tyler Vigen: “The price of Amazon.com stock closely matches the number of children named ‘Stevie’ from 2002 to 2022.”1 But, of course, the naming of Stevies did not influence the stock price or vice versa. Data mining applications find the patterns, but human judgment is still significant.
     
                             Data mini<br>
+    
+                        </div>
+                        <!-- Link to toggle visibility -->
+                        <a href="#" class="readMoreLink">Read More</a>
+                    </div>
+
+
+                    <!-- 09. Data Augmentation -->
+                    <div class="card" id="dataVision">
+                        <h3>09. Data Augmentation</h3>
+                        <img class="toggleImg p-3 align-center" src="https://research.aimultiple.com/wp-content/uploads/2021/04/data-augmentation-techniques.png" alt="ai_infographic" height="500px" width="100%" style="display: none;">
+    
+                        <!-- Main content that is always shown -->
+                        <p id="shortContent" class="fw-bold">Techniques for increasing the amount and diversity of training data, especially in image processing.</p>
+    
+                        <!-- Additional content that will be shown upon clicking "Read More" -->
+                        <div class="moreContent" style="display: none;">
+                            <p>
+                            Data augmentation is the process of artificially generating new data from existing data, primarily to train new machine learning (ML) models. ML models require large and varied datasets for initial training, but sourcing sufficiently diverse real-world datasets can be challenging because of data silos, regulations, and other limitations. Data augmentation artificially increases the dataset by making small changes to the original data. Generative artificial intelligence (AI) solutions are now being used for high-quality and fast data augmentation in various industries.
+
+                            <p class="fw-bold">Why is data augmentation important?</p>
+                            Deep learning models rely on large volumes of diverse data to develop accurate predictions in various contexts. Data augmentation supplements the creation of data variations that can help a model improve the accuracy of its predictions. Augmented data is vital in training.
+
+                            Here are some of the benefits of data augmentation.
+
+                            Enhanced model performance
+                            Data augmentation techniques help enrich datasets by creating many variations of existing data. This provides a larger dataset for training and enables a model to encounter more diverse features. The augmented data helps the model better generalize to unseen data and improve its overall performance in real-world environments. 
+
+                            Reduced data dependency
+                            The collection and preparation of large data volumes for training can be costly and time-consuming. Data augmentation techniques increase the effectiveness of smaller datasets, vastly reducing the dependency on large datasets in training environments. You can use smaller datasets to supplement the set with synthetic data points.
+
+                            Mitigate overfitting in training data
+                            Data augmentation helps prevent overfitting when you’re training ML models. Overfitting is the undesirable ML behavior where a model can accurately provide predictions for training data but it struggles with new data. If a model trains only with a narrow dataset, it can become overfit and can give predictions related to only that specific data type. In contrast, data augmentation provides a much larger and more comprehensive dataset for model training. It makes training sets appear unique to deep neural networks, preventing them from learning to work with only specific characteristics. 
+
+                            Read about overfitting
+
+                            Read about neural networks
+
+                            Improved data privacy
+                            If you need to train a deep learning model on sensitive data, you can use augmentation techniques on the existing data to create synthetic data. This augmented data retains the input data's statistical properties and weights while protecting and limiting access to the original.<br>
     
                         </div>
                         <!-- Link to toggle visibility -->
@@ -1434,78 +1792,108 @@ AI training data is a fundamental process in building machine learning and AI al
                     </div>
 
 
-                    <!-- 28. Topic -->
+                    <!-- 34. Turing test -->
                     <div class="card" id="dataScience">
-                        <h3>28. Topic</h3>
-                        <img class="toggleImg p-3 align-center" src="" alt="ai_infographic" height="500px" width="100%" style="display: none;">
+                        <h3>34. Turing test</h3>
+                        <img class="toggleImg p-3 align-center" src="https://i.abcnewsfe.com/a/187ba44a-8c4a-4a87-96e7-140a1767243f/TuringTestInfographic_v01_DG_1689800738777_hpEmbed_16x9.jpg" alt="ai_infographic" height="500px" width="100%" style="display: none;">
     
                         <!-- Main content that is always shown -->
-                        <p id="shortContent" class="fw-bold">initial short</p>
+                        <p id="shortContent" class="fw-bold">The Turing test was created by computer scientist Alan Turing to evaluate a machine’s ability to exhibit intelligence equal to humans, especially in language and behavior. </p>
     
                         <!-- Additional content that will be shown upon clicking "Read More" -->
                         <div class="moreContent" style="display: none;">
                             <p>
-                            info
-                            <p class="fw-bold">What are the benefits of reinforcement learning?</p>
-                            content
+                            The Turing Test is a method of inquiry in artificial intelligence (AI) for determining whether or not a computer is capable of thinking like a human being. The test is named after Alan Turing, the founder of the Turing Test and an English computer scientist, cryptanalyst, mathematician and theoretical biologist.
+                            <p class="fw-bold">History of the Turing Test</p>
+                            The test is named after Alan Turing, who pioneered machine learning during the 1940s and 1950s. Turing introduced the test in his 1950 paper called "Computing Machinery and Intelligence" while at the University of Manchester.
+
+In his paper, Turing proposed a twist on what is called "The Imitation Game." The Imitation Game involves no use of AI, but rather three human participants in three separate rooms. Each room is connected via a screen and keyboard, one containing a male, the other a female, and the other containing a male or female judge. The female tries to convince the judge that she is the male, and the judge tries to disseminate which is which.
+
+Turing changes the concept of this game to include an AI, a human and a human questioner. The questioner's job is then to decide which is the AI and which is the human. Since the formation of the test, many AI have been able to pass; one of the first is a program created by Joseph Weizenbaum called ELIZA.
+                            <p class="fw-bold">Limitations of the Turing Test</p>
+                            <p>The Turing Test has been criticized over the years, in particular because historically, the nature of the questioning had to be limited in order for a computer to exhibit human-like intelligence. For many years, a computer might only score high if the questioner formulated the queries, so they had "Yes" or "No" answers or pertained to a narrow field of knowledge. When questions were open-ended and required conversational answers, it was less likely that the computer program could successfully fool the questioner.
+
+In addition, a program such as ELIZA could pass the Turing Test by manipulating symbols it does not understand fully. John Searle argued that this does not determine intelligence comparable to humans.
+
+To many researchers, the question of whether or not a computer can pass a Turing Test has become irrelevant. Instead of focusing on how to convince someone they are conversing with a human and not a computer program, the real focus should be on how to make a human-machine interaction more intuitive and efficient. For example, by using a conversational interface.</p>
                         </div>
                         <!-- Link to toggle visibility -->
                         <a href="#" class="readMoreLink">Read More</a>
                     </div>
 
 
-                    <!-- 28. Topic -->
+                    <!-- 35. Unstructured data -->
                     <div class="card" id="dataScience">
-                        <h3>28. Topic</h3>
-                        <img class="toggleImg p-3 align-center" src="" alt="ai_infographic" height="500px" width="100%" style="display: none;">
+                        <h3>35. Unstructured data</h3>
+                        <img class="toggleImg p-3 align-center" src="https://www.expert.ai/wp-content/uploads/2020/10/StructuredVsUnstructuredData-300x234.jpg" alt="ai_infographic" height="500px" width="100%" style="display: none;">
     
                         <!-- Main content that is always shown -->
-                        <p id="shortContent" class="fw-bold">initial short</p>
+                        <p id="shortContent" class="fw-bold">Unstructured data is data that is undefined and difficult to search. This includes audio, photo, and video content. Most of the data in the world is unstructured.</p>
     
                         <!-- Additional content that will be shown upon clicking "Read More" -->
                         <div class="moreContent" style="display: none;">
                             <p>
-                            info
-                            <p class="fw-bold">What are the benefits of reinforcement learning?</p>
-                            content
+                            Unstructured data is every other type of data that is not structured. Approximately 80-90% of data is unstructured, meaning it has huge potential for competitive advantage if companies find ways to leverage it [1]. Unstructured data includes a variety of formats such as emails, images, video files, audio files, social media posts, PDFs, and much more.
+
+Unstructured data is typically stored in data lakes, NoSQL databases, data warehouses, and applications. Today, this information can be processed by artificial intelligence algorithms and delivers huge value for organizations.
+                            <p class="fw-bold">Examples of unstructured data</p>
+                            In the real world, unstructured data could be used for things like:
+
+Chatbots: Chatbots are programmed to perform text analysis to answer customer questions and provide the right information.
+
+Market predictions: Data can be maneuvered to predict changes in the stock market so that analysts can adjust their calculations and investment decisions.
                         </div>
                         <!-- Link to toggle visibility -->
                         <a href="#" class="readMoreLink">Read More</a>
                     </div>
 
-                    <!-- 28. Topic -->
+                    <!-- 36. Unsupervised learning -->
                     <div class="card" id="dataScience">
-                        <h3>28. Topic</h3>
-                        <img class="toggleImg p-3 align-center" src="" alt="ai_infographic" height="500px" width="100%" style="display: none;">
+                        <h3>36. Unsupervised learning</h3>
+                        <img class="toggleImg p-3 align-center" src="https://i.redd.it/tyjjqjswi5621.png" alt="ai_infographic" height="500px" width="100%" style="display: none;">
     
                         <!-- Main content that is always shown -->
-                        <p id="shortContent" class="fw-bold">initial short</p>
+                        <p id="shortContent" class="fw-bold">Unsupervised learning is a type of machine learning in which an algorithm is trained with unclassified and unlabeled data so that it acts without supervision.</p>
     
                         <!-- Additional content that will be shown upon clicking "Read More" -->
                         <div class="moreContent" style="display: none;">
                             <p>
-                            info
-                            <p class="fw-bold">What are the benefits of reinforcement learning?</p>
-                            content
+                            Unsupervised learning in artificial intelligence is a type of machine learning that learns from data without human supervision. Unlike supervised learning, unsupervised machine learning models are given unlabeled data and allowed to discover patterns and insights without any explicit guidance or instruction. 
+                            <p class="fw-bold">How does unsupervised learning work?</p>
+                            As the name suggests, unsupervised learning uses self-learning algorithms—they learn without any labels or prior training. Instead, the model is given raw, unlabeled data and has to infer its own rules and structure the information based on similarities, differences, and patterns without explicit instructions on how to work with each piece of data.
+
+Unsupervised learning algorithms are better suited for more complex processing tasks, such as organizing large datasets into clusters. They are useful for identifying previously undetected patterns in data and can help identify features useful for categorizing data. 
+
+Imagine that you have a large dataset about weather. An unsupervised learning algorithm will go through the data and identify patterns in the data points. For instance, it might group data by temperature or similar weather patterns. 
+
+While the algorithm itself does not understand these patterns based on any previous information you provided, you can then go through the data groupings and attempt to classify them based on your understanding of the dataset. For instance, you might recognize that the different temperature groups represent all four seasons or that the weather patterns are separated into different types of weather, such as rain, sleet, or snow. 
                         </div>
                         <!-- Link to toggle visibility -->
                         <a href="#" class="readMoreLink">Read More</a>
                     </div>
 
-                    <!-- 28. Topic -->
+                    <!-- 37. Voice recognition -->
                     <div class="card" id="dataScience">
-                        <h3>28. Topic</h3>
-                        <img class="toggleImg p-3 align-center" src="" alt="ai_infographic" height="500px" width="100%" style="display: none;">
+                        <h3>37. Voice recognition</h3>
+                        <img class="toggleImg p-3 align-center" src="https://img.freepik.com/premium-vector/voice-recognition-infographics_372769-1792.jpg" alt="ai_infographic" height="500px" width="100%" style="display: none;">
     
                         <!-- Main content that is always shown -->
-                        <p id="shortContent" class="fw-bold">initial short</p>
+                        <p id="shortContent" class="fw-bold">Voice recognition, also called speech recognition, is a method of human-computer interaction in which computers listen and interpret human dictation (speech) and produce written or spoken outputs.</p>
     
                         <!-- Additional content that will be shown upon clicking "Read More" -->
                         <div class="moreContent" style="display: none;">
                             <p>
-                            info
-                            <p class="fw-bold">What are the benefits of reinforcement learning?</p>
-                            content
+                            Voice recognition, otherwise known as speaker recognition, is a software program that has been trained to identify, decode, distinguish and authenticate the voice of a person based on their distinct voiceprint.
+                            <p class="fw-bold">How Does Voice Recognition Work?</p>
+                            Audio Input: The process begins with capturing the audio input using a microphone.
+
+Preprocessing: The audio signal is cleaned up by removing noise and normalizing the volume.
+
+Feature Extraction: The system analyzes the audio to extract key features such as pitch, tone, and frequency.
+
+Pattern Recognition: The extracted features are compared to known patterns of speech stored in a database.
+
+Language Processing: The recognized patterns are converted into text, and natural language processing (NLP) algorithms interpret the meaning.
                         </div>
                         <!-- Link to toggle visibility -->
                         <a href="#" class="readMoreLink">Read More</a>
