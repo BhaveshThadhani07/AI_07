@@ -2,6 +2,7 @@
 <nav class="navbar navbar-expand-lg navbar-light">
     <div class="container">
         <!-- Brand Name -->
+        <h6>Macro Vision Academy's</h6>
         <a class="navbar-brand fw-bold fs-1 mx-auto" href="../../index.php">AINexus</a>
     </div>
 
@@ -74,6 +75,23 @@
         /* Center the brand name */
         font-size: 2rem;
         /* Adjust font size as needed */
+    }
+    .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    }
+    .container a{
+    padding: 0;
+    }
+
+    .container h6{
+    /* font-weight: bold; */
+    color: black;
+    margin: 0;
+    padding: 0;
+    padding-top: 10px;
     }
 
     .form-inline {

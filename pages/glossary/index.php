@@ -33,49 +33,51 @@
                     <h2>AI Terms</h2>
                 </div>
                 <div class="main-content">
-    
-                    <!-- 01. AI -->
-                    <div class="card" id="artificialIntelligence">
-                        <h3>01. Artificial Intelligence</h3>
-                        <img src="https://fpf.org/wp-content/uploads/2020/12/AI-inforgraphic.jpg" alt="AI Infographic" class="toggleImg p-3 align-center" height="600px" width="100%" style="display: none;">
-                        <!-- Main content that is always shown -->
-                        <p id="shortContent" class="fw-bold">AI stands for artificial intelligence, which is the simulation of human intelligence processes by machines or computer systems. AI can mimic human capabilities such as communication, learning, and decision-making.</p>
-    
-                        <!-- Additional content that will be shown upon clicking "Read More" -->
-                        <div class="moreContent" style="display: none;">
-                            <p>Artificial intelligence is a field of science concerned with building computers and machines that can reason, learn, and act in such a way that would normally require human intelligence or that involves data whose scale exceeds what humans can analyze. <br>
-    
-                                AI is a broad field that encompasses many different disciplines, including computer science, data analytics and statistics, hardware and software engineering, linguistics, neuroscience, and even philosophy and psychology. <br>
-    
-                                On an operational level for business use, AI is a set of technologies that are based primarily on machine learning and deep learning, used for data analytics, predictions and forecasting, object categorization, natural language processing, recommendations, intelligent data retrieval, and more. <br>
-    
-                            <p class="fw-bold">How does AI work?</p>
-                            While the specifics vary across different AI techniques, the core principle revolves around data. AI systems learn and improve through exposure to vast amounts of data, identifying patterns and relationships that humans may miss. <br>
-    
-                            This learning process often involves algorithms, which are sets of rules or instructions that guide the AI's analysis and decision-making. In machine learning, a popular subset of AI, algorithms are trained on labeled or unlabeled data to make predictions or categorize information. <br>
-    
-                            Deep learning, a further specialization, utilizes artificial neural networks with multiple layers to process information, mimicking the structure and function of the human brain. Through continuous learning and adaptation, AI systems become increasingly adept at performing specific tasks, from recognizing images to translating languages and beyond. <br>
-    
-                            <p class="fw-bold">Types of artificial intelligence
-                                Artificial intelligence can be organized in several ways, depending on stages of development or actions being performed.</p>
-    
-                            For instance, four stages of AI development are commonly recognized. <br>
-    
-                            Reactive machines: Limited AI that only reacts to different kinds of stimuli based on preprogrammed rules. Does not use memory and thus cannot learn with new data. IBM’s Deep Blue that beat chess champion Garry Kasparov in 1997 was an example of a reactive machine. <br>
-                            Limited memory: Most modern AI is considered to be limited memory. It can use memory to improve over time by being trained with new data, typically through an artificial neural network or other training model. Deep learning, a subset of machine learning, is considered limited memory artificial intelligence. <br>
-                            Theory of mind: Theory of mind AI does not currently exist, but research is ongoing into its possibilities. It describes AI that can emulate the human mind and has decision-making capabilities equal to that of a human, including recognizing and remembering emotions and reacting in social situations as a human would. <br>
-                            Self aware: A step above theory of mind AI, self-aware AI describes a mythical machine that is aware of its own existence and has the intellectual and emotional capabilities of a human. Like theory of mind AI, self-aware AI does not currently exist. <br>
-                            A more useful way of broadly categorizing types of artificial intelligence is by what the machine can do. All of what we currently call artificial intelligence is considered artificial “narrow” intelligence, in that it can perform only narrow sets of actions based on its programming and training. For instance, an AI algorithm that is used for object classification won’t be able to perform natural language processing. Google Search is a form of narrow AI, as is predictive analytics, or virtual assistants. <br>
-    
-                            Artificial general intelligence (AGI) would be the ability for a machine to “sense, think, and act” just like a human. AGI does not currently exist. The next level would be artificial superintelligence (ASI), in which the machine would be able to function in all ways superior to a human. <br> </p>
+                    <ol>
+                        <!-- 01. AI -->
+                        <div class="card" id="artificialIntelligence">
+                            <h3><li>Artificial Intelligence</li></h3>
+                            <img src="https://fpf.org/wp-content/uploads/2020/12/AI-inforgraphic.jpg" alt="AI Infographic" class="toggleImg p-3 align-center" height="600px" width="100%" style="display: none;">
+                            <!-- Main content that is always shown -->
+                            <p id="shortContent" class="fw-bold">AI stands for artificial intelligence, which is the simulation of human intelligence processes by machines or computer systems. AI can mimic human capabilities such as communication, learning, and decision-making.</p>
+        
+                            <!-- Additional content that will be shown upon clicking "Read More" -->
+                            <div class="moreContent" style="display: none;">
+                                <p>Artificial intelligence is a field of science concerned with building computers and machines that can reason, learn, and act in such a way that would normally require human intelligence or that involves data whose scale exceeds what humans can analyze. <br>
+        
+                                    AI is a broad field that encompasses many different disciplines, including computer science, data analytics and statistics, hardware and software engineering, linguistics, neuroscience, and even philosophy and psychology. <br>
+        
+                                    On an operational level for business use, AI is a set of technologies that are based primarily on machine learning and deep learning, used for data analytics, predictions and forecasting, object categorization, natural language processing, recommendations, intelligent data retrieval, and more. <br>
+        
+                                <p class="fw-bold">How does AI work?</p>
+                                While the specifics vary across different AI techniques, the core principle revolves around data. AI systems learn and improve through exposure to vast amounts of data, identifying patterns and relationships that humans may miss. <br>
+        
+                                This learning process often involves algorithms, which are sets of rules or instructions that guide the AI's analysis and decision-making. In machine learning, a popular subset of AI, algorithms are trained on labeled or unlabeled data to make predictions or categorize information. <br>
+        
+                                Deep learning, a further specialization, utilizes artificial neural networks with multiple layers to process information, mimicking the structure and function of the human brain. Through continuous learning and adaptation, AI systems become increasingly adept at performing specific tasks, from recognizing images to translating languages and beyond. <br>
+        
+                                <p class="fw-bold">Types of artificial intelligence
+                                    Artificial intelligence can be organized in several ways, depending on stages of development or actions being performed.</p>
+        
+                                For instance, four stages of AI development are commonly recognized. <br>
+        
+                                Reactive machines: Limited AI that only reacts to different kinds of stimuli based on preprogrammed rules. Does not use memory and thus cannot learn with new data. IBM’s Deep Blue that beat chess champion Garry Kasparov in 1997 was an example of a reactive machine. <br>
+                                Limited memory: Most modern AI is considered to be limited memory. It can use memory to improve over time by being trained with new data, typically through an artificial neural network or other training model. Deep learning, a subset of machine learning, is considered limited memory artificial intelligence. <br>
+                                Theory of mind: Theory of mind AI does not currently exist, but research is ongoing into its possibilities. It describes AI that can emulate the human mind and has decision-making capabilities equal to that of a human, including recognizing and remembering emotions and reacting in social situations as a human would. <br>
+                                Self aware: A step above theory of mind AI, self-aware AI describes a mythical machine that is aware of its own existence and has the intellectual and emotional capabilities of a human. Like theory of mind AI, self-aware AI does not currently exist. <br>
+                                A more useful way of broadly categorizing types of artificial intelligence is by what the machine can do. All of what we currently call artificial intelligence is considered artificial “narrow” intelligence, in that it can perform only narrow sets of actions based on its programming and training. For instance, an AI algorithm that is used for object classification won’t be able to perform natural language processing. Google Search is a form of narrow AI, as is predictive analytics, or virtual assistants. <br>
+        
+                                Artificial general intelligence (AGI) would be the ability for a machine to “sense, think, and act” just like a human. AGI does not currently exist. The next level would be artificial superintelligence (ASI), in which the machine would be able to function in all ways superior to a human. <br> </p>
+                            </div>
+                            <!-- Link to toggle visibility -->
+                            <a href="#" class="readMoreLink">Read More</a>
                         </div>
-                        <!-- Link to toggle visibility -->
-                        <a href="#" class="readMoreLink">Read More</a>
-                    </div>
+
+                    
     
                     <!-- 02. AIEthics -->
                     <div class="card" id="aiEthics">
-                        <h3>02. AI Ethics</h3>
+                        <h3><li>AIEthics</li></h3>
                         <img class="toggleImg p-3 align-center" src="https://www.orientsoftware.com/Themes/Content/Images/blog/2022-04-14/ethics-in-ai-2.jpg" alt="ai_infographic" height="500px" width="100%" style="display: none;">
     
                         <!-- Main content that is always shown -->
@@ -121,7 +123,7 @@
     
                     <!-- 03. Algorithm -->
                     <div class="card" id="algorithm">
-                        <h3>03. Algorithm</h3>
+                    <h3><li>Algorithm</li></h3>
                         <img class="toggleImg p-3 align-center" src="https://www.techtarget.com/rms/onlineimages/types_of_algorithms-f_mobile.png" alt="ai_infographic" height="500px" width="100%" style="display: none;">
     
                         <!-- Main content that is always shown -->
@@ -224,7 +226,7 @@
 
                     <!-- 03. Activation Function -->
                     <div class="card" id="algorithm">
-                        <h3>03. Activation Function</h3>
+                        <h3><li>Activation Function</li></h3>
                         <img class="toggleImg p-3 align-center" src="https://media.geeksforgeeks.org/wp-content/cdn-uploads/33-1-1.png" alt="ai_infographic" height="500px" width="100%" style="display: none;">
     
                         <!-- Main content that is always shown -->
@@ -261,7 +263,7 @@
 
                     <!-- 03. Agent-Based Modeling -->
                     <div class="card" id="algorithm">
-                        <h3>03. Agent-Based Modeling</h3>
+                        <h3><li>Agent-Based Modeling</li></h3>
                         <img class="toggleImg p-3 align-center" src="https://www.collidu.com/media/catalog/product/img/6/7/673d750016b6d23684554bd9254aa0969b8e0a36f56a6a768cb07d4672275f70/agent-based-modeling-slide3.png" alt="ai_infographic" height="500px" width="100%" style="display: none;">
     
                         <!-- Main content that is always shown -->
@@ -291,7 +293,7 @@
 
                     <!-- 03. Attention Mechanism  -->
                     <div class="card" id="algorithm">
-                        <h3>03. Attention Mechanism </h3>
+                        <h3><li>Attention Mechanism</li></h3>
                         <img class="toggleImg p-3 align-center" src="https://techovedas.com/wp-content/uploads/2024/03/GBopIFaacAA__Ds.webp" alt="ai_infographic" height="500px" width="100%" style="display: none;">
     
                         <!-- Main content that is always shown -->
@@ -334,7 +336,7 @@
 
                     <!-- 03. Autoencoder -->
                     <div class="card" id="algorithm">
-                        <h3>03. Autoencoder</h3>
+                        <h3><li>Autoencoder</li></h3>
                         <img class="toggleImg p-3 align-center" src="https://media.geeksforgeeks.org/wp-content/cdn-uploads/33-1-1.png" alt="ai_infographic" height="500px" width="100%" style="display: none;">
     
                         <!-- Main content that is always shown -->
@@ -358,7 +360,7 @@
     
                     <!-- 04. API -->
                     <div class="card" id="api">
-                        <h3>04. API</h3>
+                        <h3><li>API</li></h3>
                         <img class="toggleImg p-3 align-center" src="https://aviowiki.com/wp-content/uploads/2022/01/API-Info-graphic.png" alt="ai_infographic" height="500px" width="100%" style="display: none;">
     
                         <!-- Main content that is always shown -->
@@ -418,7 +420,7 @@
     
                     <!-- 05. Backpropagation -->
                     <div class="card" id="bigData">
-                        <h3>05. Backpropagation</h3>
+                        <h3><li>Backpropogation</li></h3>
                         <img class="toggleImg p-3 align-center" src="https://serokell.io/files/a0/a05ov1m.Backpropagation_in_NN_pic1.jpg" alt="ai_infographic" height="500px" width="100%" style="display: none;">
     
                         <!-- Main content that is always shown -->
@@ -450,7 +452,7 @@
 
                     <!-- 05. Bayesian Network -->
                     <div class="card" id="bigData">
-                        <h3>05. Bayesian Network</h3>
+                        <h3><li>Bayesian Nework</li></h3>
                         <img class="toggleImg p-3 align-center" src="https://images.prismic.io/turing/659d7728531ac2845a2742b2_Applications_of_Bayesian_networks_in_AI_1_11zon_0d89bf7ece.webp?auto=format,compress" alt="ai_infographic" height="500px" width="100%" style="display: none;">
     
                         <!-- Main content that is always shown -->
@@ -486,7 +488,7 @@
 
                     <!-- 05. Big Data -->
                     <div class="card" id="bigData">
-                        <h3>05. Big Data</h3>
+                        <h3><li>Big Data</li></h3>
                         <img class="toggleImg p-3 align-center" src="https://i0.wp.com/www.techcheers.com/wp-content/uploads/2015/07/4-Vs-of-big-data.jpg" alt="ai_infographic" height="500px" width="100%" style="display: none;">
     
                         <!-- Main content that is always shown -->
@@ -526,7 +528,7 @@
 
                     <!-- 05. Bias Term -->
                     <div class="card" id="bigData">
-                        <h3>05. Bias Term</h3>
+                        <h3><li>Bias Term</li></h3>
                         <img class="toggleImg p-3 align-center" src="https://research.aimultiple.com/wp-content/uploads/2020/09/AI-bias-explained-612x311.jpeg.webp" alt="ai_infographic" height="500px" width="100%" style="display: none;">
     
                         <!-- Main content that is always shown -->
@@ -562,7 +564,7 @@
     
                     <!-- 06. Chatbot -->
                     <div class="card" id="chatbot">
-                        <h3>06. Chatbot</h3>
+                        <h3><li>Chatbot</li></h3>
                         <img class="toggleImg p-3 align-center" src="https://klizos.com/wp-content/uploads/image-1-3.png" alt="ai_infographic" height="500px" width="100%" style="display: none;">
     
                         <!-- Main content that is always shown -->
@@ -601,7 +603,7 @@
 
                     <!-- 06. Clustering -->
                     <div class="card" id="chatbot">
-                        <h3>06. Clustering</h3>
+                        <h3><li>Clustering</li></h3>
                         <img class="toggleImg p-3 align-center" src="https://miro.medium.com/v2/resize:fit:1093/1*Ae45JULGgghix4EtjApmMg.png" alt="ai_infographic" height="500px" width="100%" style="display: none;">
     
                         <!-- Main content that is always shown -->
@@ -633,8 +635,8 @@
                     </div>
 
                     <!-- 07. Convolutional Neural Network (CNN) -->
-                    <div class="card" id="cognitiveComputing">
-                        <h3>07. Convolutional Neural Network (CNN)</h3>
+                    <div class="card" id="cnn">
+                        <h3><li>Convolutional Neural Network (CNN)</li></h3>
                         <img class="toggleImg p-3 align-center" src="https://www.quantamagazine.org/wp-content/uploads/2021/06/CNN04.jpg" alt="ai_infographic" height="500px" width="100%" style="display: none;">
     
                         <!-- Main content that is always shown -->
@@ -680,7 +682,7 @@
     
                     <!-- 07. Cognitive computing -->
                     <div class="card" id="cognitiveComputing">
-                        <h3>07. Cognitive Computing</h3>
+                        <h3><li>Cognitive computing</li></h3>
                         <img class="toggleImg p-3 align-center" src="https://www.predictiveanalyticstoday.com/wp-content/uploads/2016/05/What-is-Cognitive-Computing-Top-10-Cognitive-Computing-Companies.png" alt="ai_infographic" height="500px" width="100%" style="display: none;">
     
                         <!-- Main content that is always shown -->
@@ -731,7 +733,7 @@
     
                     <!-- 08. Computer vision -->
                     <div class="card" id="computerVision">
-                        <h3>08. Computer vision</h3>
+                        <h3><li>Computer Vision</li></h3>
                         <img class="toggleImg p-3 align-center" src="https://cdn.prod.website-files.com/5d7b77b063a9066d83e1209c/60c12a6e084dab67d440a268_VuZKpISJC3C5ZjJ-jKPCFCDu5xiJJ595iCYtMGJguD6R6K5IDWBYm0tbMsBZwViACf73_AZrk9tAjVXemVNM-_ypZILqzf-7mRDS0x_4Nrr9DfIHv02-lD8qJCCNmWic4jaF63sO.png" alt="ai_infographic" height="500px" width="100%" style="display: none;">
     
                         <!-- Main content that is always shown -->
@@ -769,7 +771,7 @@
     
                     <!-- 09. Data mining -->
                     <div class="card" id="dataVision">
-                        <h3>09. Data Mining</h3>
+                        <h3><li>Data mining</li></h3>
                         <img class="toggleImg p-3 align-center" src="https://en.mdv.co.jp/ebm/wp-content/uploads/2022/08/column-17-01-1024x576.png" alt="ai_infographic" height="500px" width="100%" style="display: none;">
     
                         <!-- Main content that is always shown -->
@@ -815,7 +817,7 @@
 
                     <!-- 09. Data Augmentation -->
                     <div class="card" id="dataVision">
-                        <h3>09. Data Augmentation</h3>
+                        <h3><li>Data Augmentation</li></h3>
                         <img class="toggleImg p-3 align-center" src="https://research.aimultiple.com/wp-content/uploads/2021/04/data-augmentation-techniques.png" alt="ai_infographic" height="500px" width="100%" style="display: none;">
     
                         <!-- Main content that is always shown -->
@@ -854,7 +856,7 @@
     
                     <!-- 10. Data science -->
                     <div class="card" id="dataScience">
-                        <h3>10. Data Science</h3>
+                        <h3><li>Data Science</li></h3>
                         <img class="toggleImg p-3 align-center" src="https://cdn1.vectorstock.com/i/1000x1000/64/65/data-science-infographic-10-option-concept-vector-27906465.jpg" alt="ai_infographic" height="500px" width="100%" style="display: none;">
     
                         <!-- Main content that is always shown -->
@@ -928,7 +930,7 @@
     
                     <!-- 11. Deep Learning -->
                     <div class="card" id="dataScience">
-                        <h3>11. Deep Learning</h3>
+                        <h3><li>Deep Learning</li></h3>
                         <img class="toggleImg p-3 align-center" src="https://img.freepik.com/premium-vector/deep-learning-algorithm-neural-network-ai-machine-learning-icons-infographic-design-layout-template-creative-presentation-concept-with-5-steps_159242-17895.jpg" alt="ai_infographic" height="500px" width="100%" style="display: none;">
     
                         <!-- Main content that is always shown -->
@@ -941,7 +943,7 @@
     
                             The field of artificial intelligence (AI) and machine learning (ML) is rapidly evolving, generating both fear and excitement. While many people have a general understanding of ML and AI, deep learning is a special type of machine learning that can be more challenging to describe.
 
-You can learn more about deep learning systems and how to work with them in the following article, or start your journey with the popular course, Deep Learning Specialization from DeepLearning.AI.
+                            You can learn more about deep learning systems and how to work with them in the following article, or start your journey with the popular course, Deep Learning Specialization from DeepLearning.AI.
 
     
     
@@ -950,13 +952,13 @@ You can learn more about deep learning systems and how to work with them in the 
                             <p class="fw-bold">What is deep learning?</p>
                             Deep learning is a branch of machine learning that is made up of a neural network with three or more layers: <br>
 
-Input layer: Data enters through the input layer. <br>
+                            Input layer: Data enters through the input layer. <br>
 
-Hidden layers: Hidden layers process and transport data to other layers. <br>
+                            Hidden layers: Hidden layers process and transport data to other layers. <br>
 
-Output layer: The final result or prediction is made in the output layer.<br>
+                            Output layer: The final result or prediction is made in the output layer.<br>
 
-Neural networks attempt to model human learning by digesting and analyzing massive amounts of information, also known as training data. They perform a given task with that data repeatedly, improving in accuracy each time. It's similar to the way we study and practice to improve skills. <br>
+                            Neural networks attempt to model human learning by digesting and analyzing massive amounts of information, also known as training data. They perform a given task with that data repeatedly, improving in accuracy each time. It's similar to the way we study and practice to improve skills. <br>
     
                             <p class="fw-bold">Deep learning models</p>
     
@@ -967,20 +969,20 @@ Neural networks attempt to model human learning by digesting and analyzing massi
                             <p class="fw-bold">Examples of deep learning</p>
                             Deep learning is a subset of machine learning that is made up of a neural network with three or more layers. A neural network attempts to model the human brain's behavior by learning from large data sets. Deep learning drives many AI applications that improve the way systems and tools deliver services, such as voice-enabled technology and credit card fraud detection.
 
-Self-driving cars
-Autonomous vehicles are already on our roadways. Deep learning algorithms help determine whether there are other cars, debris, or humans around and react accordingly.
+                            Self-driving cars
+                            Autonomous vehicles are already on our roadways. Deep learning algorithms help determine whether there are other cars, debris, or humans around and react accordingly.
 
-Chatbots
-Deep learning chatbots designed to mimic human intelligence (like Chat-GPT) have gained recent popularity due to their ability to respond to natural-language questions quickly and often accurately. The deeper the data pool from which deep learning occurs, the more rapidly deep learning can produce the desired results.
+                            Chatbots
+                            Deep learning chatbots designed to mimic human intelligence (like Chat-GPT) have gained recent popularity due to their ability to respond to natural-language questions quickly and often accurately. The deeper the data pool from which deep learning occurs, the more rapidly deep learning can produce the desired results.
 
-Facial recognition
-Facial recognition plays an essential role in everything from tagging people on social media to crucial security measures. Deep learning allows algorithms to function accurately despite cosmetic changes such as hairstyles, beards, or poor lighting.
+                            Facial recognition
+                            Facial recognition plays an essential role in everything from tagging people on social media to crucial security measures. Deep learning allows algorithms to function accurately despite cosmetic changes such as hairstyles, beards, or poor lighting.
 
-Medical science
-The human genome consists of approximately three billion DNA base pairs of chromosomes. Machine learning is helping scientists and other medical professionals to create personalized medicines, and diagnose tumors, and is undergoing research and utilization for other pharmaceutical and medical purposes.
+                            Medical science
+                            The human genome consists of approximately three billion DNA base pairs of chromosomes. Machine learning is helping scientists and other medical professionals to create personalized medicines, and diagnose tumors, and is undergoing research and utilization for other pharmaceutical and medical purposes.
 
-Speech recognition
-Similar to facial recognition, deep learning uses millions of audio clips to learn and recognize speech. It can then power algorithms to understand what someone said and differentiate different tones, as well as detect a specific person's voice.
+                            Speech recognition
+                            Similar to facial recognition, deep learning uses millions of audio clips to learn and recognize speech. It can then power algorithms to understand what someone said and differentiate different tones, as well as detect a specific person's voice.
 
 
                             </p>
@@ -990,12 +992,69 @@ Similar to facial recognition, deep learning uses millions of audio clips to lea
                         <a href="#" class="readMoreLink">Read More</a>
                     </div>
 
+                    <!-- Early Stopping -->
+                    <div class="card" id="">
+                        <h3><li>Early Stopping</li></h3>
+                        <img class="toggleImg p-3 align-center" src="https://images.contentstack.io/v3/assets/bltb654d1b96a72ddc4/blt8a878304ad914fd8/672d446b20ed6c508fa50a47/SPC-Blog-What-is-Early-Stopping-in-Deep-Learning.jpg?format=webp" alt="early_stopping" height="500px" width="100%" style="display: none;">
 
+                        <!-- Main content that is always shown -->
+                        <p id="shortContent" class="fw-bold">Early stopping is a regularization technique used in training machine learning models to prevent overfitting. It halts training once the model’s performance on a validation set stops improving.</p>
 
+                        <!-- Additional content that will be shown upon clicking "Read More" -->
+                        <div class="moreContent" style="display: none;">
+                            <p>
+                            Early stopping is one of the most popular and effective techniques for improving model generalization in machine learning. During training, a model can start to memorize the training data, which leads to poor performance on new, unseen data—a phenomenon known as overfitting. Early stopping allows the training process to terminate before the model has overfitted, thus preserving its ability to generalize.
+                            </p>
+                            <p class="fw-bold">How Early Stopping Works</p>
+                            <p>
+                            Early stopping works by monitoring the performance of the model on a separate validation set during training. At each epoch (training cycle), the model's accuracy or loss on the validation data is calculated. If the model’s performance does not improve over a predetermined number of epochs, the training stops. This “patience” parameter controls how long the model can continue without improvement.
+                            </p>
+                            <p class="fw-bold">Benefits of Early Stopping</p>
+                            <ul>
+                                <li><strong>Prevents Overfitting</strong>: By stopping training early, the model avoids learning noise and irrelevant patterns in the training data.</li>
+                                <li><strong>Saves Computational Resources</strong>: Early stopping reduces the overall training time and computing cost by halting the process as soon as performance peaks.</li>
+                                <li><strong>Improves Model Generalization</strong>: Helps the model perform better on new data, as it doesn’t overfit to the training data.</li>
+                            </ul>
+                            <p class="fw-bold">Applications of Early Stopping</p>
+                            <p>
+                            Early stopping is widely used in deep learning for tasks such as image classification, natural language processing, and predictive modeling. It is particularly beneficial in complex models like deep neural networks where the risk of overfitting is high.
+                            </p>
+                        </div>
+                        <!-- Link to toggle visibility -->
+                        <a href="#" class="readMoreLink">Read More</a>
+                    </div>
+
+                    <!-- Embedding -->
+                    <div class="card" id="">
+                        <h3><li>Embedding</li></h3>
+                        <img class="toggleImg p-3 align-center" src="https://cdn.infodiagram.com/c/e1c702/embedding-ai-technologies.png" alt="embedding" height="500px" width="100%" style="display: none;">
+
+                        <!-- Main content that is always shown -->
+                        <p id="shortContent" class="fw-bold">An embedding is a learned representation of data in a lower-dimensional space, making it easier to analyze and process. It's commonly used in natural language processing (NLP) and recommendation systems.</p>
+
+                        <!-- Additional content that will be shown upon clicking "Read More" -->
+                        <div class="moreContent" style="display: none;">
+                            <p>
+                            Embedding is a technique used to convert categorical or high-dimensional data into a dense, continuous vector space. By mapping similar data points closer together in this lower-dimensional space, embeddings capture semantic relationships, such as word similarities in NLP.
+                            </p>
+                            <p class="fw-bold">Why Embeddings are Important</p>
+                            <p>
+                            Embeddings simplify data representation, making it possible for machine learning models to perform better on complex tasks like language understanding or item recommendation. They reduce computational resources and enhance model interpretability by capturing meaningful relationships within a lower-dimensional structure.
+                            </p>
+                            <p class="fw-bold">Applications of Embeddings</p>
+                            <ul>
+                                <li><strong>NLP</strong>: Representing words and phrases in vector form to capture linguistic relationships.</li>
+                                <li><strong>Recommendation Systems</strong>: Finding similarities between users and items for personalized recommendations.</li>
+                                <li><strong>Image Processing</strong>: Mapping visual features into vectors for tasks like image retrieval.</li>
+                            </ul>
+                        </div>
+                        <!-- Link to toggle visibility -->
+                        <a href="#" class="readMoreLink">Read More</a>
+                    </div>
 
                     <!-- 12. Emergent Behaviour -->
                     <div class="card" id="dataScience">
-                        <h3>12. Emergent Behavior</h3>
+                        <h3><li>Emergent Behaviour</li></h3>
                         <img class="toggleImg p-3 align-center" src="https://www.digital-adoption.com/wp-content/uploads/2023/12/Risks-of-Emergent-AI-1024x497.jpg" alt="ai_infographic" height="500px" width="100%" style="display: none;">
     
                         <!-- Main content that is always shown -->
@@ -1009,12 +1068,233 @@ Similar to facial recognition, deep learning uses millions of audio clips to lea
 
                             This phenomenon is significant in AI for many reasons. First, it pushes the boundaries of what AI can achieve, often leading to more efficient and adaptable systems.
 
-It’s like giving AI a mind of its own but within the confines of its programming. Emergent behaviors can lead to AI systems solving problems in ways that were not preconceived, which can be both exciting and a bit scary.
+                            It’s like giving AI a mind of its own but within the confines of its programming. Emergent behaviors can lead to AI systems solving problems in ways that were not preconceived, which can be both exciting and a bit scary.
 
-Secondly, understanding and harnessing this emergent behavior is necessary for advancing AI technology. It’s about learning from the unexpected and using it to enhance AI capabilities. This could mean more advanced robotic systems, smarter AI in video games, or even more effective data analysis tools.
+                            Secondly, understanding and harnessing this emergent behavior is necessary for advancing AI technology. It’s about learning from the unexpected and using it to enhance AI capabilities. This could mean more advanced robotic systems, smarter AI in video games, or even more effective data analysis tools.
 
-It’s not all smooth sailing, though. Emergent behavior can also pose challenges, especially in predicting and controlling AI systems. As AI becomes more integrated into important areas like healthcare, transportation, and security, we need to make sure that these emergent behaviors are understood and managed.
+                            It’s not all smooth sailing, though. Emergent behavior can also pose challenges, especially in predicting and controlling AI systems. As AI becomes more integrated into important areas like healthcare, transportation, and security, we need to make sure that these emergent behaviors are understood and managed.
     
+                        </div>
+                        <!-- Link to toggle visibility -->
+                        <a href="#" class="readMoreLink">Read More</a>
+                    </div>
+
+                    <!-- Encoder-Decoder Model -->
+                    <div class="card" id="">
+                        <h3><li>Encoder-Decoder Model</li></h3>
+                        <img class="toggleImg p-3 align-center" src="https://www.comet.com/site/wp-content/uploads/2023/07/Screen-Shot-2023-07-11-at-9.48.50-PM.png" alt="encoder_decoder" height="500px" width="100%" style="display: none;">
+
+                        <!-- Main content that is always shown -->
+                        <p id="shortContent" class="fw-bold">An encoder-decoder model is a neural network architecture used for sequence-to-sequence tasks, such as machine translation and summarization.</p>
+
+                        <!-- Additional content that will be shown upon clicking "Read More" -->
+                        <div class="moreContent" style="display: none;">
+                            <p>
+                            The encoder-decoder model is designed to handle input-output pairs of varying lengths, especially useful for tasks where sequences of words, sentences, or actions must be translated or processed. The encoder transforms the input into a latent space, while the decoder uses this information to generate the output sequence.
+                            </p>
+                            <p class="fw-bold">How Encoder-Decoder Models Work</p>
+                            <p>
+                            The encoder processes the input data into a fixed-size context vector. The decoder then uses this vector to predict the output sequence, one step at a time, making this approach ideal for tasks with sequential data.
+                            </p>
+                            <p class="fw-bold">Applications of Encoder-Decoder Models</p>
+                            <ul>
+                                <li><strong>Machine Translation</strong>: Converting text from one language to another.</li>
+                                <li><strong>Text Summarization</strong>: Condensing long texts into concise summaries.</li>
+                                <li><strong>Image Captioning</strong>: Generating descriptive captions for images.</li>
+                            </ul>
+                        </div>
+                        <!-- Link to toggle visibility -->
+                        <a href="#" class="readMoreLink">Read More</a>
+                    </div>
+
+                    <!-- Epoch -->
+                    <div class="card" id="">
+                        <h3><li>Epoch</li></h3>
+                        <img class="toggleImg p-3 align-center" src="https://media.geeksforgeeks.org/wp-content/uploads/20241024155237307614/epoch-in-machine-learning_.webp" alt="epoch" height="500px" width="100%" style="display: none;">
+
+                        <!-- Main content that is always shown -->
+                        <p id="shortContent" class="fw-bold">An epoch represents one complete pass through the entire training dataset during the training of a machine learning model.</p>
+
+                        <!-- Additional content that will be shown upon clicking "Read More" -->
+                        <div class="moreContent" style="display: none;">
+                            <p>
+                            In machine learning, an epoch is the unit of training where the model has processed the entire training dataset once. Each epoch allows the model to learn patterns and improve predictions based on the training data, progressively minimizing error.
+                            </p>
+                            <p class="fw-bold">Why Multiple Epochs are Used</p>
+                            <p>
+                            Repeating the dataset through multiple epochs helps the model learn better by gradually adjusting weights in response to data patterns. Too few epochs can lead to underfitting, while too many can cause overfitting.
+                            </p>
+                            <p class="fw-bold">Key Considerations with Epochs</p>
+                            <ul>
+                                <li><strong>Model Performance</strong>: More epochs usually result in higher accuracy until reaching a point of diminishing returns.</li>
+                                <li><strong>Training Time</strong>: More epochs mean more training time, which requires computational resources.</li>
+                            </ul>
+                        </div>
+                        <!-- Link to toggle visibility -->
+                        <a href="#" class="readMoreLink">Read More</a>
+                    </div>
+
+                    <!-- Exploding Gradient -->
+                    <div class="card" id="">
+                        <h3><li>Exploding Gradient</li></h3>
+                        <img class="toggleImg p-3 align-center" src="https://miro.medium.com/max/700/0*pq5wlxZW4zvD9iJH" alt="exploding_gradient" height="500px" width="100%" style="display: none;">
+
+                        <!-- Main content that is always shown -->
+                        <p id="shortContent" class="fw-bold">Exploding gradient is a deep learning issue where gradients grow too large during backpropagation, destabilizing model training.</p>
+
+                        <!-- Additional content that will be shown upon clicking "Read More" -->
+                        <div class="moreContent" style="display: none;">
+                            <p>
+                            The exploding gradient problem occurs when the gradients in a neural network become excessively large, leading to unstable updates to model parameters. This problem is common in deep networks, especially recurrent neural networks (RNNs), where long sequences increase the gradient magnitude significantly.
+                            </p>
+                            <p class="fw-bold">Why Exploding Gradients Occur</p>
+                            <p>
+                            As the model propagates errors backward, gradients are calculated for each layer. In very deep networks, these gradients can grow exponentially, causing extreme parameter updates and preventing the model from learning effectively.
+                            </p>
+                            <p class="fw-bold">Solutions to Exploding Gradients</p>
+                            <ul>
+                                <li><strong>Gradient Clipping</strong>: Restricting the maximum gradient value to control growth.</li>
+                                <li><strong>Weight Regularization</strong>: Adding penalties to discourage excessively large weights.</li>
+                            </ul>
+                        </div>
+                        <!-- Link to toggle visibility -->
+                        <a href="#" class="readMoreLink">Read More</a>
+                    </div>
+
+                    <!-- Exploration vs. Exploitation -->
+                    <div class="card" id="">
+                        <h3><li>Exploration vs. Exploitation</li></h3>
+                        <img class="toggleImg p-3 align-center" src="https://miro.medium.com/v2/resize:fit:1400/1*A3lcdoeusXJqU-0G84wdmQ.png" alt="exploration_exploitation" height="500px" width="100%" style="display: none;">
+
+                        <!-- Main content that is always shown -->
+                        <p id="shortContent" class="fw-bold">A trade-off in reinforcement learning between trying new actions (exploration) and using known actions for rewards (exploitation).</p>
+
+                        <!-- Additional content that will be shown upon clicking "Read More" -->
+                        <div class="moreContent" style="display: none;">
+                            <p>
+                            In reinforcement learning, the agent must decide between exploring new actions to discover more reward opportunities or exploiting known actions that already yield high rewards. This balance is essential for optimal decision-making in uncertain environments.
+                            </p>
+                            <p class="fw-bold">Why Exploration vs. Exploitation is Important</p>
+                            <p>
+                            Too much exploration can waste resources, while too much exploitation can lead to suboptimal long-term results. An ideal balance helps the agent learn effectively, maximizing its cumulative reward over time.
+                            </p>
+                            <p class="fw-bold">Strategies for Managing the Trade-Off</p>
+                            <ul>
+                                <li><strong>ε-Greedy</strong>: Exploring randomly with a small probability and exploiting the rest of the time.</li>
+                                <li><strong>Upper Confidence Bound (UCB)</strong>: Selecting actions based on a confidence interval that considers both exploration and exploitation.</li>
+                            </ul>
+                        </div>
+                        <!-- Link to toggle visibility -->
+                        <a href="#" class="readMoreLink">Read More</a>
+                    </div>
+
+                    <!-- F1 Score -->
+                    <div class="card" id="">
+                        <h3><li>F1 Score</li></h3>
+                        <img class="toggleImg p-3 align-center" src="https://www.sharpsightlabs.com/wp-content/uploads/2023/11/f1-score_simple-explanation.png" alt="f1_score" height="500px" width="100%" style="display: none;">
+
+                        <!-- Main content that is always shown -->
+                        <p id="shortContent" class="fw-bold">The F1 score is a metric that combines precision and recall, making it especially useful for evaluating models on imbalanced datasets.</p>
+
+                        <!-- Additional content that will be shown upon clicking "Read More" -->
+                        <div class="moreContent" style="display: none;">
+                            <p>
+                            The F1 score is the harmonic mean of precision and recall, balancing the two metrics to give a more comprehensive evaluation of model performance. It's particularly helpful when there's a class imbalance, ensuring the model performs well on both true positives and false positives.
+                            </p>
+                            <p class="fw-bold">How F1 Score is Calculated</p>
+                            <p>
+                            The formula for F1 score is: <code>F1 = 2 * (precision * recall) / (precision + recall)</code>. A higher F1 score indicates a better balance between precision and recall.
+                            </p>
+                            <p class="fw-bold">When to Use the F1 Score</p>
+                            <ul>
+                                <li><strong>Imbalanced Datasets</strong>: Where accuracy alone may be misleading.</li>
+                                <li><strong>Binary Classification</strong>: For evaluating how well the model handles positive and negative classes.</li>
+                            </ul>
+                        </div>
+                        <!-- Link to toggle visibility -->
+                        <a href="#" class="readMoreLink">Read More</a>
+                    </div>
+
+                    <!-- Feature Engineering -->
+                    <div class="card" id="">
+                        <h3><li>Feature Engineering</li></h3>
+                        <img class="toggleImg p-3 align-center" src="https://sofy.ai/wp-content/uploads/2024/06/Feature-Engineering-in-Machine-Learning.png" alt="feature_engineering" height="500px" width="100%" style="display: none;">
+
+                        <!-- Main content that is always shown -->
+                        <p id="shortContent" class="fw-bold">Feature engineering is the process of selecting and transforming variables to improve a machine learning model’s performance.</p>
+
+                        <!-- Additional content that will be shown upon clicking "Read More" -->
+                        <div class="moreContent" style="display: none;">
+                            <p>
+                            Feature engineering involves creating, modifying, or selecting the most relevant features (variables) for a model to use, helping it learn patterns more effectively. Effective feature engineering can significantly boost a model's accuracy and robustness.
+                            </p>
+                            <p class="fw-bold">Key Steps in Feature Engineering</p>
+                            <ul>
+                                <li><strong>Feature Selection</strong>: Identifying and removing irrelevant or redundant features.</li>
+                                <li><strong>Feature Transformation</strong>: Scaling, encoding, or decomposing features to make them more informative.</li>
+                            </ul>
+                            <p class="fw-bold">Examples of Feature Engineering</p>
+                            <ul>
+                                <li>Creating new features from existing ones, such as "age" from "birth year."</li>
+                                <li>Encoding categorical variables into numerical values for model compatibility.</li>
+                            </ul>
+                        </div>
+                        <!-- Link to toggle visibility -->
+                        <a href="#" class="readMoreLink">Read More</a>
+                    </div>
+
+                    <!-- GAN (Generative Adversarial Network) -->
+                    <div class="card" id="">
+                        <h3><li>GAN (Generative Adversarial Network)</li></h3>
+                        <img class="toggleImg p-3 align-center" src="https://www.shutterstock.com/image-vector/generative-adversarial-network-illustration-260nw-1649688995.jpg" alt="gan" height="500px" width="100%" style="display: none;">
+
+                        <!-- Main content that is always shown -->
+                        <p id="shortContent" class="fw-bold">A GAN is a network composed of a generator and a discriminator, working together to create realistic data samples.</p>
+
+                        <!-- Additional content that will be shown upon clicking "Read More" -->
+                        <div class="moreContent" style="display: none;">
+                            <p>
+                            Generative Adversarial Networks (GANs) are a class of machine learning models where two networks—a generator and a discriminator—compete in a game. The generator tries to create realistic data samples, while the discriminator tries to distinguish real samples from fake ones.
+                            </p>
+                            <p class="fw-bold">How GANs Work</p>
+                            <p>
+                            The generator learns to create increasingly realistic samples to fool the discriminator. The discriminator, in turn, improves at identifying fake samples, resulting in high-quality data generation over time.
+                            </p>
+                            <p class="fw-bold">Applications of GANs</p>
+                            <ul>
+                                <li><strong>Image Synthesis</strong>: Creating realistic images for art, game design, or virtual environments.</li>
+                                <li><strong>Data Augmentation</strong>: Generating additional training data to improve model performance.</li>
+                                <li><strong>Deepfake Creation</strong>: Crafting realistic media by altering images or videos.</
+                                </ul>
+                        </div>
+                        <!-- Link to toggle visibility -->
+                        <a href="#" class="readMoreLink">Read More</a>
+                    </div>
+
+                    <!-- Gradient Descent -->
+                    <div class="card" id="">
+                        <h3><li>Gradient Descent</li></h3>
+                        <img class="toggleImg p-3 align-center" src="https://media.licdn.com/dms/image/v2/D4E22AQEEjxfwLdc7VQ/feedshare-shrink_800/feedshare-shrink_800/0/1713251082465?e=2147483647&v=beta&t=GH3oODJUgDw3DGCDzwY0ouB-ZpzSB-pNod26fwXA6hY" alt="gradient_descent" height="500px" width="100%" style="display: none;">
+
+                        <!-- Main content that is always shown -->
+                        <p id="shortContent" class="fw-bold">Gradient Descent is an optimization algorithm used to minimize the loss function by iteratively adjusting weights in the model.</p>
+
+                        <!-- Additional content that will be shown upon clicking "Read More" -->
+                        <div class="moreContent" style="display: none;">
+                            <p>
+                            Gradient Descent works by calculating the gradient (slope) of the loss function with respect to each model parameter and moving in the direction that decreases the loss. This iterative process continues until the model converges to an optimal set of weights.
+                            </p>
+                            <p class="fw-bold">Types of Gradient Descent</p>
+                            <ul>
+                                <li><strong>Batch Gradient Descent</strong>: Uses the entire dataset for each step.</li>
+                                <li><strong>Stochastic Gradient Descent (SGD)</strong>: Updates weights for each individual sample, speeding up training.</li>
+                                <li><strong>Mini-batch Gradient Descent</strong>: Combines batch and stochastic methods for more stable convergence.</li>
+                            </ul>
+                            <p class="fw-bold">Applications</p>
+                            <ul>
+                                <li>Training neural networks and other machine learning models.</li>
+                                <li>Optimizing regression models and minimizing error.</li>
+                            </ul>
                         </div>
                         <!-- Link to toggle visibility -->
                         <a href="#" class="readMoreLink">Read More</a>
@@ -1022,7 +1302,7 @@ It’s not all smooth sailing, though. Emergent behavior can also pose challenge
 
                     <!-- 13. Generative AI -->
                     <div class="card" id="dataScience">
-                        <h3>13. Generative AI</h3>
+                        <h3><li>Generative AI</li></h3>
                         <img class="toggleImg p-3 align-center" src="https://ediscoverytoday.com/wp-content/uploads/2023/11/2023GenerativeAILegalUseCases.png" alt="ai_infographic" height="500px" width="100%" style="display: none;">
     
                         <!-- Main content that is always shown -->
@@ -1043,37 +1323,37 @@ It’s not all smooth sailing, though. Emergent behavior can also pose challenge
                             <p class="fw-bold">The rise of deep generative models</p>
                             Generative AI refers to deep-learning models that can take raw data — say, all of Wikipedia or the collected works of Rembrandt — and “learn” to generate statistically probable outputs when prompted. At a high level, generative models encode a simplified representation of their training data and draw from it to create a new work that’s similar, but not identical, to the original data.
 
-Generative models have been used for years in statistics to analyze numerical data. The rise of deep learning, however, made it possible to extend them to images, speech, and other complex data types. Among the first class of models to achieve this cross-over feat were variational autoencoders, or VAEs, introduced in 2013. VAEs were the first deep-learning models to be widely used for generating realistic images and speech.
+                            Generative models have been used for years in statistics to analyze numerical data. The rise of deep learning, however, made it possible to extend them to images, speech, and other complex data types. Among the first class of models to achieve this cross-over feat were variational autoencoders, or VAEs, introduced in 2013. VAEs were the first deep-learning models to be widely used for generating realistic images and speech.
 
-“VAEs opened the floodgates to deep generative modeling by making models easier to scale,” said Akash Srivastava, an expert on generative AI at the MIT-IBM Watson AI Lab. “Much of what we think of today as generative AI started here.”
+                            “VAEs opened the floodgates to deep generative modeling by making models easier to scale,” said Akash Srivastava, an expert on generative AI at the MIT-IBM Watson AI Lab. “Much of what we think of today as generative AI started here.”
 
-Autoencoders work by encoding unlabeled data into a compressed representation, and then decoding the data back into its original form. “Plain” autoencoders were used for a variety of purposes, including reconstructing corrupted or blurry images. Variational autoencoders added the critical ability to not just reconstruct data, but to output variations on the original data.
+                            Autoencoders work by encoding unlabeled data into a compressed representation, and then decoding the data back into its original form. “Plain” autoencoders were used for a variety of purposes, including reconstructing corrupted or blurry images. Variational autoencoders added the critical ability to not just reconstruct data, but to output variations on the original data.
 
-This ability to generate novel data ignited a rapid-fire succession of new technologies, from generative adversarial networks (GANs) to diffusion models, capable of producing ever more realistic — but fake — images. In this way, VAEs set the stage for today’s generative AI.
+                            This ability to generate novel data ignited a rapid-fire succession of new technologies, from generative adversarial networks (GANs) to diffusion models, capable of producing ever more realistic — but fake — images. In this way, VAEs set the stage for today’s generative AI.
 
-They are built out of blocks of encoders and decoders, an architecture that also underpins today’s large language models. Encoders compress a dataset into a dense representation, arranging similar data points closer together in an abstract space. Decoders sample from this space to create something new while preserving the dataset’s most important features.
+                            They are built out of blocks of encoders and decoders, an architecture that also underpins today’s large language models. Encoders compress a dataset into a dense representation, arranging similar data points closer together in an abstract space. Decoders sample from this space to create something new while preserving the dataset’s most important features.
 
-Transformers, introduced by Google in 2017 in a landmark paper “Attention Is All You Need,” combined the encoder-decoder architecture with a text-processing mechanism called attention to change how language models were trained. An encoder converts raw unannotated text into representations known as embeddings; the decoder takes these embeddings together with previous outputs of the model, and successively predicts each word in a sentence.
+                            Transformers, introduced by Google in 2017 in a landmark paper “Attention Is All You Need,” combined the encoder-decoder architecture with a text-processing mechanism called attention to change how language models were trained. An encoder converts raw unannotated text into representations known as embeddings; the decoder takes these embeddings together with previous outputs of the model, and successively predicts each word in a sentence.
 
-Through fill-in-the-blank guessing games, the encoder learns how words and sentences relate to each other, building up a powerful representation of language without anyone having to label parts of speech and other grammatical features. Transformers, in fact, can be pre-trained at the outset without a particular task in mind. Once these powerful representations are learned, the models can later be specialized — with much less data — to perform a given task.
+                            Through fill-in-the-blank guessing games, the encoder learns how words and sentences relate to each other, building up a powerful representation of language without anyone having to label parts of speech and other grammatical features. Transformers, in fact, can be pre-trained at the outset without a particular task in mind. Once these powerful representations are learned, the models can later be specialized — with much less data — to perform a given task.
 
-Several innovations made this possible. Transformers processed words in a sentence all at once, allowing text to be processed in parallel, speeding up training. Earlier techniques like recurrent neural networks (RNNs) and Long Short-Term Memory (LSTM) networks processed words one by one. Transformers also learned the positions of words and their relationships, context that allowed them to infer meaning and disambiguate words like “it” in long sentences.
+                            Several innovations made this possible. Transformers processed words in a sentence all at once, allowing text to be processed in parallel, speeding up training. Earlier techniques like recurrent neural networks (RNNs) and Long Short-Term Memory (LSTM) networks processed words one by one. Transformers also learned the positions of words and their relationships, context that allowed them to infer meaning and disambiguate words like “it” in long sentences.
 
-By eliminating the need to define a task upfront, transformers made it practical to pre-train language models on vast amounts of raw text, allowing them to grow dramatically in size. Previously, people gathered and labeled data to train one model on a specific task. With transformers, you could train one model on a massive amount of data and then adapt it to multiple tasks by fine-tuning it on a small amount of labeled task-specific data.
+                            By eliminating the need to define a task upfront, transformers made it practical to pre-train language models on vast amounts of raw text, allowing them to grow dramatically in size. Previously, people gathered and labeled data to train one model on a specific task. With transformers, you could train one model on a massive amount of data and then adapt it to multiple tasks by fine-tuning it on a small amount of labeled task-specific data.
 
-Transformers have come to be known as foundation models for their versatility. “If you wanted to improve a classifier, you used to have to feed it more labeled data,” said Srivastava. “Now, with foundation models, you can feed the model large amounts of unlabeled data to learn a representation that generalizes well to many tasks.”
+                            Transformers have come to be known as foundation models for their versatility. “If you wanted to improve a classifier, you used to have to feed it more labeled data,” said Srivastava. “Now, with foundation models, you can feed the model large amounts of unlabeled data to learn a representation that generalizes well to many tasks.”
 
-Language transformers today are used for non-generative tasks like classification and entity extraction as well as generative tasks like translation, summarization, and question answering. More recently, transformers have stunned the world with their capacity to generate convincing dialogue, essays, and other content.
+                            Language transformers today are used for non-generative tasks like classification and entity extraction as well as generative tasks like translation, summarization, and question answering. More recently, transformers have stunned the world with their capacity to generate convincing dialogue, essays, and other content.
 
-Language transformers fall into three main categories: encoder-only models, decoder-only models, and encoder-decoder models.
+                            Language transformers fall into three main categories: encoder-only models, decoder-only models, and encoder-decoder models.
 
-Encoder-only models like BERT power search engines and customer-service chatbots, including IBM’s Watson Assistant. Encoder-only models are widely used for non-generative tasks like classifying customer feedback and extracting information from long documents. In a project with NASA, IBM is building an encoder-only model to mine millions of earth-science journals for new knowledge.
+                            Encoder-only models like BERT power search engines and customer-service chatbots, including IBM’s Watson Assistant. Encoder-only models are widely used for non-generative tasks like classifying customer feedback and extracting information from long documents. In a project with NASA, IBM is building an encoder-only model to mine millions of earth-science journals for new knowledge.
 
-Decoder-only models like the GPT family of models are trained to predict the next word without an encoded representation. GPT-3, at 175 billion parameters, was the largest language model of its kind when OpenAI released it in 2020. Other massive models — Google’s PaLM (540 billion parameters) and open-access BLOOM (176 billion parameters), among others, have since joined the scene.
+                            Decoder-only models like the GPT family of models are trained to predict the next word without an encoded representation. GPT-3, at 175 billion parameters, was the largest language model of its kind when OpenAI released it in 2020. Other massive models — Google’s PaLM (540 billion parameters) and open-access BLOOM (176 billion parameters), among others, have since joined the scene.
 
-Encoder-decoder models, like Google’s Text-to-Text Transfer Transformer, or T5, combine features of both BERT and GPT-style models. They can do many of the generative tasks that decoder-only models can, but their compact size makes them faster and cheaper to tune and serve.
+                            Encoder-decoder models, like Google’s Text-to-Text Transfer Transformer, or T5, combine features of both BERT and GPT-style models. They can do many of the generative tasks that decoder-only models can, but their compact size makes them faster and cheaper to tune and serve.
 
-Generative AI and large language models have been progressing at a dizzying pace, with new models, architectures, and innovations appearing almost daily.
+                            Generative AI and large language models have been progressing at a dizzying pace, with new models, architectures, and innovations appearing almost daily.
 
     
             
@@ -1085,7 +1365,7 @@ Generative AI and large language models have been progressing at a dizzying pace
 
                     <!-- 14. Guardrails -->
                     <div class="card" id="dataScience">
-                        <h3>14. Guardrails</h3>
+                        <h3><li>Guardrails</li></h3>
                         <img class="toggleImg p-3 align-center" src="https://media.licdn.com/dms/image/v2/D4D12AQEowMU_fw0Jtw/article-cover_image-shrink_600_2000/article-cover_image-shrink_600_2000/0/1708006841675?e=2147483647&v=beta&t=LGAiZ_AB2hgGNYrRHsDgogjO92AA5dTOWlqxxee3s4M" alt="ai_infographic" height="500px" width="100%" style="display: none;">
     
                         <!-- Main content that is always shown -->
@@ -1134,7 +1414,7 @@ Generative AI and large language models have been progressing at a dizzying pace
 
                     <!-- 15. Hallucination -->
                     <div class="card" id="dataScience">
-                        <h3>15. Hallucination</h3>
+                        <h3><li>Hallucination</li></h3>
                         <img class="toggleImg p-3 align-center" src="https://www.aporia.com/wp-content/webp-express/webp-images/uploads/2024/02/image-32.png.webp" alt="ai_infographic" height="500px" width="100%" style="display: none;">
     
                         <!-- Main content that is always shown -->
@@ -1147,21 +1427,21 @@ Generative AI and large language models have been progressing at a dizzying pace
                             <p class="fw-bold">How do AI hallucinations occur?</p>
                             AI models are trained on data, and they learn to make predictions by finding patterns in the data. However, the accuracy of these predictions often depends on the quality and completeness of the training data. If the training data is incomplete, biased, or otherwise flawed, the AI model may learn incorrect patterns, leading to inaccurate predictions or hallucinations.
 
-For example, an AI model that is trained on a dataset of medical images may learn to identify cancer cells. However, if the dataset does not include any images of healthy tissue, the AI model may incorrectly predict that healthy tissue is cancerous. 
+                            For example, an AI model that is trained on a dataset of medical images may learn to identify cancer cells. However, if the dataset does not include any images of healthy tissue, the AI model may incorrectly predict that healthy tissue is cancerous. 
 
-Flawed training data is just one reason why AI hallucinations can occur. Another factor that may contribute is a lack of proper grounding. An AI model may struggle to accurately understand real-world knowledge, physical properties, or factual information. This lack of grounding can cause the model to generate outputs that, while seemingly plausible, are actually factually incorrect, irrelevant, or nonsensical. This can even extend to fabricating links to web pages that never existed.
+                            Flawed training data is just one reason why AI hallucinations can occur. Another factor that may contribute is a lack of proper grounding. An AI model may struggle to accurately understand real-world knowledge, physical properties, or factual information. This lack of grounding can cause the model to generate outputs that, while seemingly plausible, are actually factually incorrect, irrelevant, or nonsensical. This can even extend to fabricating links to web pages that never existed.
 
-An example of this would be an AI model designed to generate summaries of news articles may produce a summary that includes details not present in the original article, or even fabricates information entirely. 
+                            An example of this would be an AI model designed to generate summaries of news articles may produce a summary that includes details not present in the original article, or even fabricates information entirely. 
 
-Understanding these potential causes of AI hallucinations is important for developers working with AI models. By carefully considering the quality and completeness of training data, as well as ensuring proper grounding, developers may minimize the risk of AI hallucinations and ensure the accuracy and reliability of their models. <br>
+                            Understanding these potential causes of AI hallucinations is important for developers working with AI models. By carefully considering the quality and completeness of training data, as well as ensuring proper grounding, developers may minimize the risk of AI hallucinations and ensure the accuracy and reliability of their models. <br>
     
                             <p class="fw-bold">Examples of AI hallucinations</p>
     
                             AI hallucinations can take many different forms. Some common examples include:
 
-Incorrect predictions: An AI model may predict that an event will occur when it is unlikely to happen. For example, an AI model that is used to predict the weather may predict that it will rain tomorrow when there is no rain in the forecast.
-False positives: When working with an AI model, it may identify something as being a threat when it is not. For example, an AI model that is used to detect fraud may flag a transaction as fraudulent when it is not.
-False negatives: An AI model may fail to identify something as being a threat when it is. For example, an AI model that is used to detect cancer may fail to identify a cancerous tumor.
+                            Incorrect predictions: An AI model may predict that an event will occur when it is unlikely to happen. For example, an AI model that is used to predict the weather may predict that it will rain tomorrow when there is no rain in the forecast.
+                            False positives: When working with an AI model, it may identify something as being a threat when it is not. For example, an AI model that is used to detect fraud may flag a transaction as fraudulent when it is not.
+                            False negatives: An AI model may fail to identify something as being a threat when it is. For example, an AI model that is used to detect cancer may fail to identify a cancerous tumor.
                             </p>
     
                         </div>
@@ -1169,9 +1449,38 @@ False negatives: An AI model may fail to identify something as being a threat wh
                         <a href="#" class="readMoreLink">Read More</a>
                     </div>
 
+                    <!-- Hierarchical Clustering -->
+                    <div class="card" id="">
+                        <h3><li>Hierarchical Clustering</li></h3>
+                        <img class="toggleImg p-3 align-center" src="https://images.datacamp.com/image/upload/v1674149823/Dendrogram_of_Divisive_Clustering_Approach_8623354c7b.png" alt="hierarchical_clustering" height="500px" width="100%" style="display: none;">
+
+                        <!-- Main content that is always shown -->
+                        <p id="shortContent" class="fw-bold">Hierarchical Clustering is a clustering technique that groups data in a tree-like structure based on similarities.</p>
+
+                        <!-- Additional content that will be shown upon clicking "Read More" -->
+                        <div class="moreContent" style="display: none;">
+                            <p>
+                            In Hierarchical Clustering, data points are successively merged (agglomerative) or split (divisive) to form a hierarchy or tree-like structure called a dendrogram. This method is especially useful for understanding data relationships.
+                            </p>
+                            <p class="fw-bold">Types of Hierarchical Clustering</p>
+                            <ul>
+                                <li><strong>Agglomerative</strong>: Starts with each data point as an individual cluster and merges them step by step.</li>
+                                <li><strong>Divisive</strong>: Begins with all data points in a single cluster, splitting them iteratively.</li>
+                            </ul>
+                            <p class="fw-bold">Applications</p>
+                            <ul>
+                                <li>Organizing data in taxonomies, such as biological classifications.</li>
+                                <li>Customer segmentation and market research.</li>
+                            </ul>
+                        </div>
+                        <!-- Link to toggle visibility -->
+                        <a href="#" class="readMoreLink">Read More</a>
+                    </div>
+
+
                     <!-- 16. Hyperparameter -->
                     <div class="card" id="dataScience">
-                        <h3>16. Hyperparameter</h3>
+                        <h3><li>Hyperparameter</li></h3>
                         <img class="toggleImg p-3 align-center" src="https://cdn.labellerr.com/ML%20Process/Everything%20you%20need%20to%20know%20about%20AI%20Model%20Training/Hyperparameter%20Tuning.webp" alt="ai_infographic" height="500px" width="100%" style="display: none;">
     
                         <!-- Main content that is always shown -->
@@ -1202,10 +1511,66 @@ False negatives: An AI model may fail to identify something as being a threat wh
                         <a href="#" class="readMoreLink">Read More</a>
                     </div>
 
+                    <!-- Hyperparameter Tuning -->
+                    <div class="card" id="">
+                        <h3><li>Hyperparameter Tuning</li></h3>
+                        <img class="toggleImg p-3 align-center" src="https://d3lkc3n5th01x7.cloudfront.net/wp-content/uploads/2024/01/10235944/What-is-hyperparameter-tuning.png" alt="hyperparameter_tuning" height="500px" width="100%" style="display: none;">
+
+                        <!-- Main content that is always shown -->
+                        <p id="shortContent" class="fw-bold">Hyperparameter Tuning is the process of selecting optimal hyperparameters to improve model performance.</p>
+
+                        <!-- Additional content that will be shown upon clicking "Read More" -->
+                        <div class="moreContent" style="display: none;">
+                            <p>
+                            Hyperparameters are the configuration settings that control the learning process, such as learning rate, batch size, and regularization parameters. Tuning these parameters helps achieve the best possible performance for a given model.
+                            </p>
+                            <p class="fw-bold">Common Hyperparameter Tuning Methods</p>
+                            <ul>
+                                <li><strong>Grid Search</strong>: Exhaustively searching over a specified parameter grid.</li>
+                                <li><strong>Random Search</strong>: Randomly sampling parameter values within specified ranges.</li>
+                                <li><strong>Bayesian Optimization</strong>: Using probabilistic models to guide the search.</li>
+                            </ul>
+                            <p class="fw-bold">Applications</p>
+                            <ul>
+                                <li>Improving accuracy and stability of machine learning models.</li>
+                                <li>Optimizing deep learning architectures for specific tasks.</li>
+                            </ul>
+                        </div>
+                        <!-- Link to toggle visibility -->
+                        <a href="#" class="readMoreLink">Read More</a>
+                    </div>
+
+                    <!-- Instance Segmentation -->
+                    <div class="card" id="">
+                        <h3><li>Instance Segmentation</li></h3>
+                        <img class="toggleImg p-3 align-center" src="https://framerusercontent.com/images/YumWmAYZeguGhURTsoF2t8nvqA.png" alt="instance_segmentation" height="500px" width="100%" style="display: none;">
+
+                        <!-- Main content that is always shown -->
+                        <p id="shortContent" class="fw-bold">Instance Segmentation is a technique in computer vision that classifies each pixel of an image into object instances.</p>
+
+                        <!-- Additional content that will be shown upon clicking "Read More" -->
+                        <div class="moreContent" style="display: none;">
+                            <p>
+                            Instance segmentation not only identifies the object class but also distinguishes each instance within that class. For example, in an image with multiple cars, it will segment each car individually rather than marking all pixels as “car.”
+                            </p>
+                            <p class="fw-bold">How Instance Segmentation Works</p>
+                            <p>
+                            This method combines object detection (localizing objects) and semantic segmentation (classifying pixels) to provide a detailed understanding of each object instance in an image.
+                            </p>
+                            <p class="fw-bold">Applications</p>
+                            <ul>
+                                <li>Autonomous driving, for detecting and separating objects like pedestrians and vehicles.</li>
+                                <li>Medical imaging, for isolating and analyzing individual cells or lesions.</li>
+                            </ul>
+                        </div>
+                        <!-- Link to toggle visibility -->
+                        <a href="#" class="readMoreLink">Read More</a>
+                    </div>
+
 
                     <!-- 17. Image recognition -->
                     <div class="card" id="dataScience">
-                        <h3>17. Image recognition</h3>
+                        <h3><li>Image Recognition</li></h3>
                         <img class="toggleImg p-3 align-center" src="https://azati.ai/wp-content/uploads/2020/04/object-detection-800x400-1.jpg" alt="ai_infographic" height="500px" width="100%" style="display: none;">
     
                         <!-- Main content that is always shown -->
@@ -1236,10 +1601,37 @@ False negatives: An AI model may fail to identify something as being a threat wh
                         <a href="#" class="readMoreLink">Read More</a>
                     </div>
 
+                    <!-- k-Nearest Neighbors (k-NN) -->
+                    <div class="card" id="">
+                        <h3><li>k-Nearest Neighbors (k-NN)</li></h3>
+                        <img class="toggleImg p-3 align-center" src="https://images.javatpoint.com/tutorial/machine-learning/images/k-nearest-neighbor-algorithm-for-machine-learning2.png" alt="k_nearest_neighbors" height="500px" width="100%" style="display: none;">
+
+                        <!-- Main content that is always shown -->
+                        <p id="shortContent" class="fw-bold">k-Nearest Neighbors (k-NN) is a simple algorithm that classifies data based on the majority class of its nearest neighbors.</p>
+
+                        <!-- Additional content that will be shown upon clicking "Read More" -->
+                        <div class="moreContent" style="display: none;">
+                            <p>
+                            The k-NN algorithm finds the 'k' closest data points to a new point and assigns it the most common label among those neighbors. It’s a non-parametric, instance-based learning technique often used for classification and regression tasks.
+                            </p>
+                            <p class="fw-bold">How k-NN Works</p>
+                            <p>
+                            For each new data point, k-NN calculates the distance to all other data points, selects the closest 'k' points, and assigns the label based on majority voting.
+                            </p>
+                            <p class="fw-bold">Applications</p>
+                            <ul>
+                                <li>Image recognition, for comparing pixel patterns.</li>
+                                <li>Recommendation systems, for finding similar users or products.</li>
+                                <li>Medical diagnosis, for classifying patients based on similar cases.</li>
+                            </ul>
+                        </div>
+                        <!-- Link to toggle visibility -->
+                        <a href="#" class="readMoreLink">Read More</a>
+                    </div>
 
                     <!-- 18. Large language model -->
                     <div class="card" id="dataScience">
-                        <h3>18. Large language model</h3>
+                        <h3><li>Large Language Model</li></h3>
                         <img class="toggleImg p-3 align-center" src="https://pbs.twimg.com/media/GM9UJKOXIAAMINO.jpg:large" alt="ai_infographic" height="500px" width="100%" style="display: none;">
     
                         <!-- Main content that is always shown -->
@@ -1272,10 +1664,65 @@ False negatives: An AI model may fail to identify something as being a threat wh
                         <a href="#" class="readMoreLink">Read More</a>
                     </div>
 
+                    <!-- Latent Variable -->
+                    <div class="card" id="">
+                        <h3><li>Latent Variable</li></h3>
+                        <img class="toggleImg p-3 align-center" src="https://www.fastercapital.com/i/Latent-Variables--Uncovering-the-Unseen--Latent-Variables-in-Factor-Analysis--Future-Directions-in-Latent-Variable-Research.webp" alt="latent_variable" height="500px" width="100%" style="display: none;">
+
+                        <!-- Main content that is always shown -->
+                        <p id="shortContent" class="fw-bold">Latent Variable is a hidden or unobserved variable inferred from observed data, often used in probabilistic models.</p>
+
+                        <!-- Additional content that will be shown upon clicking "Read More" -->
+                        <div class="moreContent" style="display: none;">
+                            <p>
+                            Latent variables are variables that are not directly observed but are inferred from other variables that are observed. They are commonly used in probabilistic and statistical models, such as factor analysis and Bayesian networks.
+                            </p>
+                            <p class="fw-bold">Uses of Latent Variables</p>
+                            <ul>
+                                <li>In psychometrics to measure underlying traits like intelligence or personality.</li>
+                                <li>In machine learning for dimensionality reduction and feature extraction.</li>
+                            </ul>
+                            <p class="fw-bold">Applications</p>
+                            <ul>
+                                <li>Used in models like Latent Dirichlet Allocation (LDA) for topic modeling.</li>
+                                <li>Helps in understanding underlying structures in data, such as clustering in unsupervised learning.</li>
+                            </ul>
+                        </div>
+                        <!-- Link to toggle visibility -->
+                        <a href="#" class="readMoreLink">Read More</a>
+                    </div>
+
+                    <!-- Logistic Regression -->
+                    <div class="card" id="">
+                        <h3><li>Logistic Regression</li></h3>
+                        <img class="toggleImg p-3 align-center" src="https://www.edushots.com/upload/infographics-images/original/logistic.png" alt="logistic_regression" height="500px" width="100%" style="display: none;">
+
+                        <!-- Main content that is always shown -->
+                        <p id="shortContent" class="fw-bold">Logistic Regression is a regression model used for binary classification tasks.</p>
+
+                        <!-- Additional content that will be shown upon clicking "Read More" -->
+                        <div class="moreContent" style="display: none;">
+                            <p>
+                            Logistic regression is a statistical model that uses a logistic function to model a binary dependent variable. Instead of predicting a continuous value, it outputs probabilities that can be thresholded to predict binary outcomes.
+                            </p>
+                            <p class="fw-bold">How Logistic Regression Works</p>
+                            <p>
+                            Logistic regression calculates the odds of a particular class and applies the sigmoid function to convert the result into a probability between 0 and 1.
+                            </p>
+                            <p class="fw-bold">Applications</p>
+                            <ul>
+                                <li>Spam detection in emails, by classifying messages as spam or not spam.</li>
+                                <li>Medical diagnosis, such as predicting the presence or absence of a disease.</li>
+                                <li>Customer churn prediction in business, identifying customers likely to leave.</li>
+                            </ul>
+                        </div>
+                        <!-- Link to toggle visibility -->
+                        <a href="#" class="readMoreLink">Read More</a>
+                    </div>
 
                     <!-- 19. Machine learning -->
                     <div class="card" id="dataScience">
-                        <h3>19. Machine learning</h3>
+                        <h3><li>Machine Learning</li></h3>
                         <img class="toggleImg p-3 align-center" src="https://pbs.twimg.com/media/CLyZCTBW8AA2qsV.jpg" alt="ai_infographic" height="500px" width="100%" style="display: none;">
     
                         <!-- Main content that is always shown -->
@@ -1286,31 +1733,62 @@ False negatives: An AI model may fail to identify something as being a threat wh
                             <p>
                             Machine learning is one of the most trendy fields in technology today. It fuels the technology behind Netflix recommendations and the speech-to-text recognition on your smartphone. A mix of math, computer science, and coding, a career in machine learning requires extensive education and training to land a job as an engineer.
 
-So, is machine learning hard to learn? You'll need to learn programming languages like Python, practice using and modifying algorithms, and keeping up with trends in AI. There are plenty of educational resources online, such as courses and specializations, to gain the skills and experience you need for a career in machine learning.
+                            So, is machine learning hard to learn? You'll need to learn programming languages like Python, practice using and modifying algorithms, and keeping up with trends in AI. There are plenty of educational resources online, such as courses and specializations, to gain the skills and experience you need for a career in machine learning.
 
-Use this guide to decide if machine learning is right for you and if it's "hard" to learn. We'll help you map out your career path in machine learning.
+                            Use this guide to decide if machine learning is right for you and if it's "hard" to learn. We'll help you map out your career path in machine learning.
 
 
                             <p class="fw-bold">What is machine learning?</p>
                             Machine learning is a branch of artificial intelligence that imitates how humans learn. It is also a division of computer science that uses algorithms and data to adjust its actions as it gathers more information.
 
-Machine learning is used in many applications we use daily. Voice-to-text technology, which iPhones and Androids use, is created with machine learning—specifically deep learning—because it analyzes speech and translates to text based on the software’s established knowledge of how audio can be interpreted as language.
+                            Machine learning is used in many applications we use daily. Voice-to-text technology, which iPhones and Androids use, is created with machine learning—specifically deep learning—because it analyzes speech and translates to text based on the software’s established knowledge of how audio can be interpreted as language.
 
                             <p class="fw-bold">The importance of machine learning</p>
     
                             Machine learning can automate simple tasks, such as data entry or compiling contact information lists into a particular format. It can also make significant technological changes, such as dynamic pricing for event tickets or public transportation delay alerts. The following explains in more detail the benefits and advantages of machine learning.
 
-Automating manual tasks: Machine learning programs aim to automate tasks and draw conclusions from data sets more quickly than humans could by manually analyzing it. It also saves us a lot of time.
+                            Automating manual tasks: Machine learning programs aim to automate tasks and draw conclusions from data sets more quickly than humans could by manually analyzing it. It also saves us a lot of time.
 
-Spotting trends and patterns: Machine learning detects patterns in data and recommends actions based on those patterns. Netflix's algorithm spots patterns in your TV watching to recommend shows that you will like based on your preferences.
+                            Spotting trends and patterns: Machine learning detects patterns in data and recommends actions based on those patterns. Netflix's algorithm spots patterns in your TV watching to recommend shows that you will like based on your preferences.
 
-Range of applications: From "smart homes" to self-driving cars, machine learning informs many recent groundbreaking innovations in technology.
+                            Range of applications: From "smart homes" to self-driving cars, machine learning informs many recent groundbreaking innovations in technology.
 
-Constant improvement: Careful attention to an algorithm and the data sets fed into it, as well as the use of programming languages such as Python, can identify areas of improvement for a machine learning application to offer quality assurance. Adjusting an algorithm as often as possible helps uphold AI ethics to establish avoidable bias.
+                            Constant improvement: Careful attention to an algorithm and the data sets fed into it, as well as the use of programming languages such as Python, can identify areas of improvement for a machine learning application to offer quality assurance. Adjusting an algorithm as often as possible helps uphold AI ethics to establish avoidable bias.
 
-Rapid handling of multi-dimensional data: Machine learning applications allow us to analyze data and draw conclusions at a faster pace and a higher level of sophistication than humans can do on their own. For example, banks use AI to detect money laundering or fraud. To achieve this without machines would require too many employees, who would likely miss a significant amount of illicit activity.
+                            Rapid handling of multi-dimensional data: Machine learning applications allow us to analyze data and draw conclusions at a faster pace and a higher level of sophistication than humans can do on their own. For example, banks use AI to detect money laundering or fraud. To achieve this without machines would require too many employees, who would likely miss a significant amount of illicit activity.
                             </p>
     
+                        </div>
+                        <!-- Link to toggle visibility -->
+                        <a href="#" class="readMoreLink">Read More</a>
+                    </div>
+
+                    <!-- Markov Decision Process (MDP) -->
+                    <div class="card" id="">
+                        <h3><li>Markov Decision Process (MDP)</li></h3>
+                        <img class="toggleImg p-3 align-center" src="https://www.slideteam.net/media/catalog/product/cache/1280x720/m/a/markov_decision_process_with_business_cases_unlocking_ai_potential_ppt_example_ai_ss_v_slide01.jpg" alt="markov_decision_process" height="500px" width="100%" style="display: none;">
+
+                        <!-- Main content that is always shown -->
+                        <p id="shortContent" class="fw-bold">Markov Decision Process (MDP) is a framework for modeling decision-making in reinforcement learning.</p>
+
+                        <!-- Additional content that will be shown upon clicking "Read More" -->
+                        <div class="moreContent" style="display: none;">
+                            <p>
+                            An MDP provides a mathematical framework for modeling environments in reinforcement learning. It consists of states, actions, rewards, and transition probabilities, and it assumes that future states depend only on the current state and action, following the Markov property.
+                            </p>
+                            <p class="fw-bold">Components of an MDP</p>
+                            <ul>
+                                <li><strong>States (S)</strong>: The possible situations the agent can be in.</li>
+                                <li><strong>Actions (A)</strong>: Choices available to the agent in each state.</li>
+                                <li><strong>Rewards (R)</strong>: Immediate returns received after taking actions.</li>
+                                <li><strong>Transition probabilities (P)</strong>: Probabilities of moving between states.</li>
+                            </ul>
+                            <p class="fw-bold">Applications</p>
+                            <ul>
+                                <li>Used in robotics for path planning and decision-making.</li>
+                                <li>Helps in game theory to model environments in video games and AI strategies.</li>
+                                <li>Applied in operations research for optimizing business processes and resource allocation.</li>
+                            </ul>
                         </div>
                         <!-- Link to toggle visibility -->
                         <a href="#" class="readMoreLink">Read More</a>
@@ -1319,7 +1797,7 @@ Rapid handling of multi-dimensional data: Machine learning applications allow us
 
                     <!-- 20. Natural language processing -->
                     <div class="card" id="dataScience">
-                        <h3>20. Natural language processing</h3>
+                        <h3><li>Natural language processing</li></h3>
                         <img class="toggleImg p-3 align-center" src="https://f5b623aa.rocketcdn.me/wp-content/uploads/2022/10/How-NLP-Works-760px.jpg" alt="ai_infographic" height="500px" width="100%" style="display: none;">
     
                         <!-- Main content that is always shown -->
@@ -1346,9 +1824,9 @@ Rapid handling of multi-dimensional data: Machine learning applications allow us
                     </div>
 
 
-                    <!-- 21. Neural network -->
+                    <!-- Neural network -->
                     <div class="card" id="dataScience">
-                        <h3>21. Neural network</h3>
+                        <h3><li>Neural Network</li></h3>
                         <img class="toggleImg p-3 align-center" src="https://www.shutterstock.com/image-vector/ai-infographic-template-artificial-intelligence-260nw-2415784423.jpg" alt="ai_infographic" height="500px" width="100%" style="display: none;">
     
                         <!-- Main content that is always shown -->
@@ -1361,37 +1839,37 @@ Rapid handling of multi-dimensional data: Machine learning applications allow us
                             <p class="fw-bold">What are neural networks used for?</p>
                             Neural networks have several use cases across many industries, such as the following:
 
-Medical diagnosis by medical image classification
-Targeted marketing by social network filtering and behavioral data analysis
-Financial predictions by processing historical data of financial instruments
-Electrical load and energy demand forecasting
-Process and quality control
-Chemical compound identification
-We give four of the important applications of neural networks below.
+                            Medical diagnosis by medical image classification
+                            Targeted marketing by social network filtering and behavioral data analysis
+                            Financial predictions by processing historical data of financial instruments
+                            Electrical load and energy demand forecasting
+                            Process and quality control
+                            Chemical compound identification
+                            We give four of the important applications of neural networks below.
 
-Computer vision
-Computer vision is the ability of computers to extract information and insights from images and videos. With neural networks, computers can distinguish and recognize images similar to humans. Computer vision has several applications, such as the following:
+                            Computer vision
+                            Computer vision is the ability of computers to extract information and insights from images and videos. With neural networks, computers can distinguish and recognize images similar to humans. Computer vision has several applications, such as the following:
 
-Visual recognition in self-driving cars so they can recognize road signs and other road users
-Content moderation to automatically remove unsafe or inappropriate content from image and video archives
-Facial recognition to identify faces and recognize attributes like open eyes, glasses, and facial hair
-Image labeling to identify brand logos, clothing, safety gear, and other image details
-Speech recognition
-Neural networks can analyze human speech despite varying speech patterns, pitch, tone, language, and accent. Virtual assistants like Amazon Alexa and automatic transcription software use speech recognition to do tasks like these:
+                            Visual recognition in self-driving cars so they can recognize road signs and other road users
+                            Content moderation to automatically remove unsafe or inappropriate content from image and video archives
+                            Facial recognition to identify faces and recognize attributes like open eyes, glasses, and facial hair
+                            Image labeling to identify brand logos, clothing, safety gear, and other image details
+                            Speech recognition
+                            Neural networks can analyze human speech despite varying speech patterns, pitch, tone, language, and accent. Virtual assistants like Amazon Alexa and automatic transcription software use speech recognition to do tasks like these:
 
-Assist call center agents and automatically classify calls
-Convert clinical conversations into documentation in real time
-Accurately subtitle videos and meeting recordings for wider content reach
-Natural language processing
-Natural language processing (NLP) is the ability to process natural, human-created text. Neural networks help computers gather insights and meaning from text data and documents. NLP has several use cases, including in these functions:
+                            Assist call center agents and automatically classify calls
+                            Convert clinical conversations into documentation in real time
+                            Accurately subtitle videos and meeting recordings for wider content reach
+                            Natural language processing
+                            Natural language processing (NLP) is the ability to process natural, human-created text. Neural networks help computers gather insights and meaning from text data and documents. NLP has several use cases, including in these functions:
 
-Automated virtual agents and chatbots
-Automatic organization and classification of written data
-Business intelligence analysis of long-form documents like emails and forms
-Indexing of key phrases that indicate sentiment, like positive and negative comments on social media
-Document summarization and article generation for a given topic
-Recommendation engines
-Neural networks can track user activity to develop personalized recommendations. They can also analyze all user behavior and discover new products or services that interest a specific user. For example, Curalate, a Philadelphia-based startup, helps brands convert social media posts into sales. Brands use Curalate’s intelligent product tagging (IPT) service to automate the collection and curation of user-generated social content. IPT uses neural networks to automatically find and recommend products relevant to the user’s social media activity. Consumers don't have to hunt through online catalogs to find a specific product from a social media image. Instead, they can use Curalate’s auto product tagging to purchase the product with ease.
+                            Automated virtual agents and chatbots
+                            Automatic organization and classification of written data
+                            Business intelligence analysis of long-form documents like emails and forms
+                            Indexing of key phrases that indicate sentiment, like positive and negative comments on social media
+                            Document summarization and article generation for a given topic
+                            Recommendation engines
+                            Neural networks can track user activity to develop personalized recommendations. They can also analyze all user behavior and discover new products or services that interest a specific user. For example, Curalate, a Philadelphia-based startup, helps brands convert social media posts into sales. Brands use Curalate’s intelligent product tagging (IPT) service to automate the collection and curation of user-generated social content. IPT uses neural networks to automatically find and recommend products relevant to the user’s social media activity. Consumers don't have to hunt through online catalogs to find a specific product from a social media image. Instead, they can use Curalate’s auto product tagging to purchase the product with ease.
                         </div>
                         <!-- Link to toggle visibility -->
                         <a href="#" class="readMoreLink">Read More</a>
@@ -1400,7 +1878,7 @@ Neural networks can track user activity to develop personalized recommendations.
 
                     <!-- 22. Overfitting -->
                     <div class="card" id="dataScience">
-                        <h3>22. Overfitting</h3>
+                        <h3><li>Overfitting</li></h3>
                         <img class="toggleImg p-3 align-center" src="https://365datascience.com/resources/blog/x671k7dla1f-overfitting-vs-underfitting-classification-examples.png" alt="ai_infographic" height="500px" width="100%" style="display: none;">
     
                         <!-- Main content that is always shown -->
@@ -1412,14 +1890,14 @@ Neural networks can track user activity to develop personalized recommendations.
                             Overfitting is an undesirable machine learning behavior that occurs when the machine learning model gives accurate predictions for training data but not for new data. When data scientists use machine learning models for making predictions, they first train the model on a known data set. Then, based on this information, the model tries to predict outcomes for new data sets. An overfit model can give inaccurate predictions and cannot perform well for all types of new data.
                             <p class="fw-bold">Why does overfitting occur?</p>
                             You only get accurate predictions if the machine learning model generalizes to all types of data within its domain. Overfitting occurs when the model cannot generalize and fits too closely to the training dataset instead. Overfitting happens due to several reasons, such as:
-•    The training data size is too small and does not contain enough data samples to accurately represent all possible input data values.
-•    The training data contains large amounts of irrelevant information, called noisy data.
-•    The model trains for too long on a single sample set of data.
-•    The model complexity is high, so it learns the noise within the training data.
+                            •    The training data size is too small and does not contain enough data samples to accurately represent all possible input data values.
+                            •    The training data contains large amounts of irrelevant information, called noisy data.
+                            •    The model trains for too long on a single sample set of data.
+                            •    The model complexity is high, so it learns the noise within the training data.
 
-Overfitting examples
-Consider a use case where a machine learning model has to analyze photos and identify the ones that contain dogs in them. If the machine learning model was trained on a data set that contained majority photos showing dogs outside in parks , it may may learn to use grass as a feature for classification, and may not recognize a dog inside a room.
-Another overfitting example is a machine learning algorithm that predicts a university student's academic performance and graduation outcome by analyzing several factors like family income, past academic performance, and academic qualifications of parents. However, the test data only includes candidates from a specific gender or ethnic group. In this case, overfitting causes the algorithm's prediction accuracy to drop for candidates with gender or ethnicity outside of the test dataset.
+                            Overfitting examples
+                            Consider a use case where a machine learning model has to analyze photos and identify the ones that contain dogs in them. If the machine learning model was trained on a data set that contained majority photos showing dogs outside in parks , it may may learn to use grass as a feature for classification, and may not recognize a dog inside a room.
+                            Another overfitting example is a machine learning algorithm that predicts a university student's academic performance and graduation outcome by analyzing several factors like family income, past academic performance, and academic qualifications of parents. However, the test data only includes candidates from a specific gender or ethnic group. In this case, overfitting causes the algorithm's prediction accuracy to drop for candidates with gender or ethnicity outside of the test dataset.
                         </div>
                         <!-- Link to toggle visibility -->
                         <a href="#" class="readMoreLink">Read More</a>
@@ -1428,7 +1906,7 @@ Another overfitting example is a machine learning algorithm that predicts a univ
 
                     <!-- 23. Pattern recognition -->
                     <div class="card" id="dataScience">
-                        <h3>23. Pattern recognition</h3>
+                        <h3><li>Pattern Recognition</li></h3>
                         <img class="toggleImg p-3 align-center" src="https://aiperceiver.com/wp-content/uploads/2024/06/Benefits-of-Pattern-Recognition-in-AI-1024x1024.jpg" alt="ai_infographic" height="500px" width="100%" style="display: none;">
     
                         <!-- Main content that is always shown -->
@@ -1443,17 +1921,17 @@ Another overfitting example is a machine learning algorithm that predicts a univ
                             <p class="fw-bold">What is Pattern Recognition? </p>
                             Pattern recognition is the process of recognizing patterns by using a machine learning algorithm. Pattern recognition can be defined as the classification of data based on knowledge already gained or on statistical information extracted from patterns and/or their representation. One of the important aspects of pattern recognition is its application potential. 
 
-Examples: Speech recognition, speaker identification, multimedia document recognition (MDR), automatic medical diagnosis. 
-In a typical pattern recognition application, the raw data is processed and converted into a form that is amenable for a machine to use. Pattern recognition involves the classification and cluster of patterns. 
+                            Examples: Speech recognition, speaker identification, multimedia document recognition (MDR), automatic medical diagnosis. 
+                            In a typical pattern recognition application, the raw data is processed and converted into a form that is amenable for a machine to use. Pattern recognition involves the classification and cluster of patterns. 
 
-In classification, an appropriate class label is assigned to a pattern based on an abstraction that is generated using a set of training patterns or domain knowledge. Classification is used in supervised learning.
-Clustering generated a partition of the data which helps decision making, the specific decision-making activity of interest to us. Clustering is used in unsupervised learning.
-Features may be represented as continuous, discrete, or discrete binary variables. A feature is a function of one or more measurements, computed so that it quantifies some significant characteristics of the object. 
+                            In classification, an appropriate class label is assigned to a pattern based on an abstraction that is generated using a set of training patterns or domain knowledge. Classification is used in supervised learning.
+                            Clustering generated a partition of the data which helps decision making, the specific decision-making activity of interest to us. Clustering is used in unsupervised learning.
+                            Features may be represented as continuous, discrete, or discrete binary variables. A feature is a function of one or more measurements, computed so that it quantifies some significant characteristics of the object. 
 
-Example: consider our face then eyes, ears, nose, etc are features of the face. 
-A set of features that are taken together, forms the features vector. 
+                            Example: consider our face then eyes, ears, nose, etc are features of the face. 
+                            A set of features that are taken together, forms the features vector. 
 
-Example: In the above example of a face, if all the features (eyes, ears, nose, etc) are taken together then the sequence is a feature vector([eyes, ears, nose]). The feature vector is the sequence of a feature represented as a d-dimensional column vector. In the case of speech, MFCC (Mel-frequency Cepstral Coefficient) is the spectral feature of the speech. The sequence of the first 13 features forms a feature vector. 
+                            Example: In the above example of a face, if all the features (eyes, ears, nose, etc) are taken together then the sequence is a feature vector([eyes, ears, nose]). The feature vector is the sequence of a feature represented as a d-dimensional column vector. In the case of speech, MFCC (Mel-frequency Cepstral Coefficient) is the spectral feature of the speech. The sequence of the first 13 features forms a feature vector. 
                         </div>
                         <!-- Link to toggle visibility -->
                         <a href="#" class="readMoreLink">Read More</a>
@@ -1462,7 +1940,7 @@ Example: In the above example of a face, if all the features (eyes, ears, nose, 
 
                     <!-- 24. Predictive analytics -->
                     <div class="card" id="dataScience">
-                        <h3>24. Predictive analytics</h3>
+                        <h3><li>Predictive analysis</li></h3>
                         <img class="toggleImg p-3 align-center" src="https://www.tierpoint.com/wp-content/uploads/2024/02/Predictive-AI-Techniques-1024x627.png" alt="ai_infographic" height="500px" width="100%" style="display: none;">
     
                         <!-- Main content that is always shown -->
@@ -1475,18 +1953,18 @@ Example: In the above example of a face, if all the features (eyes, ears, nose, 
                             <p class="fw-bold">What is predictive analytics?</p>
                             Businesses use data to understand what's happening—both now and in the future. Predictive analytics falls under the latter category. It uses historical data to predict potential future events or behaviors so companies can better position themselves in the present.
 
-In order to calculate the future, predictive analytics relies on a number of techniques from statistics, data analytics, artificial intelligence (AI), and machine learning. Some common business applications include detecting fraud, predicting customer behavior, and forecasting demand.
+                            In order to calculate the future, predictive analytics relies on a number of techniques from statistics, data analytics, artificial intelligence (AI), and machine learning. Some common business applications include detecting fraud, predicting customer behavior, and forecasting demand.
                             <p class="fw-bold">Benefits of predictive analytics</p>
     
                             Predictive analytics can help businesses make stronger, more informed decisions. It can help you identify patterns and trends within data that enable different business functions to make a probabilistic determination about future events. Other benefits include:
 
-Decision making: Improve how a business function makes decisions by relying on data to determine potential outcomes
+                            Decision making: Improve how a business function makes decisions by relying on data to determine potential outcomes
 
-Risk management: Develop risk management strategies for potential risks and prioritize the most detrimental risks
+                            Risk management: Develop risk management strategies for potential risks and prioritize the most detrimental risks
 
-Customer insights: Better understand potential customers and what they need so that you can develop more specific marketing campaigns to reach them
+                            Customer insights: Better understand potential customers and what they need so that you can develop more specific marketing campaigns to reach them
 
-Operational efficiency: Make companies operate more efficiently by turning to historical data to understand resources and better manage them
+                            Operational efficiency: Make companies operate more efficiently by turning to historical data to understand resources and better manage them
                             </p>
     
                         </div>
@@ -1497,7 +1975,7 @@ Operational efficiency: Make companies operate more efficiently by turning to hi
 
                     <!-- 25. Prompt Engineering -->
                     <div class="card" id="dataScience">
-                        <h3>25. Prompt Engineering</h3>
+                        <h3><li>Prompt Engineering</li></h3>
                         <img class="toggleImg p-3 align-center" src="https://cdn-infographic.pressidium.com/wp-content/uploads/2024/06/Types-Of-Prompts-For-AI-Creativity-960x720.png" alt="ai_infographic" height="500px" width="100%" style="display: none;">
     
                         <!-- Main content that is always shown -->
@@ -1511,29 +1989,92 @@ Operational efficiency: Make companies operate more efficiently by turning to hi
                             <p class="fw-bold">What do you need for prompt engineering?</p>
                             Several key elements contribute to effective prompt engineering. Mastering these allows you to communicate effectively with AI models and unlock their full potential.
 
-Prompt format
-The structure and style of your prompt play a significant role in guiding the AI's response. Different models may respond better to specific formats, such as:
+                            Prompt format
+                            The structure and style of your prompt play a significant role in guiding the AI's response. Different models may respond better to specific formats, such as:
 
-The format of your prompt plays a significant role in how the AI interprets your request. Different models may respond better to specific formats, such as natural language questions, direct commands, or structured inputs with specific fields. Understanding the model's capabilities and preferred format is essential for crafting effective prompts.
+                            The format of your prompt plays a significant role in how the AI interprets your request. Different models may respond better to specific formats, such as natural language questions, direct commands, or structured inputs with specific fields. Understanding the model's capabilities and preferred format is essential for crafting effective prompts.
 
-Context and examples
-Providing context and relevant examples within your prompt helps the AI understand the desired task and generate more accurate and relevant outputs. For instance, if you're looking for a creative story, including a few sentences describing the desired tone or theme can significantly improve the results.
+                            Context and examples
+                            Providing context and relevant examples within your prompt helps the AI understand the desired task and generate more accurate and relevant outputs. For instance, if you're looking for a creative story, including a few sentences describing the desired tone or theme can significantly improve the results.
 
-Fine-tuning and adapting
-Fine-tuning the AI model on specific tasks or domains using tailored prompts can enhance its performance. Additionally, adapting prompts based on user feedback or model outputs can further improve the model's responses over time.
+                            Fine-tuning and adapting
+                            Fine-tuning the AI model on specific tasks or domains using tailored prompts can enhance its performance. Additionally, adapting prompts based on user feedback or model outputs can further improve the model's responses over time.
 
-Multi-turn conversations
-Designing prompts for multi-turn conversations allows users to engage in continuous and context-aware interactions with the AI model, enhancing the overall user experience.
+                            Multi-turn conversations
+                            Designing prompts for multi-turn conversations allows users to engage in continuous and context-aware interactions with the AI model, enhancing the overall user experience.
     
                         </div>
                         <!-- Link to toggle visibility -->
                         <a href="#" class="readMoreLink">Read More</a>
                     </div>
 
+                    <div class="card" id="">
+                        <h3><li>Pooling Layer</li></h3>
+                        <img class="toggleImg p-3 align-center" src="https://connectjaya.com/wp-content/uploads/2021/06/Slide7-2-1024x576.jpg" alt="pooling_layer" height="500px" width="100%" style="display: none;">
+
+                        <!-- Main content that is always shown -->
+                        <p id="shortContent" class="fw-bold">A layer in CNNs used to reduce spatial dimensions, helping to make the model computationally efficient and focus on important features.</p>
+
+                        <!-- Additional content that will be shown upon clicking "Read More" -->
+                        <div class="moreContent" style="display: none;">
+                            <p>
+                                Pooling layers are an essential component of Convolutional Neural Networks (CNNs). They downsample feature maps to reduce spatial dimensions, decrease computation, and prevent overfitting. Common pooling techniques include:
+                            </p>
+                            <ul>
+                                <li><strong>Max Pooling</strong>: Retains the maximum value from each region.</li>
+                                <li><strong>Average Pooling</strong>: Computes the average of values in each region.</li>
+                            </ul>
+                            <p>By focusing on the most critical features, pooling layers enable models to identify high-level patterns, making them effective for image recognition and other visual tasks.</p>
+                        </div>
+                        <!-- Link to toggle visibility -->
+                        <a href="#" class="readMoreLink">Read More</a>
+                    </div>
+
+                    <div class="card" id="">
+                        <h3><li>Precision</li></h3>
+                        <img class="toggleImg p-3 align-center" src="https://img.freepik.com/premium-vector/ai-ml-precision-medicine-circle-infographic-template_106317-36597.jpg" alt="precision" height="500px" width="100%" style="display: none;">
+
+                        <!-- Main content that is always shown -->
+                        <p id="shortContent" class="fw-bold">A metric that measures the proportion of true positives among all positive predictions, often used in evaluating classification models.</p>
+
+                        <!-- Additional content that will be shown upon clicking "Read More" -->
+                        <div class="moreContent" style="display: none;">
+                            <p>
+                                Precision is crucial for understanding how reliable a model's positive predictions are, especially in applications where false positives have a high cost. It is calculated using the formula:
+                            </p>
+                            <p class="fw-bold">Precision = True Positives / (True Positives + False Positives)</p>
+                            <p>High precision is desirable when false alarms can have serious consequences, such as in fraud detection or medical diagnosis.</p>
+                        </div>
+                        <!-- Link to toggle visibility -->
+                        <a href="#" class="readMoreLink">Read More</a>
+                    </div>
+
+                    <div class="card" id="">
+                        <h3><li>Principal Component Analysis (PCA)</li></h3>
+                        <img class="toggleImg p-3 align-center" src="https://ashutoshtripathi.com/wp-content/uploads/2019/07/pca1-1.png" alt="principal_component_analysis" height="500px" width="100%" style="display: none;">
+
+                        <!-- Main content that is always shown -->
+                        <p id="shortContent" class="fw-bold">A dimensionality reduction technique used to reduce the number of features while retaining most of the variation in the data.</p>
+
+                        <!-- Additional content that will be shown upon clicking "Read More" -->
+                        <div class="moreContent" style="display: none;">
+                            <p>
+                                PCA simplifies datasets by transforming them into a smaller set of uncorrelated components while preserving most of the data's variance. It involves:
+                            </p>
+                            <ul>
+                                <li>Standardizing the data to zero mean and unit variance.</li>
+                                <li>Computing the covariance matrix and eigenvectors.</li>
+                                <li>Projecting the data onto principal components.</li>
+                            </ul>
+                            <p>It is widely used in exploratory data analysis, visualization, and noise reduction.</p>
+                        </div>
+                        <!-- Link to toggle visibility -->
+                        <a href="#" class="readMoreLink">Read More</a>
+                    </div>
 
                     <!-- 26. Quantum computing -->
                     <div class="card" id="dataScience">
-                        <h3>26. Quantum computing</h3>
+                        <h3><li>Quantum Computing</li></h3>
                         <img class="toggleImg p-3 align-center" src="https://img.freepik.com/premium-vector/quantum-computing-with-engineers-physics-infographics_1268-7705.jpg" alt="ai_infographic" height="500px" width="100%" style="display: none;">
     
                         <!-- Main content that is always shown -->
@@ -1545,21 +2086,66 @@ Designing prompts for multi-turn conversations allows users to engage in continu
                             <p class="fw-bold">What is quantum machine learning? </p>
                             Quantum machine learning uses algorithms run on quantum devices, such as quantum computers, to supplement, expedite, or support the work performed by a classical machine learning program. Also called quantum-enhanced machine learning, quantum machine learning leverages the information processing power of quantum technologies to enhance and speed up the work performed by a machine learning model.
 
-While classical computers are constrained by limited storage and processing capacities, quantum-enabled ones allow for exponentially more storage and processing power. This ability to store and process huge amounts of information means that quantum computers can analyze massive data sets that would take classical methods significantly longer to perform. As a result, quantum machine learning leverages this out-sized processing power to expedite and improve the development of machine learning models, neural networks, and other forms of artificial intelligence (AI).
+                            While classical computers are constrained by limited storage and processing capacities, quantum-enabled ones allow for exponentially more storage and processing power. This ability to store and process huge amounts of information means that quantum computers can analyze massive data sets that would take classical methods significantly longer to perform. As a result, quantum machine learning leverages this out-sized processing power to expedite and improve the development of machine learning models, neural networks, and other forms of artificial intelligence (AI).
                             <p class="fw-bold">Quantum machine learning uses </p>
     
                             From crunching massive amounts of big data to powering transformative technological advances, both quantum computing and machine learning stand to make waves in the future. While quantum machine learning is still in its infancy, researchers and professionals are already using it in numerous ways. Some of these applications include to: 
 
-Develop new machine learning algorithms
-Speed up already existing machine learning algorithms 
+                            Develop new machine learning algorithms
+                            Speed up already existing machine learning algorithms 
 
-Employ quantum-enhanced reinforcement learning, in which a machine learning algorithm learns based on its interactions within a quantum environment 
+                            Employ quantum-enhanced reinforcement learning, in which a machine learning algorithm learns based on its interactions within a quantum environment 
 
-Create quantum neural networks, which can operate at fewer steps and with greater processing speed than traditional neural networks.
+                            Create quantum neural networks, which can operate at fewer steps and with greater processing speed than traditional neural networks.
 
-Despite these intriguing applications, though, the field of quantum computing and machine learning is still growing and changing. As a result, many other applications used to solve real-world problems will likely develop in the near and distant future. 
+                            Despite these intriguing applications, though, the field of quantum computing and machine learning is still growing and changing. As a result, many other applications used to solve real-world problems will likely develop in the near and distant future. 
                             </p>
     
+                        </div>
+                        <!-- Link to toggle visibility -->
+                        <a href="#" class="readMoreLink">Read More</a>
+                    </div>
+
+                    <div class="card" id="">
+                        <h3><li>Recurrent Neural Network (RNN)</li></h3>
+                        <img class="toggleImg p-3 align-center" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTftIrPyjOyo6MHdt9sexZsjReLfAGT7BJ-FA&s" alt="recurrent_neural_network" height="500px" width="100%" style="display: none;">
+
+                        <!-- Main content that is always shown -->
+                        <p id="shortContent" class="fw-bold">A neural network architecture for sequential data where connections form cycles, enabling memory of previous inputs.</p>
+
+                        <!-- Additional content that will be shown upon clicking "Read More" -->
+                        <div class="moreContent" style="display: none;">
+                            <p>
+                                RNNs process sequential data by maintaining a memory of past inputs. This makes them ideal for tasks such as:
+                            </p>
+                            <ul>
+                                <li>Language modeling and translation.</li>
+                                <li>Time-series forecasting.</li>
+                                <li>Speech recognition.</li>
+                            </ul>
+                            <p>Variants like LSTMs and GRUs address RNN limitations, such as the vanishing gradient problem, to better handle long-term dependencies.</p>
+                        </div>
+                        <!-- Link to toggle visibility -->
+                        <a href="#" class="readMoreLink">Read More</a>
+                    </div>
+
+                    <div class="card" id="">
+                        <h3><li>Regularization</li></h3>
+                        <img class="toggleImg p-3 align-center" src="https://media.licdn.com/dms/image/v2/C5612AQEvrSbm51wq6w/article-inline_image-shrink_1000_1488/article-inline_image-shrink_1000_1488/0/1626163383700?e=1732752000&v=beta&t=4dMGtXbhYZw7T9UKaJDKFPC2t_6Wc2TcjbeaH30SFcQ" alt="regularization" height="500px" width="100%" style="display: none;">
+
+                        <!-- Main content that is always shown -->
+                        <p id="shortContent" class="fw-bold">Techniques used to prevent overfitting in models by adding constraints, such as L1 and L2 regularization.</p>
+
+                        <!-- Additional content that will be shown upon clicking "Read More" -->
+                        <div class="moreContent" style="display: none;">
+                            <p>
+                                Regularization helps improve a model’s generalization by penalizing overly complex models. Common techniques include:
+                            </p>
+                            <ul>
+                                <li><strong>L1 Regularization</strong>: Adds the absolute values of weights to the loss function, encouraging sparsity.</li>
+                                <li><strong>L2 Regularization</strong>: Adds the squared weights to the loss function, discouraging large weights.</li>
+                            </ul>
+                            <p>These methods prevent overfitting by balancing model complexity and accuracy, ensuring better performance on unseen data.</p>
                         </div>
                         <!-- Link to toggle visibility -->
                         <a href="#" class="readMoreLink">Read More</a>
@@ -1568,7 +2154,7 @@ Despite these intriguing applications, though, the field of quantum computing an
 
                     <!-- 27. Reinforcement learning -->
                     <div class="card" id="dataScience">
-                        <h3>27. Reinforcement learning</h3>
+                        <h3><li>Reinforcement Learning</li></h3>
                         <img class="toggleImg p-3 align-center" src="https://pbs.twimg.com/media/CLyZCTBW8AA2qsV.jpg" alt="ai_infographic" height="500px" width="100%" style="display: none;">
     
                         <!-- Main content that is always shown -->
@@ -1601,7 +2187,7 @@ Despite these intriguing applications, though, the field of quantum computing an
 
                     <!-- 28. Sentiment analysis -->
                     <div class="card" id="dataScience">
-                        <h3>28. Sentiment analysis</h3>
+                        <h3><li>Sentiment Analysis</li></h3>
                         <img class="toggleImg p-3 align-center" src="https://cdn.shopify.com/s/files/1/1905/9639/files/Benefits_of_AI-based_sentiment_analysis_-_Lucent_innovation_2048x2048.png?v=1705062130" alt="ai_infographic" height="500px" width="100%" style="display: none;">
     
                         <!-- Main content that is always shown -->
@@ -1614,21 +2200,21 @@ Despite these intriguing applications, though, the field of quantum computing an
                             <p class="fw-bold">Why is Sentiment Analysis Important?</p>
                             Sentiment analysis is the contextual meaning of words that indicates the social sentiment of a brand and also helps the business to determine whether the product they are manufacturing is going to make a demand in the market or not.
 
-According to the survey,80% of the world’s data is unstructured. The data needs to be analyzed and be in a structured manner whether it is in the form of emails, texts, documents, articles, and many more.
+                            According to the survey,80% of the world’s data is unstructured. The data needs to be analyzed and be in a structured manner whether it is in the form of emails, texts, documents, articles, and many more.
 
-Sentiment Analysis is required as it stores data in an efficient, cost friendly.
-Sentiment analysis solves real-time issues and can help you solve all real-time scenarios.
-Here are some key reasons why sentiment analysis is important for business:
+                            Sentiment Analysis is required as it stores data in an efficient, cost friendly.
+                            Sentiment analysis solves real-time issues and can help you solve all real-time scenarios.
+                            Here are some key reasons why sentiment analysis is important for business:
 
-Customer Feedback Analysis: Businesses can analyze customer reviews, comments, and feedback to understand the sentiment behind them helping in identifying areas for improvement and addressing customer concerns, ultimately enhancing customer satisfaction.
-Brand Reputation Management: Sentiment analysis allows businesses to monitor their brand reputation in real-time.
-By tracking mentions and sentiments on social media, review platforms, and other online channels, companies can respond promptly to both positive and negative sentiments, mitigating potential damage to their brand.
-Product Development and Innovation: Understanding customer sentiment helps identify features and aspects of their products or services that are well-received or need improvement. This information is invaluable for product development and innovation, enabling companies to align their offerings with customer preferences.
-Competitor Analysis: Sentiment Analysis can be used to compare the sentiment around a company’s products or services with those of competitors.
-Businesses identify their strengths and weaknesses relative to competitors, allowing for strategic decision-making.
-Marketing Campaign Effectiveness
-Businesses can evaluate the success of their marketing campaigns by analyzing the sentiment of online discussions and social media mentions.
-Positive sentiment indicates that the campaign is resonating with the target audience, while negative sentiment may signal the need for adjustments.
+                            Customer Feedback Analysis: Businesses can analyze customer reviews, comments, and feedback to understand the sentiment behind them helping in identifying areas for improvement and addressing customer concerns, ultimately enhancing customer satisfaction.
+                            Brand Reputation Management: Sentiment analysis allows businesses to monitor their brand reputation in real-time.
+                            By tracking mentions and sentiments on social media, review platforms, and other online channels, companies can respond promptly to both positive and negative sentiments, mitigating potential damage to their brand.
+                            Product Development and Innovation: Understanding customer sentiment helps identify features and aspects of their products or services that are well-received or need improvement. This information is invaluable for product development and innovation, enabling companies to align their offerings with customer preferences.
+                            Competitor Analysis: Sentiment Analysis can be used to compare the sentiment around a company’s products or services with those of competitors.
+                            Businesses identify their strengths and weaknesses relative to competitors, allowing for strategic decision-making.
+                            Marketing Campaign Effectiveness
+                            Businesses can evaluate the success of their marketing campaigns by analyzing the sentiment of online discussions and social media mentions.
+                            Positive sentiment indicates that the campaign is resonating with the target audience, while negative sentiment may signal the need for adjustments.
                         </div>
                         <!-- Link to toggle visibility -->
                         <a href="#" class="readMoreLink">Read More</a>
@@ -1637,7 +2223,7 @@ Positive sentiment indicates that the campaign is resonating with the target aud
                     
                     <!-- 29. Structured data -->
                     <div class="card" id="dataScience">
-                        <h3>29. Structured data</h3>
+                        <h3><li>Strucutred data</li></h3>
                         <img class="toggleImg p-3 align-center" src="https://www.expert.ai/wp-content/uploads/2020/10/StructuredVsUnstructuredData-300x234.jpg" alt="ai_infographic" height="500px" width="100%" style="display: none;">
     
                         <!-- Main content that is always shown -->
@@ -1648,61 +2234,105 @@ Positive sentiment indicates that the campaign is resonating with the target aud
                             <p>
                             When it comes to data, files can come in many different forms. There are two main types of data—structured and unstructured. Each is sourced and collected in different ways, living on different types of databases, so their differences are important for data professionals.
 
-But, how do they differ from one another exactly? And, why would you want to use one over the other?
+                            But, how do they differ from one another exactly? And, why would you want to use one over the other?
                             <p class="fw-bold">Structured vs. unstructured data</p>
                             The main difference is that structured data is defined and searchable. This includes data like dates, phone numbers, and product SKUs. Unstructured data is everything else, which is more difficult to categorize or search, like photos, videos, podcasts, social media posts, and emails. Most of the data in the world is unstructured data.
                             <p class="fw-bold">What is structured data?</p>
                             TStructured data is typically quantitative data that is organized and easily searchable. The programming language Structured Query Language (SQL) is used in a relational database to “query” to input and search within structured data. 
 
-Common types of structured data include names, addresses, credit card numbers, telephone numbers, star ratings from customers, bank information, and other data that can be easily searched using SQL. 
+                            Common types of structured data include names, addresses, credit card numbers, telephone numbers, star ratings from customers, bank information, and other data that can be easily searched using SQL. 
 
-Structured data examples
-In the real world, structured data could be used for things like:
+                            Structured data examples
+                            In the real world, structured data could be used for things like:
 
-Booking a flight: Flight and reservation data, such as dates, prices, and destinations, fit neatly within the Excel spreadsheet format. When you book a flight, this information is stored in a database.
+                            Booking a flight: Flight and reservation data, such as dates, prices, and destinations, fit neatly within the Excel spreadsheet format. When you book a flight, this information is stored in a database.
 
-Customer relationship management (CRM): CRM software such as Salesforce runs structured data through analytical tools to create new data sets for businesses to analyze customer behavior and preferences.
+                            Customer relationship management (CRM): CRM software such as Salesforce runs structured data through analytical tools to create new data sets for businesses to analyze customer behavior and preferences.
 
                         </div>
                         <!-- Link to toggle visibility -->
                         <a href="#" class="readMoreLink">Read More</a>
                     </div>
 
+                    <div class="card" id="">
+                        <h3><li>Stochastic Gradient Descent (SGD)</li></h3>
+                        <img class="toggleImg p-3 align-center" src="https://cdn.botpenguin.com/assets/website/Stochastic_Gradient_Descent_c95b69fa98.webp" alt="stochastic_gradient_descent" height="500px" width="100%" style="display: none;">
+
+                        <!-- Main content that is always shown -->
+                        <p id="shortContent" class="fw-bold">A variant of gradient descent where updates are made based on random samples, speeding up training for large datasets.</p>
+
+                        <!-- Additional content that will be shown upon clicking "Read More" -->
+                        <div class="moreContent" style="display: none;">
+                            <p>
+                                Stochastic Gradient Descent (SGD) improves training efficiency by updating model parameters based on individual or small batches of data. Key benefits include:
+                            </p>
+                            <ul>
+                                <li>Faster convergence on large datasets.</li>
+                                <li>Introduction of noise that helps escape local minima.</li>
+                            </ul>
+                            <p>Variants like mini-batch SGD and momentum-based SGD further optimize performance for specific use cases.</p>
+                        </div>
+                        <!-- Link to toggle visibility -->
+                        <a href="#" class="readMoreLink">Read More</a>
+                    </div>
+
+                    <div class="card" id="">
+                        <h3><li>Support Vector Machine (SVM)</li></h3>
+                        <img class="toggleImg p-3 align-center" src="https://www.infodiagram.com/api/img/f:png/w:1200/aHR0cHM6Ly9jZG4uaW5mb2RpYWdyYW0uY29tL2MvNzExNmU0L3N1cHBvcnQtdmVjdG9yLW1hY2hpbmVzLXN2bS1pbGx1c3RyYXRpb24tY2hhcnQud2VicA==" alt="support_vector_machine" height="500px" width="100%" style="display: none;">
+
+                        <!-- Main content that is always shown -->
+                        <p id="shortContent" class="fw-bold">A supervised learning algorithm that separates classes with the maximum margin hyperplane, effective for classification tasks.</p>
+
+                        <!-- Additional content that will be shown upon clicking "Read More" -->
+                        <div class="moreContent" style="display: none;">
+                            <p>
+                                SVMs work by finding the hyperplane that best separates different classes in the data. Key features include:
+                            </p>
+                            <ul>
+                                <li>Effective for high-dimensional spaces.</li>
+                                <li>Can handle non-linear data using kernel functions.</li>
+                                <li>Robust to overfitting when used with proper regularization.</li>
+                            </ul>
+                            <p>Applications range from image classification to bioinformatics.</p>
+                        </div>
+                        <!-- Link to toggle visibility -->
+                        <a href="#" class="readMoreLink">Read More</a>
+                    </div>
 
                     <!-- 30. Supervised learning -->
                     <div class="card" id="dataScience">
-                        <h3>30. Supervised learning</h3>
+                        <h3><li>Supervised Learning</li></h3>
                         <img class="toggleImg p-3 align-center" src="https://i.redd.it/tyjjqjswi5621.png" alt="ai_infographic" height="500px" width="100%" style="display: none;">
     
                         <!-- Main content that is always shown -->
                         <p id="shortContent" class="fw-bold">Supervised learning is a type of machine learning in which classified output data is used to train the machine and produce the correct algorithms. It is much more common than unsupervised learning.
-</p>
+                        </p>
     
                         <!-- Additional content that will be shown upon clicking "Read More" -->
                         <div class="moreContent" style="display: none;">
                             <p>
                             Supervised learning is a category of machine learning that uses labeled datasets to train algorithms to predict outcomes and recognize patterns. Unlike unsupervised learning, supervised learning algorithms are given labeled training to learn the relationship between the input and the outputs. 
 
-Supervised machine learning algorithms make it easier for organizations to create complex models that can make accurate predictions. As a result, they are widely used across various industries and fields, including healthcare, marketing, financial services, and more. 
+                            Supervised machine learning algorithms make it easier for organizations to create complex models that can make accurate predictions. As a result, they are widely used across various industries and fields, including healthcare, marketing, financial services, and more. 
                             <p class="fw-bold">How does supervised learning work?</p>
                             The data used in supervised learning is labeled — meaning that it contains examples of both inputs (called features) and correct outputs (labels). The algorithms analyze a large dataset of these training pairs to infer what a desired output value would be when asked to make a prediction on new data.
 
-For instance, let’s pretend you want to teach a model to identify pictures of trees. You provide a labeled dataset that contains many different examples of types of trees and the names of each species. You let the algorithm try to define what set of characteristics belongs to each tree based on the labeled outputs. You can then test the model by showing it a tree picture and asking it to guess what species it is. If the model provides an incorrect answer, you can continue training it and adjusting its parameters with more examples to improve its accuracy and minimize errors. 
+                            For instance, let’s pretend you want to teach a model to identify pictures of trees. You provide a labeled dataset that contains many different examples of types of trees and the names of each species. You let the algorithm try to define what set of characteristics belongs to each tree based on the labeled outputs. You can then test the model by showing it a tree picture and asking it to guess what species it is. If the model provides an incorrect answer, you can continue training it and adjusting its parameters with more examples to improve its accuracy and minimize errors. 
 
-Once the model has been trained and tested, you can use it to make predictions on unknown data based on the previous knowledge it has learned.
+                            Once the model has been trained and tested, you can use it to make predictions on unknown data based on the previous knowledge it has learned.
 
                             <p class="fw-bold">Types of supervised learning</p>
                             Supervised learning in machine learning is generally divided into two categories: classification and regression. 
 
-Classification
-Classification algorithms are used to group data by predicting a categorical label or output variable based on the input data. Classification is used when output variables are categorical, meaning there are two or more classes.
+                            Classification
+                            Classification algorithms are used to group data by predicting a categorical label or output variable based on the input data. Classification is used when output variables are categorical, meaning there are two or more classes.
 
-One of the most common examples of classification algorithms in use is the spam filter in your email inbox. Here, a supervised learning model is trained to predict whether an email is spam or not with a dataset that contains labeled examples of both spam and legitimate emails. The algorithm extracts information about each email, including the sender, the subject line, body copy, and more. It then uses these features and corresponding output labels to learn patterns and assign a score that indicates whether an email is real or spam.
+                            One of the most common examples of classification algorithms in use is the spam filter in your email inbox. Here, a supervised learning model is trained to predict whether an email is spam or not with a dataset that contains labeled examples of both spam and legitimate emails. The algorithm extracts information about each email, including the sender, the subject line, body copy, and more. It then uses these features and corresponding output labels to learn patterns and assign a score that indicates whether an email is real or spam.
 
-Regression
-Regression algorithms are used to predict a real or continuous value, where the algorithm detects a relationship between two or more variables. 
+                            Regression
+                            Regression algorithms are used to predict a real or continuous value, where the algorithm detects a relationship between two or more variables. 
 
-A common example of a regression task might be predicting a salary based on work experience. For instance, a supervised learning algorithm would be fed inputs related to work experience (e.g., length of time, the industry or field, location, etc.) and the corresponding assigned salary amount. After the model is trained, it could be used to predict the average salary based on work experience.
+                            A common example of a regression task might be predicting a salary based on work experience. For instance, a supervised learning algorithm would be fed inputs related to work experience (e.g., length of time, the industry or field, location, etc.) and the corresponding assigned salary amount. After the model is trained, it could be used to predict the average salary based on work experience.
                         </div>
                         <!-- Link to toggle visibility -->
                         <a href="#" class="readMoreLink">Read More</a>
@@ -1711,7 +2341,7 @@ A common example of a regression task might be predicting a salary based on work
 
                     <!-- 31. Token -->
                     <div class="card" id="dataScience">
-                        <h3>31. Token</h3>
+                        <h3><li>Token</li></h3>
                         <img class="toggleImg p-3 align-center" src="https://d230m64oxp1vr8.cloudfront.net/blogs/codeZeros954hb9sh1712984901598.jpg" alt="ai_infographic" height="500px" width="100%" style="display: none;">
     
                         <!-- Main content that is always shown -->
@@ -1726,9 +2356,9 @@ A common example of a regression task might be predicting a salary based on work
                             <p class="fw-bold">Why Are Tokens Important?</p>
                             Data Representation: Tokens serve as the bridge between raw human language and a format that AI models can process. Every token is converted into a numerical format (often a high-dimensional vector) using embeddings. These numerical representations capture the semantic essence of the token and can be processed by neural networks.
 
-Memory and Computation: AI models, especially large ones, have a fixed number of tokens they can handle in one go, known as their "context window" or "attention span". By understanding the nature and number of tokens, developers can effectively interact with the model and structure the input to ensure optimal performance.
+                            Memory and Computation: AI models, especially large ones, have a fixed number of tokens they can handle in one go, known as their "context window" or "attention span". By understanding the nature and number of tokens, developers can effectively interact with the model and structure the input to ensure optimal performance.
 
-Granularity and Flexibility: Since tokens can represent varying sizes of text chunks, they provide flexibility. For example, a model designed to operate on word-level tokens might be ideal for certain languages or applications, while character-level tokens might be more suited for others.
+                            Granularity and Flexibility: Since tokens can represent varying sizes of text chunks, they provide flexibility. For example, a model designed to operate on word-level tokens might be ideal for certain languages or applications, while character-level tokens might be more suited for others.
 
 
                         </div>
@@ -1739,7 +2369,7 @@ Granularity and Flexibility: Since tokens can represent varying sizes of text ch
 
                     <!-- 32. Training data -->
                     <div class="card" id="dataScience">
-                        <h3>32. Training data</h3>
+                        <h3><li>Training Data</li></h3>
                         <img class="toggleImg p-3 align-center" src="https://www.cognilytica.com/wp-content/uploads/2022/08/The-Steps-for-an-AI-Project.png" alt="ai_infographic" height="500px" width="100%" style="display: none;">
     
                         <!-- Main content that is always shown -->
@@ -1750,17 +2380,17 @@ Granularity and Flexibility: Since tokens can represent varying sizes of text ch
                             <p>
                             In the world of artificial intelligence and machine learning, data training is inevitable. This is the process that makes machine learning modules accurate, efficient and fully functional. In this post, we explore in detail what AI training data is, training data quality, data collection & licensing and more.
 
-It is estimated that on average adult makes decisions on life and everyday things based on past learning. These, in turn, come from life experiences shaped by situations and people. In the literal sense, situations, instances, and people are nothing but data that gets fed into our minds. As we accumulate years of data in the form of experience, the human mind tends to make seamless decisions.
+                            It is estimated that on average adult makes decisions on life and everyday things based on past learning. These, in turn, come from life experiences shaped by situations and people. In the literal sense, situations, instances, and people are nothing but data that gets fed into our minds. As we accumulate years of data in the form of experience, the human mind tends to make seamless decisions.
                             <p class="fw-bold">What does this convey? That data is inevitable in learning.</p>
                             Similar to how a child needs a label called an alphabet to understand the letters A, B, C, D a machine also needs to understand the data it is receiving.
 
-That’s exactly what Artificial Intelligence (AI) training is all about. A machine is no different than a child who has yet to learn things from what they are about to be taught. The machine does not know to differentiate between a cat and a dog or a bus and a car because they haven’t yet experienced those items or been taught what they look like.
+                            That’s exactly what Artificial Intelligence (AI) training is all about. A machine is no different than a child who has yet to learn things from what they are about to be taught. The machine does not know to differentiate between a cat and a dog or a bus and a car because they haven’t yet experienced those items or been taught what they look like.
 
-So, for someone building a self-driving car, the primary function that needs to be added is the system’s ability to understand all the everyday elements the car may encounter, so the vehicle can identify them and make appropriate driving decisions. This is where AI training data comes into play. 
+                            So, for someone building a self-driving car, the primary function that needs to be added is the system’s ability to understand all the everyday elements the car may encounter, so the vehicle can identify them and make appropriate driving decisions. This is where AI training data comes into play. 
 
-Today, artificial intelligence modules offer us many conveniences in the form of recommendation engines, navigation, automation, and more. All of that happens due to AI data training that was used to train the algorithms while they were built.
+                            Today, artificial intelligence modules offer us many conveniences in the form of recommendation engines, navigation, automation, and more. All of that happens due to AI data training that was used to train the algorithms while they were built.
 
-AI training data is a fundamental process in building machine learning and AI algorithms. If you are developing an app that is based on these tech concepts, you need to train your systems to understand data elements for optimized processing. Without training, your AI model will be inefficient, flawed and potentially pointless.
+                            AI training data is a fundamental process in building machine learning and AI algorithms. If you are developing an app that is based on these tech concepts, you need to train your systems to understand data elements for optimized processing. Without training, your AI model will be inefficient, flawed and potentially pointless.
                         </div>
                         <!-- Link to toggle visibility -->
                         <a href="#" class="readMoreLink">Read More</a>
@@ -1769,7 +2399,7 @@ AI training data is a fundamental process in building machine learning and AI al
 
                     <!-- 33. Transfer learning -->
                     <div class="card" id="dataScience">
-                        <h3>33. Transfer learning</h3>
+                        <h3><li>Transfer Learning</li></h3>
                         <img class="toggleImg p-3 align-center" src="https://d1krbhyfejrtpz.cloudfront.net/blog/wp-content/uploads/2024/02/19161749/Infographic2-10-1024x526.png" alt="ai_infographic" height="500px" width="100%" style="display: none;">
     
                         <!-- Main content that is always shown -->
@@ -1794,7 +2424,7 @@ AI training data is a fundamental process in building machine learning and AI al
 
                     <!-- 34. Turing test -->
                     <div class="card" id="dataScience">
-                        <h3>34. Turing test</h3>
+                        <h3><li>Turing Test</li></h3>
                         <img class="toggleImg p-3 align-center" src="https://i.abcnewsfe.com/a/187ba44a-8c4a-4a87-96e7-140a1767243f/TuringTestInfographic_v01_DG_1689800738777_hpEmbed_16x9.jpg" alt="ai_infographic" height="500px" width="100%" style="display: none;">
     
                         <!-- Main content that is always shown -->
@@ -1807,15 +2437,15 @@ AI training data is a fundamental process in building machine learning and AI al
                             <p class="fw-bold">History of the Turing Test</p>
                             The test is named after Alan Turing, who pioneered machine learning during the 1940s and 1950s. Turing introduced the test in his 1950 paper called "Computing Machinery and Intelligence" while at the University of Manchester.
 
-In his paper, Turing proposed a twist on what is called "The Imitation Game." The Imitation Game involves no use of AI, but rather three human participants in three separate rooms. Each room is connected via a screen and keyboard, one containing a male, the other a female, and the other containing a male or female judge. The female tries to convince the judge that she is the male, and the judge tries to disseminate which is which.
+                            In his paper, Turing proposed a twist on what is called "The Imitation Game." The Imitation Game involves no use of AI, but rather three human participants in three separate rooms. Each room is connected via a screen and keyboard, one containing a male, the other a female, and the other containing a male or female judge. The female tries to convince the judge that she is the male, and the judge tries to disseminate which is which.
 
-Turing changes the concept of this game to include an AI, a human and a human questioner. The questioner's job is then to decide which is the AI and which is the human. Since the formation of the test, many AI have been able to pass; one of the first is a program created by Joseph Weizenbaum called ELIZA.
+                            Turing changes the concept of this game to include an AI, a human and a human questioner. The questioner's job is then to decide which is the AI and which is the human. Since the formation of the test, many AI have been able to pass; one of the first is a program created by Joseph Weizenbaum called ELIZA.
                             <p class="fw-bold">Limitations of the Turing Test</p>
                             <p>The Turing Test has been criticized over the years, in particular because historically, the nature of the questioning had to be limited in order for a computer to exhibit human-like intelligence. For many years, a computer might only score high if the questioner formulated the queries, so they had "Yes" or "No" answers or pertained to a narrow field of knowledge. When questions were open-ended and required conversational answers, it was less likely that the computer program could successfully fool the questioner.
 
-In addition, a program such as ELIZA could pass the Turing Test by manipulating symbols it does not understand fully. John Searle argued that this does not determine intelligence comparable to humans.
+                            In addition, a program such as ELIZA could pass the Turing Test by manipulating symbols it does not understand fully. John Searle argued that this does not determine intelligence comparable to humans.
 
-To many researchers, the question of whether or not a computer can pass a Turing Test has become irrelevant. Instead of focusing on how to convince someone they are conversing with a human and not a computer program, the real focus should be on how to make a human-machine interaction more intuitive and efficient. For example, by using a conversational interface.</p>
+                            To many researchers, the question of whether or not a computer can pass a Turing Test has become irrelevant. Instead of focusing on how to convince someone they are conversing with a human and not a computer program, the real focus should be on how to make a human-machine interaction more intuitive and efficient. For example, by using a conversational interface.</p>
                         </div>
                         <!-- Link to toggle visibility -->
                         <a href="#" class="readMoreLink">Read More</a>
@@ -1824,7 +2454,7 @@ To many researchers, the question of whether or not a computer can pass a Turing
 
                     <!-- 35. Unstructured data -->
                     <div class="card" id="dataScience">
-                        <h3>35. Unstructured data</h3>
+                        <h3><li>Unstructured data</li></h3>
                         <img class="toggleImg p-3 align-center" src="https://www.expert.ai/wp-content/uploads/2020/10/StructuredVsUnstructuredData-300x234.jpg" alt="ai_infographic" height="500px" width="100%" style="display: none;">
     
                         <!-- Main content that is always shown -->
@@ -1835,13 +2465,35 @@ To many researchers, the question of whether or not a computer can pass a Turing
                             <p>
                             Unstructured data is every other type of data that is not structured. Approximately 80-90% of data is unstructured, meaning it has huge potential for competitive advantage if companies find ways to leverage it [1]. Unstructured data includes a variety of formats such as emails, images, video files, audio files, social media posts, PDFs, and much more.
 
-Unstructured data is typically stored in data lakes, NoSQL databases, data warehouses, and applications. Today, this information can be processed by artificial intelligence algorithms and delivers huge value for organizations.
+                            Unstructured data is typically stored in data lakes, NoSQL databases, data warehouses, and applications. Today, this information can be processed by artificial intelligence algorithms and delivers huge value for organizations.
                             <p class="fw-bold">Examples of unstructured data</p>
                             In the real world, unstructured data could be used for things like:
 
-Chatbots: Chatbots are programmed to perform text analysis to answer customer questions and provide the right information.
+                            Chatbots: Chatbots are programmed to perform text analysis to answer customer questions and provide the right information.
 
-Market predictions: Data can be maneuvered to predict changes in the stock market so that analysts can adjust their calculations and investment decisions.
+                            Market predictions: Data can be maneuvered to predict changes in the stock market so that analysts can adjust their calculations and investment decisions.
+                        </div>
+                        <!-- Link to toggle visibility -->
+                        <a href="#" class="readMoreLink">Read More</a>
+                    </div>
+
+                    <div class="card" id="">
+                        <h3><li>Underfitting</li></h3>
+                        <img class="toggleImg p-3 align-center" src="https://365datascience.com/resources/blog/x671k7dla1f-overfitting-vs-underfitting-classification-examples.png" alt="underfitting" height="500px" width="100%" style="display: none;">
+
+                        <!-- Main content that is always shown -->
+                        <p id="shortContent" class="fw-bold">A problem where a model is too simple to capture the patterns in the data, resulting in poor performance on both training and test sets.</p>
+
+                        <!-- Additional content that will be shown upon clicking "Read More" -->
+                        <div class="moreContent" style="display: none;">
+                            <p>
+                                Underfitting occurs when a model has high bias and fails to learn the underlying relationships in the data. Common causes include:
+                            </p>
+                            <ul>
+                                <li>Using too few features or oversimplified algorithms.</li>
+                                <li>Insufficient training time or data.</li>
+                            </ul>
+                            <p>Techniques like increasing model complexity or using more features can address underfitting.</p>
                         </div>
                         <!-- Link to toggle visibility -->
                         <a href="#" class="readMoreLink">Read More</a>
@@ -1849,7 +2501,7 @@ Market predictions: Data can be maneuvered to predict changes in the stock marke
 
                     <!-- 36. Unsupervised learning -->
                     <div class="card" id="dataScience">
-                        <h3>36. Unsupervised learning</h3>
+                        <h3><li>Unsupervised Learning</li></h3>
                         <img class="toggleImg p-3 align-center" src="https://i.redd.it/tyjjqjswi5621.png" alt="ai_infographic" height="500px" width="100%" style="display: none;">
     
                         <!-- Main content that is always shown -->
@@ -1862,11 +2514,11 @@ Market predictions: Data can be maneuvered to predict changes in the stock marke
                             <p class="fw-bold">How does unsupervised learning work?</p>
                             As the name suggests, unsupervised learning uses self-learning algorithms—they learn without any labels or prior training. Instead, the model is given raw, unlabeled data and has to infer its own rules and structure the information based on similarities, differences, and patterns without explicit instructions on how to work with each piece of data.
 
-Unsupervised learning algorithms are better suited for more complex processing tasks, such as organizing large datasets into clusters. They are useful for identifying previously undetected patterns in data and can help identify features useful for categorizing data. 
+                            Unsupervised learning algorithms are better suited for more complex processing tasks, such as organizing large datasets into clusters. They are useful for identifying previously undetected patterns in data and can help identify features useful for categorizing data. 
 
-Imagine that you have a large dataset about weather. An unsupervised learning algorithm will go through the data and identify patterns in the data points. For instance, it might group data by temperature or similar weather patterns. 
+                            Imagine that you have a large dataset about weather. An unsupervised learning algorithm will go through the data and identify patterns in the data points. For instance, it might group data by temperature or similar weather patterns. 
 
-While the algorithm itself does not understand these patterns based on any previous information you provided, you can then go through the data groupings and attempt to classify them based on your understanding of the dataset. For instance, you might recognize that the different temperature groups represent all four seasons or that the weather patterns are separated into different types of weather, such as rain, sleet, or snow. 
+                            While the algorithm itself does not understand these patterns based on any previous information you provided, you can then go through the data groupings and attempt to classify them based on your understanding of the dataset. For instance, you might recognize that the different temperature groups represent all four seasons or that the weather patterns are separated into different types of weather, such as rain, sleet, or snow. 
                         </div>
                         <!-- Link to toggle visibility -->
                         <a href="#" class="readMoreLink">Read More</a>
@@ -1874,7 +2526,7 @@ While the algorithm itself does not understand these patterns based on any previ
 
                     <!-- 37. Voice recognition -->
                     <div class="card" id="dataScience">
-                        <h3>37. Voice recognition</h3>
+                        <h3><li>Voice recognition</li></h3>
                         <img class="toggleImg p-3 align-center" src="https://img.freepik.com/premium-vector/voice-recognition-infographics_372769-1792.jpg" alt="ai_infographic" height="500px" width="100%" style="display: none;">
     
                         <!-- Main content that is always shown -->
@@ -1887,55 +2539,61 @@ While the algorithm itself does not understand these patterns based on any previ
                             <p class="fw-bold">How Does Voice Recognition Work?</p>
                             Audio Input: The process begins with capturing the audio input using a microphone.
 
-Preprocessing: The audio signal is cleaned up by removing noise and normalizing the volume.
+                            Preprocessing: The audio signal is cleaned up by removing noise and normalizing the volume.
 
-Feature Extraction: The system analyzes the audio to extract key features such as pitch, tone, and frequency.
+                            Feature Extraction: The system analyzes the audio to extract key features such as pitch, tone, and frequency.
 
-Pattern Recognition: The extracted features are compared to known patterns of speech stored in a database.
+                            Pattern Recognition: The extracted features are compared to known patterns of speech stored in a database.
 
-Language Processing: The recognized patterns are converted into text, and natural language processing (NLP) algorithms interpret the meaning.
+                            Language Processing: The recognized patterns are converted into text, and natural language processing (NLP) algorithms interpret the meaning.
                         </div>
                         <!-- Link to toggle visibility -->
                         <a href="#" class="readMoreLink">Read More</a>
                     </div>
 
-                    <!-- 28. Topic -->
-                    <div class="card" id="dataScience">
-                        <h3>28. Topic</h3>
-                        <img class="toggleImg p-3 align-center" src="" alt="ai_infographic" height="500px" width="100%" style="display: none;">
-    
+
+                    <div class="card" id="">
+                        <h3><li>Vanishing Gradient</li></h3>
+                        <img class="toggleImg p-3 align-center" src="https://cdn.prod.website-files.com/5ef788f07804fb7d78a4127a/6245a9aca7defe61cea5ea7d_Engati-vanishing-point-problem.jpg" alt="vanishing_gradient" height="500px" width="100%" style="display: none;">
+
                         <!-- Main content that is always shown -->
-                        <p id="shortContent" class="fw-bold">initial short</p>
-    
+                        <p id="shortContent" class="fw-bold">A problem where gradients become too small during backpropagation, making it difficult to update the weights and train deep neural networks.</p>
+
                         <!-- Additional content that will be shown upon clicking "Read More" -->
                         <div class="moreContent" style="display: none;">
                             <p>
-                            info
-                            <p class="fw-bold">What are the benefits of reinforcement learning?</p>
-                            content
+                                The vanishing gradient problem arises in deep networks with activation functions like sigmoid or tanh. Solutions include:
+                            </p>
+                            <ul>
+                                <li>Using ReLU or similar activation functions.</li>
+                                <li>Initializing weights carefully to prevent small gradients.</li>
+                                <li>Employing architectures like LSTMs or residual networks (ResNets).</li>
+                            </ul>
+                            <p>These techniques improve gradient flow and enable effective training of deep networks.</p>
                         </div>
                         <!-- Link to toggle visibility -->
                         <a href="#" class="readMoreLink">Read More</a>
                     </div>
 
-                    <!-- 28. Topic -->
-                    <div class="card" id="dataScience">
-                        <h3>28. Topic</h3>
-                        <img class="toggleImg p-3 align-center" src="" alt="ai_infographic" height="500px" width="100%" style="display: none;">
-    
+                    <div class="card" id="">
+                        <h3><li>Variance</li></h3>
+                        <img class="toggleImg p-3 align-center" src="https://www.6sigma.us/wp-content/uploads/2024/09/applications-of-standard-deviation-and-variance.webp" alt="variance" height="500px" width="100%" style="display: none;">
+
                         <!-- Main content that is always shown -->
-                        <p id="shortContent" class="fw-bold">initial short</p>
-    
+                        <p id="shortContent" class="fw-bold">A measure of how much predictions for a given model vary based on different training data, related to the bias-variance tradeoff.</p>
+
                         <!-- Additional content that will be shown upon clicking "Read More" -->
                         <div class="moreContent" style="display: none;">
                             <p>
-                            info
-                            <p class="fw-bold">What are the benefits of reinforcement learning?</p>
-                            content
+                                Variance indicates a model’s sensitivity to small changes in training data. High variance leads to overfitting, where the model performs well on training data but poorly on unseen data. Balancing bias and variance is critical to achieving good generalization.
+                            </p>
                         </div>
                         <!-- Link to toggle visibility -->
                         <a href="#" class="readMoreLink">Read More</a>
                     </div>
+
+
+                    </ol>
 
 
 

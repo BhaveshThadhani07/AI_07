@@ -25,6 +25,22 @@
     font-size: 2rem;
     /* Adjust font size as needed */
 }
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.container h6{
+    /* font-weight: bold; */
+    color: black;
+    margin: 0;
+    padding: 0;
+    padding-top: 10px;
+}
+.container a{
+    padding: 0;
+}
 
 .form-inline {
     width: 100%;
@@ -193,7 +209,7 @@ h1 {
     text-align: center;
     /* font-size: 30px; */
     /* font-style: bold; */
-    margin: none;
+    margin: 0;
     font-weight: bold;
     color: white;
 }

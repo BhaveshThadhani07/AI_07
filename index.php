@@ -15,6 +15,7 @@
     <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container">
             <!-- Brand Name -->
+            <h6>Macro Vision Academy's</h6>
             <a class="navbar-brand fw-bold fs-1 mx-auto" href="../../index.php">AINexus</a>
         </div>
 
