@@ -28,7 +28,7 @@ body::before {
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%;
+  height: 200vh;
   background-color: rgba(0, 0, 0, 0.5); /* Dark overlay with 50% opacity */
   z-index: -1; /* Ensure it's above the background but below content */
 }
@@ -128,6 +128,14 @@ header .vl1{
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
   max-width: 600px;
 }
+#stayTuned{
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Russo One", sans-serif;
+  /* font-family: "Orbitron", serif; */
+  /* font-family: "Audiowide", sans-serif; */
+  padding-top: 15px;
+}
 
 .features-title {
   font-family: 'Orbitron', sans-serif;
@@ -164,4 +172,149 @@ header .vl1{
 .features-list li {
   margin-bottom: 10px;
   text-align: left;
+}
+
+/* CONTACT INFO */
+.contact-main {
+  text-align: center;
+  padding: 20px;
+  background: linear-gradient(90deg, rgba(11, 11, 59, 0.8), rgba(30, 30, 91, 0.8));
+  color: #fdfd96;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.contact-title {
+  font-family: 'Orbitron', sans-serif;
+  text-transform: uppercase;
+  color: yellow;
+  margin-bottom: 15px;
+  font-weight: bolder;
+}
+
+.contact-subtitle {
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 18px;
+  color: #e0e0e0;
+  margin-bottom: 20px;
+  text-align: left;
+  /* font-family: "Russo One", sans-serif; */
+  font-family: "Orbitron", serif;
+  /* font-family: "Audiowide", sans-serif; */
+}
+
+.contact-links {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 20px;
+  /* font-family: "Russo One", sans-serif; */
+  /* font-family: "Orbitron", serif; */
+  font-family: "Audiowide", sans-serif;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  /* text-decoration: none; */
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  /* transition: color 0.3s ease, transform 0.3s ease; */
+  gap: 40px;
+  /* font-family: "Russo One", sans-serif; */
+  /* font-family: "Orbitron", serif; */
+  font-family: "Audiowide", sans-serif;
+}
+.contact-links svg{
+  filter: invert(1);
+  scale: 1.5;
+}
+.contact-logo {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+
+/* glow */
+@keyframes glowing-border {
+  0% {
+      background-position: 0% 50%;
+  }
+  50% {
+      background-position: 100% 50%;
+  }
+  100% {
+      background-position: 0% 50%;
+  }
+}
+
+.contact-main {
+  text-align: center;
+  padding: 20px;
+  background: linear-gradient(90deg, rgba(11, 11, 59, 0.8), rgba(30, 30, 91, 0.8));
+  color: #fdfd96;
+  border-radius: 10px;
+  position: relative;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.contact-main::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 10px;
+  padding: 2px;
+  background: linear-gradient(90deg, #ff00ff, #00f7ff, #ffff00);
+  background-size: 300% 300%;
+  animation: glowing-border 6s ease infinite;
+  z-index: -1;
+}
+
+.contact-title {
+  font-family: 'Orbitron', sans-serif;
+  text-transform: uppercase;
+  color: #00f7ff;
+  margin-bottom: 15px;
+}
+
+.contact-subtitle {
+  font-family: 'Orbitron', sans-serif;
+  /* font-family: 'Rajdhani', sans-serif; */
+  font-size: 18px;
+  color: #e0e0e0;
+  margin-bottom: 20px;
+}
+
+.contact-links {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.contact-item:hover {
+  color: #00f7ff;
+  transform: scale(1.1);
+}
+
+.contact-logo {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
 }
