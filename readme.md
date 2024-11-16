@@ -267,4 +267,12 @@ Here are some commonly used terms from "P" to "Z" that would be helpful to inclu
 
 Each of these terms can be expanded similarly to the previous ones, with descriptions, uses, and applications. Let me know if you’d like detailed HTML code for any of these specific terms!
 
-also 
+also add this in the structured & list format for the features, also highlight & style this differently to grab the attention & make them curious about it:
+The following featured will be added soon:
+1. Latest AI News & Trends
+2. Ethical AI
+3. Generative AI
+4. AI Stories
+5. New & Giant Players
+6. India in AI
+7. Questions & FAQs

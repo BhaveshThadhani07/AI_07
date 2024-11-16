@@ -16,7 +16,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     overflow-x: hidden;
-    height: 100vh;
+    height: 200vh;
     width: 100vw;
     /* z-index: 10; */
     z-index: -10; /* Ensure the background is behind the overlay */
@@ -104,10 +104,64 @@ header .vl1{
   /* font-family: "Orbitron", serif; */
   position: absolute;
   left: 50px;
+  right: 50px;
   text-align: left;
 }
 .main-content p, ul{
   color: white;
   font-size: 17px;
   line-height: 23px;
+}
+.features-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin: 50px 0;
+}
+
+.features-section {
+  background: linear-gradient(90deg, rgba(11, 11, 59, 0.8), rgba(30, 30, 91, 0.8));
+  color: #fdfd96;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+  max-width: 600px;
+}
+
+.features-title {
+  font-family: 'Orbitron', sans-serif;
+  font-weight: bolder;
+  text-transform: uppercase;
+  color: #00f7ff;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.features-description {
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 18px;
+  line-height: 1.8;
+  text-align: center;
+  font-family: "Russo One", sans-serif;
+  /* font-family: "Orbitron", serif; */
+  /* font-family: "Audiowide", sans-serif; */
+}
+
+.features-list {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  line-height: 1.8;
+  color: #e0e0e0;
+  margin: 20px;
+  list-style-type: none;
+  padding: 0;
+  font-family: "Russo One", sans-serif;
+  /* font-family: "Orbitron", serif; */
+  /* font-family: "Audiowide", sans-serif; */
+}
+
+.features-list li {
+  margin-bottom: 10px;
+  text-align: left;
 }
