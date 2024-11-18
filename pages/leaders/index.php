@@ -41,7 +41,7 @@
                 </li>
                 <li class="card">
                     <div class="centred-images">
-                        <img src="../../assets/leaders/03_geofferyHinton.webp" alt="Andrej Karpathy" height="200px" width="200px">
+                        <img src="../../assets/leaders/03_geofferyHinton.jpg" alt="Andrej Karpathy" height="200px" width="200px">
                         <h5 class="my-3 fw-bold">Geoffery Hinton</h5>
                     </div>
                 </li>
@@ -87,6 +87,78 @@
                         <h5 class="my-3 fw-bold">Elon Musk</h5>
                     </div>
                 </li>
+                <li class="card">
+                    <div class="centred-images">
+                        <img src="../../assets/leaders/11_feifeiLi.png" alt="Sam Altman" height="200px" width="200px">
+                        <h5 class="my-3 fw-bold">Fei Fei Li</h5>
+                    </div>
+                </li>
+                <li class="card">
+                    <div class="centred-images">
+                        <img src="../../assets/leaders/12_stuartRuseel.jpg" alt="Sam Altman" height="200px" width="200px">
+                        <h5 class="my-3 fw-bold">Stuart J. Russell</h5>
+                    </div>
+                </li>
+                <li class="card">
+                    <div class="centred-images">
+                        <img src="../../assets/leaders/13_timnitGebru.jpg" alt="Sam Altman" height="200px" width="200px">
+                        <h5 class="my-3 fw-bold">Timnit Gebru</h5>
+                    </div>
+                </li>
+                <li class="card">
+                    <div class="centred-images">
+                        <img src="../../assets/leaders/14_rayKurzweil.jpg" alt="Sam Altman" height="200px" width="200px">
+                        <h5 class="my-3 fw-bold">Ray Kurzweil</h5>
+                    </div>
+                </li>
+                <li class="card">
+                    <div class="centred-images">
+                        <img src="../../assets/leaders/15_jensenHuang.jpg" alt="Sam Altman" height="200px" width="200px">
+                        <h5 class="my-3 fw-bold">Jensen Huang</h5>
+                    </div>
+                </li>
+                <li class="card">
+                    <div class="centred-images">
+                        <img src="../../assets/leaders/16_ilyaSutskever.jpg" alt="Ilya Sutskever" height="200px" width="200px">
+                        <h5 class="my-3 fw-bold">Ilya Sutskever</h5>
+                    </div>
+                </li>
+                <li class="card">
+                    <div class="centred-images">
+                        <img src="../../assets/leaders/17_sundarPichai.jpg" alt="Sam Altman" height="200px" width="200px">
+                        <h5 class="my-3 fw-bold">Sundar Pichai</h5>
+                    </div>
+                </li>
+                <li class="card">
+                    <div class="centred-images">
+                        <img src="../../assets/leaders/18_satyaNadella.jpg" alt="Sam Altman" height="200px" width="200px">
+                        <h5 class="my-3 fw-bold">Satya Nadella</h5>
+                    </div>
+                </li>
+                <li class="card">
+                    <div class="centred-images">
+                        <img src="../../assets/leaders/19_arvindKrishna.jpg" alt="Sam Altman" height="200px" width="200px">
+                        <h5 class="my-3 fw-bold">Arvind Krishna</h5>
+                    </div>
+                </li>
+                <!-- <li class="card">
+                    <div class="centred-images">
+                        <img src="../../assets/leaders/" alt="" height="200px" width="200px">
+                        <h5 class="my-3 fw-bold"></h5>
+                    </div>
+                </li>
+                <li class="card">
+                    <div class="centred-images">
+                        <img src="../../assets/leaders/" alt="" height="200px" width="200px">
+                        <h5 class="my-3 fw-bold"></h5>
+                    </div>
+                </li>
+                <li class="card">
+                    <div class="centred-images">
+                        <img src="../../assets/leaders/" alt="" height="200px" width="200px">
+                        <h5 class="my-3 fw-bold"></h5>
+                    </div>
+                </li> -->
                 <img src="../../assets/leaders/right.svg" alt="" class="carousel-right fw-bold" onclick="nextSlide()">
             </ul>
         </div>

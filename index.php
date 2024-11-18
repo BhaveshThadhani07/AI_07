@@ -9,7 +9,6 @@
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
 </head>
-
 <body>
     <!-- Navbar HTML -->
     <nav class="navbar navbar-expand-lg navbar-light">
@@ -75,8 +74,8 @@
     </div>
 
     <div class="footer">
-        <p class="">Designed & Developed by: Bhavesh Thadhani</p>
-        <p class="">Created with the assistance of Nitin Paliwal Sir</p>
+        <p class="">Designed & Developed by: Bhavesh Thadhani (XI &#11088;)</p>
+        <p class="">Created with the assistance & help of Nitin Paliwal Sir & Rishikesh Dhake Sir</p>
         <p class="">AINexus &#169; 2024-25</p>
     </div>
 
