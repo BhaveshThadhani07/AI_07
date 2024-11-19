@@ -108,20 +108,7 @@ body{
 
 /* // CSS for the info box (add this to your style.css) */
 
-.info-box {
-    position: absolute;
-    /* top: 20px; */
-    bottom: -50px;
-    left: 25vw;
-    /* transform: translateX(-50%); */
-    background-color: rgba(0, 0, 0, 0.8);
-    color: white;
-    padding: 20px;
-    border-radius: 10px;
-    max-width: 80%;
-    display: none;
-    /* z-index: ; */
-}
+
 .info-box .info-content {
     display: flex;
     align-items: center;
@@ -134,3 +121,70 @@ body{
     border-radius: 50%;
     object-fit: cover;
 }
+
+
+/* Updated CSS for the info box */
+.info-box {
+    position: absolute;
+    /* top: 20px; */
+    bottom: -50px;
+    left: 15%;
+    /* transform: translateX(-50%); */
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 80%;
+    display: none;
+    /* z-index: ; */
+}
+
+/* Flexbox styling for the content inside the box */
+.info-box .info-content {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-direction: row; /* Aligns content in a row for larger screens */
+    flex-wrap: wrap; /* Ensures wrapping for smaller screens */
+    justify-content: center; /* Centers content horizontally */
+}
+
+/* Styles for the leader's image */
+.info-box .leader-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adds a shadow to the image */
+}
+
+/* Responsive styling for smaller screens */
+@media (max-width: 768px) {
+    .info-box {
+        margin: 10px auto; /* Reduces margin for smaller screens */
+        padding: 15px; /* Adjusts padding */
+    }
+
+    .info-box .info-content {
+        flex-direction: column; /* Stacks content vertically */
+        gap: 15px; /* Adjusts gap between items */
+    }
+
+    .info-box .leader-img {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+@media (max-width: 480px) {
+    .info-box {
+        padding: 10px;
+        max-width: 95%; /* Takes more horizontal space for smaller screens */
+    }
+
+    .info-box .leader-img {
+        width: 80px;
+        height: 80px; /* Makes the image smaller for very small screens */
+    }
+}
+

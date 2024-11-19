@@ -7,7 +7,7 @@
     <title>AINexus</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="Main.png" type="image/x-icon">
 </head>
 <body>
     <!-- Navbar HTML -->
@@ -51,19 +51,19 @@
                 <li class="nav-item">
                     <a class="nav-link" href="pages/resource-library/index.php">Resource Library</a>
                 </li>
-                <li class="nav-item">
+                <!-- <li class="nav-item">
                     <a class="nav-link" href="pages/latest-news/index.php">Latest News</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="pages/stories/index.php">Stories</a>
-                </li>
+                </li> -->
             </ul>
         </div>
     </nav>
 
     <div class="hero-section">
         <div class="headline">
-            <h1 class="fw-bold">Explore the World of AI: <br> Your Gateway to Knowledge</h1>
+            <h1 class="fw-bold">Explore <span id="element"></span> <br> Your Gateway to Knowledge</h1>
         </div>
         <div class="subheadline">
             <h3>Dive into AI terms, career paths, resources, and insights from industry leaders.</h3>
@@ -74,13 +74,25 @@
     </div>
 
     <div class="footer">
-        <p class="">Designed & Developed by: Bhavesh Thadhani (XI &#11088;)</p>
-        <p class="">Created with the assistance & help of Nitin Paliwal Sir & Rishikesh Dhake Sir</p>
+        <p class="">Designed & Developed by: Bhavesh Thadhani (XI<sup>th</sup> &#11088;)</p>
+        <p class="">Created with the assistance of Nitin Paliwal Sir</p>
         <p class="">AINexus &#169; 2024-25</p>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <script src="script.js"></script>
 </body>
-
 </html>
+
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#element", {
+        strings: [
+          "AI Terminologies",
+          "AI Careers",
+          "Insights from Industry Leaders",
+          "AI Resource Library",
+        ],
+        typeSpeed: 50,
+      });
+    </script>

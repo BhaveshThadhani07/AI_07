@@ -23,7 +23,7 @@
                 Why choose this library? <br> Each video, article, course, and tool has been carefully selected to provide practical insights, whether you’re a beginner or advancing your AI skills. This library isn’t just a list; it’s your roadmap to AI’s dynamic landscape. <br> <br>
 
                 To get the most from these resources, explore the premium materials and exclusive guides designed to add real value. This page is here to help you learn, grow, and stay ahead in AI. Get ready to dive in and take your knowledge to the next level! <br>
-                If you’re unable to access these resources on your iPad, you can still check them out on your mobile during Sunday phone time, at home, or during the 45-minute internet access in the iMac lab. You’ll always have a chance to explore whenever you can!
+                <!-- If you’re unable to access these resources on your iPad, you can still check them out on your mobile during Sunday phone time, at home, or during the 45-minute internet access in the iMac lab. You’ll always have a chance to explore whenever you can! -->
             </p>
 
             <h6>Hope you enjoy this library and find it valuable! 😊</h6>

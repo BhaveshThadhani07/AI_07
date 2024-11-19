@@ -39,12 +39,12 @@
             <li class="nav-item">
                 <a class="nav-link" href="../../pages/resource-library/index.php">Resource Library</a>
             </li>
-            <li class="nav-item">
+            <!-- <li class="nav-item">
                 <a class="nav-link" href="../../pages/latest-news/index.php">Latest News</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="../../pages/stories/index.php">Stories</a>
-            </li>
+            </li> -->
         </ul>
     </div>
 </nav>

@@ -46,7 +46,7 @@
                         <li><strong>India in AI</strong></li>
                         <li><strong>Questions & FAQs</strong></li>
                         <li><strong>AI Games & Quizes</strong></li>
-                        <li><strong>& much more ...</strong></li>
+                        <!-- <li><strong>& much more ...</strong></li> -->
                     </ul>
                     <hr>
                     <p id='stayTuned'>Stay Tuned for More Updates &#128293;</p>
@@ -92,6 +92,11 @@
                             <path d="M17.0516 11.114L17.5159 10.6497C19.4947 8.67095 19.4947 5.46279 17.5159 3.48405C15.5372 1.50532 12.329 1.50532 10.3503 3.48405L7.48405 6.35031C5.50532 8.32904 5.50532 11.5372 7.48405 13.5159C9.46279 15.4947 12.671 15.4947 14.6497 13.5159L14.8566 13.309" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
                         </svg>
                         https://linktr.ee/bhaveshthadhani
+                    </a>
+                    <hr>
+                    <a href="https://github.com/BhaveshThadhani07" target="_blank" class="contact-item">
+                        To validate that the code is written by me only, & is not copied from github or any AI like ChatGPT, you can visit my github repo:
+                        https://github.com/BhaveshThadhani07/AI_07
                     </a>
                 </div>
             </div>
