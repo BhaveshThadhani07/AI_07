@@ -26,7 +26,7 @@
                 <!-- If you’re unable to access these resources on your iPad, you can still check them out on your mobile during Sunday phone time, at home, or during the 45-minute internet access in the iMac lab. You’ll always have a chance to explore whenever you can! -->
             </p>
 
-            <h6>Hope you enjoy this library and find it valuable! 😊</h6>
+            <h6>Hope you enjoy this library and find it valuable!</h6>
         </header>
 
         <!-- YOUTUBE -->

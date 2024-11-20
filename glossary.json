@@ -1,0 +1,7 @@
+[
+    { "term": "AI", "definition": "Artificial Intelligence is the simulation of human intelligence in machines." },
+    { "term": "ML", "definition": "Machine Learning is a subset of AI focusing on data-driven algorithms." },
+    { "term": "NLP", "definition": "Natural Language Processing is a branch of AI dealing with text and language." },
+    { "term": "Quantum Computing", "definition": "A type of computation that uses quantum-mechanical phenomena." },
+    { "term": "Blockchain", "definition": "A distributed ledger technology that ensures secure and transparent data recording." }
+]

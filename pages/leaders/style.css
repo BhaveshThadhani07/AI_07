@@ -58,6 +58,7 @@ body{
     width: 50px;
     position: absolute;
     z-index: 100;
+    cursor: pointer;
 }
 .carousel-left{
     left: 20px;
@@ -188,3 +189,7 @@ body{
     }
 }
 
+
+
+
+/* UPDATED */

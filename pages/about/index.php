@@ -35,7 +35,7 @@
                 <div class="features-section">
                     <h3 class="features-title">Upcoming Features</h3>
                     <p class="features-description">
-                        The following exciting features are in development and will soon be available to enhance your AI journey:
+                        The following exciting features are in development and will soon be available in new versions to enhance your AI journey:
                     </p>
                     <ul class="features-list">
                         <li><strong>Latest AI News & Trends</strong></li>

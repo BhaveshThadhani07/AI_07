@@ -233,33 +233,34 @@
                     <!-- Data Analyst -->
                     <div class="career-card">
                         <div class="career-card-content">
-                            <h2>Ethics and AI Policy Specialist</h2>
-                            <p><span>Role Description: </span> <br> An Ethics and AI Policy Specialist focuses on the ethical implications of artificial intelligence, ensuring that AI technologies are developed and used responsibly. This role involves assessing the social impact of AI, setting ethical guidelines, and advising on regulations that govern AI applications. They work at the intersection of technology, law, and ethics, advocating for fair and transparent AI practices.</p>
+                            <h2>Data Analyst</h2>
+                            <p><span>Role Description: </span> <br> A Data Analyst gathers, processes, and interprets data to help organizations make informed decisions. They work across industries, analyzing trends, creating visualizations, and providing actionable insights based on data. Data Analysts play a critical role in driving business strategies and improving operational efficiency.</p>
                             
                             <p><span>Key Responsibilities: </span> <br>
-                                1. Policy Development: Create and implement ethical guidelines for AI use within organizations.<br>
-                                2. Regulatory Compliance: Ensure AI projects comply with local, national, and international regulations.<br>
-                                3. Ethical Audits: Conduct audits to assess the fairness, accountability, and transparency of AI systems.<br>
-                                4. Research: Analyze emerging AI technologies and their social, ethical, and legal impacts.<br>
-                                5. Stakeholder Engagement: Collaborate with policymakers, developers, and the public to shape AI policies.<br>
-                                6. Advocacy: Educate stakeholders on responsible AI practices and advocate for ethical AI use.<br>
-                                7. Risk Assessment: Identify potential biases and risks associated with AI systems and propose mitigation strategies.<br>
+                                1. Data Collection: Extract and organize data from various sources, such as databases and APIs.<br>
+                                2. Data Cleaning: Prepare and clean data to ensure accuracy and consistency.<br>
+                                3. Analysis: Analyze data to identify trends, patterns, and correlations.<br>
+                                4. Reporting: Create visual reports and dashboards to present insights to stakeholders.<br>
+                                5. Performance Metrics: Measure and track KPIs to support business goals.<br>
+                                6. Predictive Analysis: Use data to forecast trends and support future planning.<br>
+                                7. Collaboration: Work with teams to understand data needs and support decision-making.<br>
                             </p>
                             
                             <p><span>Required Skills: </span> <br>
-                                1. Knowledge of Ethics: Understanding of ethical theories, AI fairness, and transparency.<br>
-                                2. Regulatory Knowledge: Familiarity with data protection laws and AI regulations (e.g., GDPR).<br>
-                                3. Communication: Strong ability to explain complex ethical concepts to non-technical audiences.<br>
-                                4. Critical Thinking: Ability to assess and address ethical dilemmas in AI projects.<br>
-                                5. Interdisciplinary Understanding: Knowledge of AI technology and societal impact.<br>
-                                6. Policy Analysis: Experience in drafting policy documents and assessing regulatory frameworks.<br>
+                                1. Statistical Knowledge: Strong foundation in statistics and data analysis techniques.<br>
+                                2. Data Visualization: Proficiency in tools like Tableau, Power BI, or Excel for data visualization.<br>
+                                3. Programming: Familiarity with programming languages like Python or R.<br>
+                                4. Database Management: Knowledge of SQL for querying databases.<br>
+                                5. Analytical Thinking: Ability to interpret data and provide actionable insights.<br>
+                                6. Communication: Skills to explain complex data findings to non-technical stakeholders.<br>
                             </p>
                             
-                            <p><span>Average Salary: </span> <br> Salaries for Ethics and AI Policy Specialists typically range from $80,000 to $130,000 annually, with higher pay in industries like finance, healthcare, and tech where ethical AI use is critical.</p>
+                            <p><span>Average Salary: </span> <br> Data Analysts earn an average salary of $60,000 to $90,000 per year, depending on experience and industry, with potential for higher earnings in sectors such as finance, healthcare, and technology.</p>
                             
-                            <p><span>Future Prospects: </span> <br> As AI adoption grows, the demand for specialists in AI ethics and policy is increasing. These specialists may advance to senior advisory roles, leading AI governance initiatives within organizations, or work with governments to influence AI-related legislation and regulation.</p>
+                            <p><span>Future Prospects: </span> <br> Data Analysts have strong career growth opportunities, as data is increasingly central to business strategy. With experience, they can advance to roles like Data Scientist, Business Intelligence Analyst, or Analytics Manager, often specializing further in predictive analytics, big data, or AI-driven insights.</p>
                         </div>
                     </div>
+
 
                     <!-- Natural Language Processing (NLP) Specialist -->
                     <div class="career-card">

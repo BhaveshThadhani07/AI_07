@@ -141,24 +141,6 @@
                         <h5 class="my-3 fw-bold">Arvind Krishna</h5>
                     </div>
                 </li>
-                <!-- <li class="card">
-                    <div class="centred-images">
-                        <img src="../../assets/leaders/" alt="" height="200px" width="200px">
-                        <h5 class="my-3 fw-bold"></h5>
-                    </div>
-                </li>
-                <li class="card">
-                    <div class="centred-images">
-                        <img src="../../assets/leaders/" alt="" height="200px" width="200px">
-                        <h5 class="my-3 fw-bold"></h5>
-                    </div>
-                </li>
-                <li class="card">
-                    <div class="centred-images">
-                        <img src="../../assets/leaders/" alt="" height="200px" width="200px">
-                        <h5 class="my-3 fw-bold"></h5>
-                    </div>
-                </li> -->
                 <img src="../../assets/leaders/right.svg" alt="" class="carousel-right fw-bold" onclick="nextSlide()">
             </ul>
         </div>

@@ -1,3 +1,27 @@
+<?php
+$glossary = json_decode(file_get_contents('glossary.json'), true);
+
+if (isset($_GET['term'])) {
+    $term = $_GET['term'];
+    $definition = null;
+
+    foreach ($glossary as $entry) {
+        if (strcasecmp($entry['term'], $term) == 0) {
+            $definition = $entry['definition'];
+            break;
+        }
+    }
+
+    if ($definition) {
+        echo "<h1>$term</h1>";
+        echo "<p>$definition</p>";
+    } else {
+        echo "<p>No results found for '$term'.</p>";
+    }
+}
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -21,7 +45,7 @@
         <!-- Search Bar and Button -->
         <div class="container">
             <form class="form-inline w-100">
-                <input class="form-control mr-sm-2 w-90" type="search" placeholder="Search for 150+ AI related terms" aria-label="Search">
+                <input class="form-control mr-sm-2 w-90" type="search" placeholder="This search functionality will be added soon in the updated versions" aria-label="Search">
                 <button class="btn btn-outline-dark fw-bold my-2 my-sm-0" type="submit">GO</button>
             </form>
         </div>
@@ -76,6 +100,7 @@
     <div class="footer">
         <p class="">Designed & Developed by: Bhavesh Thadhani (XI<sup>th</sup> &#11088;)</p>
         <p class="">Created with the assistance of Nitin Paliwal Sir</p>
+        <p>Version 1.0.0 - Genesis</p>
         <p class="">AINexus &#169; 2024-25</p>
     </div>
 

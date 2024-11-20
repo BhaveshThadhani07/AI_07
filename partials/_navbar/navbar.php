@@ -9,7 +9,7 @@
     <!-- Search Bar and Button -->
     <div class="container">
         <form class="form-inline w-100">
-            <input class="form-control mr-sm-2 w-90" type="search" placeholder="Search for 150+ AI related terms" aria-label="Search">
+            <input class="form-control mr-sm-2 w-90" type="search" placeholder="This search functionality will be added soon in the updated versions" aria-label="Search">
             <button class="btn btn-outline-dark fw-bold my-2 my-sm-0" type="submit">GO</button>
         </form>
     </div>
@@ -21,8 +21,8 @@
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mx-auto">
-            <li class="nav-item active">
-                <a class="nav-link fw-bold" href="../../index.php">Home</a>
+            <li class="nav-item">
+                <a class="nav-link" href="../../index.php">Home</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="../../pages/about/index.php">About</a>

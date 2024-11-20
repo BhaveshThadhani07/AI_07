@@ -296,3 +296,4 @@ carousel.addEventListener('mouseout', () => {
     object-fit: cover;
 }
 */
+
