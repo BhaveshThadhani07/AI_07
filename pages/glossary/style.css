@@ -73,18 +73,22 @@ body{
 .card h3{
     padding: 0 50px;
 }
-#moreContent, #shortContent{
-    font-family: "Comic Neue", cursive;
-    font-weight: 300;
-    font-style: normal;
-    color: black;
-
-}
-.card img{
-    text-align: center;
-}
-#moreContent {
+.moreContent {
     display: none;
     transition: all 0.3s ease;
     color: black;
 }
+.moreContent, #shortContent{
+    font-family: "Comic Neue", cursive;
+    /* font-weight: 300; */
+    font-style: normal;
+    color: black;
+
+}
+.moreContent p{
+    font-family: "Comic Neue", cursive;
+}
+.card img{
+    text-align: center;
+}
+

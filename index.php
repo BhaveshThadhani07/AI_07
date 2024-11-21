@@ -1,25 +1,3 @@
-<?php
-$glossary = json_decode(file_get_contents('glossary.json'), true);
-
-if (isset($_GET['term'])) {
-    $term = $_GET['term'];
-    $definition = null;
-
-    foreach ($glossary as $entry) {
-        if (strcasecmp($entry['term'], $term) == 0) {
-            $definition = $entry['definition'];
-            break;
-        }
-    }
-
-    if ($definition) {
-        echo "<h1>$term</h1>";
-        echo "<p>$definition</p>";
-    } else {
-        echo "<p>No results found for '$term'.</p>";
-    }
-}
-?>
 
 
 <!DOCTYPE html>
@@ -39,7 +17,7 @@ if (isset($_GET['term'])) {
         <div class="container">
             <!-- Brand Name -->
             <h6>Macro Vision Academy's</h6>
-            <a class="navbar-brand fw-bold fs-1 mx-auto" href="../../index.php">AINexus</a>
+            <a class="navbar-brand fw-bold fs-1 mx-auto" href="../../ai/AI_07/index.php">AINexus</a>
         </div>
 
         <!-- Search Bar and Button -->
@@ -58,7 +36,7 @@ if (isset($_GET['term'])) {
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mx-auto">
                 <li class="nav-item active">
-                    <a class="nav-link fw-bold" href="../../index.php">Home</a>
+                    <a class="nav-link fw-bold" href="../../ai/AI_07/index.php">Home</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="pages/about/index.php">About</a>
@@ -90,7 +68,7 @@ if (isset($_GET['term'])) {
             <h1 class="fw-bold">Explore <span id="element"></span> <br> Your Gateway to Knowledge</h1>
         </div>
         <div class="subheadline">
-            <h3>Dive into AI terms, career paths, resources, and insights from industry leaders.</h3>
+            <h4 class="mt-3">Unravel AI— <br> where buzzwords make sense, careers get exciting, & industry legends spill their secrets.</h4>
         </div>
         <div class="cta">
             <button><a href="../AI_07/pages/glossary/index.php">Explore AI</a></button>

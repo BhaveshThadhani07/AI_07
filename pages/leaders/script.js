@@ -16,6 +16,14 @@ const leaderData = [
         quotes: "AI is the new electricity.",
         education: "Stanford University, University of California, Berkeley",
         vision: "Empowering millions through AI education and research.",
+        philosophy: "Andrew Ng views Artificial Intelligence as a transformative tool akin to electricity, capable of reshaping every industry. His philosophy centers on solving real-world problems, democratizing AI to benefit as many people as possible, and emphasizing ethical and responsible development.",
+        insights: [
+            "Adopt a growth mindset by continuously learning and experimenting with AI.",
+            "Focus on impactful projects that solve meaningful problems and improve lives.",
+            "Ensure ethical and responsible AI development to align with societal well-being.",
+            "Prioritize high-quality data as it is more critical than complex algorithms.",
+            "Combine AI with domain expertise for transformative solutions."
+        ]
     },
     {
         name: "Demis Hassabis",
@@ -209,10 +217,16 @@ function displayInfo(index) {
             <p><strong>Quotes:</strong> "${leader.quotes}"</p>
             <p><strong>Education:</strong> ${leader.education}</p>
             <p><strong>Future Vision:</strong> ${leader.vision}</p>
+            <p><strong>Philosophy:</strong> ${leader.philosophy}</p>
+            <p><strong>Insights to Learn:</strong></p>
+            <ul>
+                ${leader.insights.map(insight => `<li>${insight}</li>`).join('')}
+            </ul>
         </div>
     `;
     infoBox.style.display = "block";
 }
+
 
 // Function to update carousel and info box
 function updateCarousel() {

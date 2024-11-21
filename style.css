@@ -1,3 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Oxanium:wght@200..800&family=Russo+One&display=swap');
+/* audiowide font */
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+/* orbitron font */
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Orbitron:wght@400..900&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -162,10 +168,14 @@ h1 {
          1px  1px 0 #000; /* Create an outline effect */
 }
 
-.hero-section .subheadline h3{
+.hero-section .subheadline h4{
     padding: 2vh 0;
     letter-spacing: 3px;
     text-wrap: wrap;
+    font-family: "Russo One", sans-serif;
+  /* font-family: "Orbitron", serif; */
+  /* font-family: "Audiowide", sans-serif; */
+
 }
 .cta {
     margin: 20px 0;
@@ -199,11 +209,11 @@ h1 {
 .footer{
     text-align: center;
     position: relative;
-    top: 60px;
+    top: 0;
     left: 0;
     z-index: 100;
-    margin: none;
-
+    margin-top: 0;
+    margin: 0;
 }
 .footer p{
     text-align: center;
@@ -213,4 +223,3 @@ h1 {
     font-weight: bold;
     color: white;
 }
-

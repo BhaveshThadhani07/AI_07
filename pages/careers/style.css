@@ -13,7 +13,7 @@ body{
     /* position: relative; */
     z-index: 1; 
     padding-top: 20px; 
-    height: 902vh;
+    height: 1050vh;
     width: 100vw;
     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
                 url('../../assets/careers/aiCareersPageBG.jpg');
@@ -25,7 +25,7 @@ body{
 
 /* Dark overlay applied only to background image */
 .outer-main::before {
-    height: 902vh;
+    height: 1050vh;
     width: 100vw;
     content: '';
     position: absolute;
