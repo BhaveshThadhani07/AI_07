@@ -96,6 +96,6 @@
           "Insights from Industry Leaders",
           "AI Resource Library",
         ],
-        typeSpeed: 50,
+        typeSpeed: 70,
       });
     </script>

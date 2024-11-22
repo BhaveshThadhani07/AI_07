@@ -23,8 +23,11 @@
 }
 
 .navbar-nav {
-    flex-direction: row;    /* Keep nav links in a row */
-    justify-content: center; /* Center align nav links */
+    flex-direction: column;
+    align-items: center;
+    /* Keep nav links in a row */
+    justify-content: center;
+    /* Center align nav links */
 }
 .navbar-nav li a{
     color: black;

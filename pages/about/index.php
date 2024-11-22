@@ -45,9 +45,9 @@
                         <li><strong>New & Giant AI Players</strong></li>
                         <li><strong>India in AI</strong></li>
                         <li><strong>Questions & FAQs</strong></li>
-                        <li><strong>AI Games & Quizes</strong></li>
+                        <li><strong>AI Sports & Quizes</strong></li>
                         <li><strong>Science Fiction Tech Explained (interactive animations) <span>H&#128293;T</span>: <p>Inner Engineering & Working behind Tony Stark's Arc Reactor, JARVIS; Neural Interfaces (Black Mirror, Matrix), & much more...</p></strong></li>
-                        
+                        <li><strong>Personalized Recommendations</strong></li>
                     </ul>
                     <hr>
                     <p id='stayTuned'>Stay Tuned for More Updates &#128293;</p>
