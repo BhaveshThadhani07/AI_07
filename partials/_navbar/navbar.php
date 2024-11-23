@@ -50,6 +50,12 @@
 </nav>
 
 <style>
+    @import url("https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Oxanium:wght@200..800&family=Russo+One&display=swap');
+/* audiowide font */
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+/* orbitron font */
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Orbitron:wght@400..900&display=swap');
     * {
         margin: 0;
         padding: 0;
@@ -69,13 +75,6 @@
         top: 0;
         overflow-x: hidden;
     }
-
-    .navbar-brand {
-        text-align: center;
-        /* Center the brand name */
-        font-size: 2rem;
-        /* Adjust font size as needed */
-    }
     .container{
     display: flex;
     align-items: center;
@@ -84,14 +83,6 @@
     }
     .container a{
     padding: 0;
-    }
-
-    .container h6{
-    /* font-weight: bold; */
-    color: black;
-    margin: 0;
-    padding: 0;
-    padding-top: 10px;
     }
 
     .form-inline {
@@ -125,6 +116,38 @@
         margin: 0 10px;
         /* Add spacing between nav items */
     }
+
+.navbar-brand {
+    text-align: center;
+    /* Center the brand name */
+    font-size: 2rem;
+    /* Adjust font size as needed */
+    font-family: "Russo One", sans-serif;
+  /* font-family: "Orbitron", serif; */
+  font-weight: bolder;
+  /* font-family: "Audiowide", sans-serif; */
+}
+
+.nav-item {
+    margin: 0 10px;
+    font-family: "Russo One", sans-serif;
+  /* font-family: "Orbitron", serif; */
+  /* font-weight: bold; */
+  font-family: "Audiowide", sans-serif;
+    /* Add spacing between nav items */
+}
+
+.container h6{
+    /* font-weight: bold; */
+    color: black;
+    margin: 0;
+    padding: 0;
+    padding-top: 10px;
+    font-family: "Russo One", sans-serif;
+  /* font-family: "Orbitron", serif; */
+  /* font-weight: bold; */
+  /* font-family: "Audiowide", sans-serif; */
+}
 
 
     /* Responsive adjustments */

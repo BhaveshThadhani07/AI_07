@@ -26,6 +26,13 @@ const leaderData = [
             "Ensure ethical and responsible AI development to align with societal well-being.",
             "Prioritize high-quality data as it is more critical than complex algorithms.",
             "Combine AI with domain expertise for transformative solutions."
+        ],
+        achievements: [
+            "Developed the Google Brain project, advancing deep learning applications.",
+            "Co-founded Coursera, democratizing access to education worldwide.",
+            "Pioneered AI education through DeepLearning.AI.",
+            "Published over 100 research papers in AI and machine learning.",
+            "Recognized as one of the most influential AI leaders globally."
         ]
     },
     {
@@ -42,8 +49,16 @@ const leaderData = [
             "Focus on ethical development to maintain trust and ensure societal benefit.",
             "Collaborate across disciplines to amplify the impact of AI innovations.",
             "Adopt a vision of long-term AI development to maximize global benefit."
-        ]
+        ],
+        achievements: [
+            "Co-founded DeepMind, the world leader in AI research and development.",
+            "Developed AlphaGo, the first AI program to defeat a professional Go player.",
+            "Pioneered AI applications in protein folding with AlphaFold, revolutionizing biology.",
+            "Led DeepMind's work on AI for healthcare, improving diagnostic tools.",
+            "Advocated for ethical AI development, collaborating with global organizations."
+        ]        
     },
+    
     {
         name: "Geoffrey Hinton",
         birthDate: "December 6, 1947",
@@ -58,6 +73,13 @@ const leaderData = [
             "Take risks in exploring unconventional approaches to advance AI.",
             "Focus on the fundamental understanding of neural networks to build transformative technologies.",
             "Balance innovation with ethical considerations to avoid misuse."
+        ],
+        achievements: [
+            "Co-developed backpropagation, a foundational algorithm for training neural networks.",
+            "Won the Turing Award (2018) for his contributions to deep learning.",
+            "Mentored leading AI researchers, including Yann LeCun and Ilya Sutskever.",
+            "Played a key role in the development of AlexNet, sparking the deep learning revolution.",
+            "Advocated for understanding brain-inspired approaches to AI development."
         ]
     },
     {
@@ -74,7 +96,14 @@ const leaderData = [
             "Balance technical depth with practical applications to create usable solutions.",
             "Invest in the data pipeline, as clean and labeled data is the foundation of AI.",
             "Collaborate with domain experts to align AI with real-world needs."
-        ]
+        ],
+        achievements: [
+            "Directed Tesla's Autopilot AI team, advancing autonomous driving technology.",
+            "Built groundbreaking computer vision systems used in autonomous vehicles.",
+            "Published influential research on deep learning and recurrent neural networks.",
+            "Created and taught the popular Stanford course CS231n on deep learning for computer vision.",
+            "Helped make neural networks accessible through open-source contributions."
+        ]        
     },
     {
         name: "Kai-Fu Lee",
@@ -90,7 +119,14 @@ const leaderData = [
             "Ensure AI development aligns with cultural and ethical norms of diverse societies.",
             "Foster collaborations across industries to fully utilize AI’s transformative power.",
             "Invest in education and training to prepare the workforce for an AI-driven future."
-        ]
+        ],
+        achievements: [
+            "Authored the bestselling book 'AI Superpowers,' bridging the AI gap between the US and China.",
+            "Former President of Google China, driving innovation in AI and technology.",
+            "Founded Sinovation Ventures, investing in over 300 AI startups.",
+            "Ranked as one of the most influential voices in AI globally.",
+            "Promoted AI-driven transformation across industries, particularly in Asia."
+        ]        
     },
     {
         name: "Sam Altman",
@@ -106,7 +142,15 @@ const leaderData = [
             "Invest in long-term AI safety to mitigate risks of misuse or unintended consequences.",
             "Ensure inclusivity by making AI accessible and equitable to all communities.",
             "Encourage innovation while fostering discussions about ethical guidelines."
+        ],
+        achievements: [
+            "Led OpenAI as CEO, steering the development of advanced AI systems like GPT models.",
+            "Scaled Y Combinator, supporting startups that shaped industries worldwide.",
+            "Advocated for AI safety, influencing global policies on ethical AI development.",
+            "Pioneered discussions on Universal Basic Income as a response to AI-driven automation.",
+            "Positioned OpenAI as a leader in accessible and transformative AI tools."
         ]
+        
     },
     {
         name: "Mustafa Suleyman",
@@ -122,7 +166,14 @@ const leaderData = [
             "Focus on solving pressing global challenges through collaborative AI initiatives.",
             "Balance technological advancement with transparency and accountability.",
             "Encourage multi-disciplinary efforts to maximize AI’s positive impact."
-        ]
+        ],
+        achievements: [
+            "Co-founded DeepMind, a pioneer in artificial intelligence research.",
+            "Led the applied AI division at DeepMind, bringing AI into practical use cases.",
+            "Advocated for ethical AI, contributing to global discussions on responsible AI development.",
+            "Co-founded Inflection AI, focusing on personal AI systems for communication.",
+            "Played a key role in DeepMind's acquisition by Google in 2014."
+        ]        
     },
     {
         name: "Yann LeCun",
@@ -138,7 +189,14 @@ const leaderData = [
             "Emulate human learning processes to create adaptable AI models.",
             "Focus on fundamental research to drive long-term AI progress.",
             "Bridge the gap between theory and application to unlock AI’s potential."
-        ]
+        ],
+        achievements: [
+            "Co-developed convolutional neural networks (CNNs), transforming computer vision.",
+            "Won the Turing Award (2018) for contributions to deep learning.",
+            "Pioneered optical character recognition (OCR) systems used in ATMs and banking.",
+            "Headed Facebook AI Research (FAIR), advancing AI for social applications.",
+            "Published seminal work on energy-based models and deep learning frameworks."
+        ]        
     },
     {
         name: "Ian Goodfellow",
@@ -154,7 +212,14 @@ const leaderData = [
             "Foster collaboration between AI systems and human creators.",
             "Use adversarial training to improve model robustness and performance.",
             "Blend creativity with technical rigor to build impactful AI solutions."
-        ]
+        ],
+        achievements: [
+            "Invented Generative Adversarial Networks (GANs), a breakthrough in AI.",
+            "Authored the widely-used book *Deep Learning* with Bengio and Courville.",
+            "Led AI teams at Apple and Google, advancing privacy-focused machine learning.",
+            "Received MIT Technology Review's Innovator Under 35 Award (2017).",
+            "Developed innovative methods for adversarial machine learning."
+        ]        
     },
     {
         name: "Elon Musk",
@@ -170,7 +235,14 @@ const leaderData = [
             "Embrace resilience and learn from failures to fuel progress.",
             "Pursue cross-disciplinary knowledge to drive innovation and solve diverse challenges.",
             "Combine vision with relentless execution to achieve ambitious goals."
-        ]
+        ],
+        achievements: [
+            "Co-founded OpenAI, promoting safe and beneficial AI for humanity.",
+            "Founded SpaceX, revolutionizing the aerospace industry with reusable rockets.",
+            "Developed Tesla's AI-driven autonomous vehicle systems.",
+            "Founded Neuralink, pushing the boundaries of brain-computer interface technology.",
+            "Ranked among the world's most influential entrepreneurs driving AI and technology."
+        ]        
     },
     {
         name: "Fei-Fei Li",
@@ -186,7 +258,14 @@ const leaderData = [
             "Use AI to amplify human capabilities while addressing societal needs.",
             "Promote inclusivity in AI research and deployment.",
             "Encourage interdisciplinary collaboration to design impactful AI solutions."
-        ]
+        ],
+        achievements: [
+            "Co-directed Stanford’s Human-Centered AI Institute, focusing on ethical AI development.",
+            "Developed ImageNet, a large-scale dataset that accelerated computer vision advancements.",
+            "Served as Chief Scientist at Google Cloud AI, applying AI to enterprise solutions.",
+            "Advocated for diversity in AI, founding AI4ALL to inspire underrepresented groups.",
+            "Published over 200 papers on computer vision and machine learning."
+        ]        
     },
     {
         name: "Stuart J. Russell",
@@ -202,7 +281,14 @@ const leaderData = [
             "Incorporate ethical principles into AI development and deployment.",
             "Anticipate long-term risks and plan for responsible AI governance.",
             "Foster open dialogue about the societal impact of AI."
-        ]
+        ],
+        achievements: [
+            "Co-authored *Artificial Intelligence: A Modern Approach,* the most widely used AI textbook.",
+            "Pioneered research on AI safety and alignment with human values.",
+            "Received the IJCAI Computers and Thought Award for his contributions to AI.",
+            "Advocated for banning lethal autonomous weapons through the Future of Life Institute.",
+            "Developed probabilistic programming frameworks for advanced decision-making systems."
+        ]        
     },
     {
         name: "Timnit Gebru",
@@ -218,7 +304,14 @@ const leaderData = [
             "Address biases in AI systems to ensure equitable outcomes.",
             "Foster transparency and accountability in AI decision-making processes.",
             "Advocate for collaborative and community-driven AI initiatives."
-        ]
+        ],
+        achievements: [
+            "Co-authored influential research on bias in AI systems, including facial recognition.",
+            "Founded Distributed AI Research Institute (DAIR) to focus on ethical AI.",
+            "Advocated for transparency and accountability in AI development.",
+            "Served as Co-Lead of Google’s Ethical AI team, shaping industry standards.",
+            "Featured on Time Magazine's 100 Most Influential People in AI list (2022)."
+        ]        
     },
     {
         name: "Ray Kurzweil",
@@ -233,7 +326,14 @@ const leaderData = [
             "Explore the ethical implications of merging human and machine intelligence.",
             "Understand exponential growth models in technology development.",
             "Encourage innovation to solve complex challenges through AI."
-        ]
+        ],
+        achievements: [
+            "Authored *The Singularity Is Near,* exploring the future of AI and humanity.",
+            "Invented the first print-to-speech reading machine for the visually impaired.",
+            "Received the National Medal of Technology and Innovation from the U.S. government.",
+            "Served as Director of Engineering at Google, focusing on AI and natural language processing.",
+            "Predicted numerous advancements in AI and technology with remarkable accuracy."
+        ]        
     },
     {
         name: "Jensen Huang",
@@ -248,7 +348,14 @@ const leaderData = [
             "Harness the power of GPUs for AI and deep learning applications.",
             "Develop scalable systems for high-performance computing.",
             "Innovate continuously to push the boundaries of AI capabilities."
-        ]
+        ],
+        achievements: [
+            "Founded NVIDIA, a leader in GPU technology driving AI and computing innovation.",
+            "Revolutionized AI research through the development of CUDA and GPUs for deep learning.",
+            "Led NVIDIA’s entry into the automotive industry with AI-driven systems.",
+            "Received the Distinguished Lifetime Achievement Award from IEEE.",
+            "Ranked as one of the world’s most influential tech CEOs, driving AI hardware innovation."
+        ]        
     },
     {
         name: "Ilya Sutskever",
@@ -263,7 +370,14 @@ const leaderData = [
             "Explore the development and applications of general AI.",
             "Address ethical concerns in AI deployment.",
             "Foster interdisciplinary collaboration to advance AI technologies."
-        ]
+        ],
+        achievements: [
+            "Co-founded OpenAI, focusing on building safe and beneficial AI.",
+            "Played a key role in developing large-scale language models like GPT.",
+            "Contributed to the development of AlexNet, revolutionizing computer vision.",
+            "Published influential research on deep learning and neural networks.",
+            "Recognized as one of the top AI researchers globally by MIT Technology Review."
+        ]        
     },
     {
         name: "Sundar Pichai",
@@ -278,7 +392,14 @@ const leaderData = [
             "Develop user-centric AI solutions for global accessibility.",
             "Integrate AI into everyday technologies to enhance usability.",
             "Promote inclusivity and diversity in AI development."
-        ]
+        ],
+        achievements: [
+            "Served as CEO of Alphabet Inc. and Google, steering the company’s AI strategy.",
+            "Played a pivotal role in the development of Google products like Chrome, Android, and Google Assistant.",
+            "Advocated for AI ethics and responsible technology development globally.",
+            "Led Google's shift towards AI-first innovation, integrating AI across its ecosystem.",
+            "Named one of the world's most influential business leaders by Time Magazine."
+        ]        
     },
     {
         name: "Satya Nadella",
@@ -293,7 +414,14 @@ const leaderData = [
             "Transform businesses with AI-driven cloud computing solutions.",
             "Encourage ethical AI usage to enhance productivity and sustainability.",
             "Foster a growth mindset within organizations for continuous learning."
-        ]
+        ],
+        achievements: [
+            "Revitalized Microsoft as its CEO, driving the company’s cloud-first, AI-first strategy.",
+            "Oversaw the development of Azure AI, making Microsoft a leader in cloud-based AI services.",
+            "Championed responsible AI principles and ethics within Microsoft.",
+            "Transformed Microsoft’s culture, fostering innovation and inclusivity.",
+            "Recognized for Microsoft's surge in market value and innovation during his tenure."
+        ]        
     },
     {
         name: "Arvind Krishna",
@@ -308,7 +436,14 @@ const leaderData = [
             "Explore quantum computing's role in advancing AI.",
             "Implement secure and ethical practices in AI-driven enterprises.",
             "Leverage AI to optimize business processes and strategies."
-        ]
+        ],
+        achievements: [
+            "Served as CEO of IBM, spearheading advancements in AI and quantum computing.",
+            "Led the acquisition of Red Hat, boosting IBM’s hybrid cloud capabilities.",
+            "Advocated for AI integration in enterprise solutions across industries.",
+            "Focused on ethical AI practices and AI systems for sustainability.",
+            "Recognized for driving IBM’s transition into an AI and cloud-centric enterprise."
+        ]        
     }
     
     // Add similar entries for other leaders...
@@ -331,10 +466,15 @@ function displayInfo(index) {
             <ul>
                 ${leader.insights.map(insight => `<li>${insight}</li>`).join('')}
             </ul>
+            <p><strong>Achievements:</strong></p>
+            <ul>
+                ${leader.achievements.map(achievement => `<li>${achievement}</li>`).join('')}
+            </ul>
         </div>
     `;
     infoBox.style.display = "block";
 }
+
 
 
 // Function to update carousel and info box

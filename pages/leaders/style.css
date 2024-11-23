@@ -190,6 +190,10 @@ body{
     }
 }
 
+.info-content p{
+    margin: 0;
+}
+
 @media (max-width: 480px) {
     .info-box {
         padding: 10px;
