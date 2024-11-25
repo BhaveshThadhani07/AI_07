@@ -36,7 +36,7 @@ subCards.forEach((card, index) => {
 // DOWNLOAD PDF BTN
 function downloadPDF() {
     // Set the correct password here
-    const correctPassword = "mySecurePassword123";
+    const correctPassword = CONFIG.PASSWORD;
     
     // Prompt the user to enter the password
     const userPassword = prompt("Please enter the password to download the PDF:");
@@ -46,6 +46,7 @@ function downloadPDF() {
         // If the password is correct, trigger the download
         // window.location.href = "path/to/your-protected-resources.pdf"; // Replace with your PDF path
         window.location.href = "../../assets/resource-library/sat-student-guide.pdf"; // Replace with your PDF path
+        console.log('You entered correct password!');
     } else if (userPassword === null) {
         // If the user cancels the prompt, do nothing
         alert("Download canceled.");
