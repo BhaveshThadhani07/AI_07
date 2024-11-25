@@ -67,3 +67,14 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     });
 });
+
+// GO TO TOP
+const goToTopBtn = document.querySelector('.goToTop');
+
+goToTopBtn.addEventListener('click', () => {
+    // Smoothly scroll to the top of the page
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth' // Enables smooth scrolling
+    });
+});

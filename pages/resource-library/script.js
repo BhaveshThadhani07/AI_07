@@ -30,6 +30,9 @@ subCards.forEach((card, index) => {
     });
 });
 
+// const password = process.env.MY_PASSWORD;
+// console.log(password);  // prints your secret password
+
 // DOWNLOAD PDF BTN
 function downloadPDF() {
     // Set the correct password here
@@ -51,3 +54,4 @@ function downloadPDF() {
         alert("Incorrect password. Please try again.");
     }
 }
+console.log("The password is:", CONFIG.PASSWORD);

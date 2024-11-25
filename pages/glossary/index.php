@@ -9,6 +9,7 @@
     <title>AINexus</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="../../AINexus.png" type="image/x-icon">
 </head>
 
 <body>
@@ -17,8 +18,6 @@
     <div class="container">
 
         <div class="main">
-            
-        
             <div class="middle">
                 <div class="above-title">
                     <h1 class="text-dark">Artificial Intelligence Terms: A to Z<br> Glossary</h1>
@@ -2568,6 +2567,12 @@
 
                 </div>
             </div>
+        </div>
+        <div class="goToTop">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="30px" height="30px" color="#000000" fill="none">
+                <path d="M12 4L12 20" stroke="currentColor" stroke-width="2.7" stroke-linecap="round" stroke-linejoin="round" />
+                <path d="M16.9998 8.99996C16.9998 8.99996 13.3174 4.00001 11.9998 4C10.6822 3.99999 6.99982 9 6.99982 9" stroke="currentColor" stroke-width="2.7" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
         </div>
         <p>More Contet will be added soon!</p>
     </div>

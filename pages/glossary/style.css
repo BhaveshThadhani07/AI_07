@@ -91,4 +91,20 @@ body{
 .card img{
     text-align: center;
 }
-
+.goToTop{
+    color: black;
+    height: 50px;
+    width: 50px;
+    position: fixed;
+    bottom: 35px;
+    right: 35px;
+    border-radius: 50px;
+    background-color: rgb(222, 222, 222);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.goToTop svg{
+    font-weight: bolder;
+}
